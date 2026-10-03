@@ -63,10 +63,10 @@ class TestWhitelistAggregator(unittest.TestCase):
 
     def test_mining_and_bypass_rules(self):
         rules = self.config.get("rules", [])
-        self.assertTrue(any("trustpool" in r and "DIRECT" in r for r in rules), "Trustpool direct rule missing")
-        self.assertTrue(any("stratum" in r and "DIRECT" in r for r in rules), "Stratum direct rule missing")
-        self.assertTrue(any("3333" in r and "DIRECT" in r for r in rules), "Stratum port 3333 direct rule missing")
-        self.assertTrue(any("pitbit" in r and "DIRECT" in r for r in rules), "Pitbit firmware direct rule missing")
+        self.assertTrue(any("trustpool" in r and "VIP-Auto-Select" in r for r in rules), "Trustpool proxy rule missing")
+        self.assertTrue(any("stratum" in r and "VIP-Auto-Select" in r for r in rules), "Stratum proxy rule missing")
+        self.assertTrue(any("3333" in r and "VIP-Auto-Select" in r for r in rules), "Stratum port 3333 proxy rule missing")
+        self.assertTrue(any("pitbit" in r and "VIP-Auto-Select" in r for r in rules), "Pitbit firmware proxy rule missing")
         self.assertTrue(any("GEOIP,RU,DIRECT" in r for r in rules), "Russian domestic bypass rule missing")
         self.assertTrue(rules[-1].startswith("MATCH,"), "Last rule must be MATCH")
         print("[TEST PASS] Stratum mining rules and Russian bypass rules verified")

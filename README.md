@@ -33,17 +33,17 @@
 
 ### 1. Основная ссылка (Fastly CDN — не блокируется в РФ):
 ```text
-https://fastly.jsdelivr.net/gh/USERNAME/REPO@main/clash.yaml
+https://fastly.jsdelivr.net/gh/NualXin/mining-whitelist-hub@main/clash.yaml
 ```
 
 ### 2. Резервная ссылка (jsDelivr CDN):
 ```text
-https://cdn.jsdelivr.net/gh/USERNAME/REPO@main/clash.yaml
+https://cdn.jsdelivr.net/gh/NualXin/mining-whitelist-hub@main/clash.yaml
 ```
 
 ### 3. Резервное зеркало (GHProxy):
 ```text
-https://ghproxy.net/https://raw.githubusercontent.com/USERNAME/REPO/main/clash.yaml
+https://ghproxy.net/https://raw.githubusercontent.com/NualXin/mining-whitelist-hub/main/clash.yaml
 ```
 
 ---

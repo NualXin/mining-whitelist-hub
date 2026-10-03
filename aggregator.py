@@ -420,28 +420,7 @@ def build_clash_config(proxies):
             }
         ],
         "rules": [
-            # Stratum Mining Pool Rules (Direct connect without proxy overhead)
-            "DOMAIN-SUFFIX,trustpool.ru,DIRECT",
-            "DOMAIN-SUFFIX,trustpool.cc,DIRECT",
-            "DOMAIN-SUFFIX,viabtc.com,DIRECT",
-            "DOMAIN-SUFFIX,emcd.io,DIRECT",
-            "DOMAIN-SUFFIX,antpool.com,DIRECT",
-            "DOMAIN-SUFFIX,f2pool.com,DIRECT",
-            "DOMAIN-SUFFIX,binance.com,DIRECT",
-            "DOMAIN-KEYWORD,trustpool,DIRECT",
-            "DOMAIN-KEYWORD,stratum,DIRECT",
-            "DST-PORT,3333,DIRECT",
-            "DST-PORT,4433,DIRECT",
-            "DST-PORT,25,DIRECT",
-            "DST-PORT,8000,DIRECT",
-            "DST-PORT,8888,DIRECT",
-            
-            # ASIC Pitbit Firmware and Health Check Bypass
-            "DOMAIN-SUFFIX,pitbit.com,DIRECT",
-            "DOMAIN-SUFFIX,pitbit.io,DIRECT",
-            "DOMAIN-SUFFIX,pitbit.ru,DIRECT",
-            
-            # Russian Whitelist & Domestic Services (Direct)
+            # Russian Whitelist & Domestic Services (Direct without proxy)
             "DOMAIN-SUFFIX,yandex.ru,DIRECT",
             "DOMAIN-SUFFIX,ya.ru,DIRECT",
             "DOMAIN-SUFFIX,vk.com,DIRECT",
@@ -451,6 +430,25 @@ def build_clash_config(proxies):
             "DOMAIN-SUFFIX,tbank.ru,DIRECT",
             "GEOSITE,category-ru,DIRECT",
             "GEOIP,RU,DIRECT",
+
+            # Stratum Mining Pools and ASIC Pitbit MUST route through VIP Proxy!
+            "DOMAIN-KEYWORD,trustpool,🚀 VIP-Auto-Select",
+            "DOMAIN-KEYWORD,stratum,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,trustpool.ru,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,trustpool.cc,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,viabtc.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,emcd.io,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,antpool.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,f2pool.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,binance.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,pitbit.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,pitbit.io,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,pitbit.ru,🚀 VIP-Auto-Select",
+            "DST-PORT,3333,🚀 VIP-Auto-Select",
+            "DST-PORT,4433,🚀 VIP-Auto-Select",
+            "DST-PORT,25,🚀 VIP-Auto-Select",
+            "DST-PORT,8000,🚀 VIP-Auto-Select",
+            "DST-PORT,8888,🚀 VIP-Auto-Select",
             
             # Default Routing
             "MATCH,🚀 VIP-Auto-Select"
