@@ -1,0 +1,48 @@
+name: Update Whitelist Proxies
+
+'on':
+  schedule:
+    # Run every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
+
+      - name: Run Proxy Aggregator
+        run: |
+          python aggregator.py
+
+      - name: Run Verification Test Suite
+        run: |
+          python test_aggregator.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add clash.yaml nodes.txt
+          if git diff --staged --quiet; then
+            echo "No proxy changes detected. Skipping commit."
+          else
+            git commit -m "Auto-update: fresh whitelist proxies [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push origin main
+          fi
