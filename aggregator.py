@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mining & Mobile Whitelist Proxy Aggregator
+Universal Whitelist Proxy Aggregator for OpenClash and Mobile Devices
 Aggregates VLESS Reality, Trojan, and Hysteria configurations from curated
 Russian mobile whitelist bypass sources with mirror failover.
 Outputs optimized Clash Meta (Mihomo) configuration with exactly 150-200 proxies.
@@ -431,7 +431,7 @@ def build_clash_config(proxies):
             "GEOSITE,category-ru,DIRECT",
             "GEOIP,RU,DIRECT",
 
-            # Stratum Mining Pools and ASIC Pitbit MUST route through VIP Proxy!
+            # Special Dedicated Endpoints & Protocol Ports (Route through VIP Proxy)
             "DOMAIN-KEYWORD,trustpool,🚀 VIP-Auto-Select",
             "DOMAIN-KEYWORD,stratum,🚀 VIP-Auto-Select",
             "DOMAIN-SUFFIX,trustpool.ru,🚀 VIP-Auto-Select",
