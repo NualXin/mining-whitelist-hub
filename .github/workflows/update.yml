@@ -5,6 +5,13 @@ name: Update Whitelist Proxies
     # Run every 2 hours
     - cron: '0 */2 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'aggregator.py'
+      - '.github/workflows/update.yml'
+      - 'requirements.txt'
 
 permissions:
   contents: write
