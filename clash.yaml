@@ -1224,163 +1224,127 @@ proxies:
     short-id: 9c56af76
 - name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #095'
   type: vless
-  server: 80.66.79.87
-  port: 443
-  uuid: 919a2568-3add-44ec-a769-915adad37bd2
+  server: 45.132.176.169
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: safari
+  tls: true
+  servername: amd.com
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇨🇿 Чехия [🏳️LTE] | 🥭🔧 #096'
+  type: vless
+  server: 45.132.176.169
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: edge-atlru.extazy.net
-  flow: xtls-rprx-vision
-- name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #096'
+  servername: amd.com
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #097'
   type: vless
-  server: 80.66.79.87
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 919a2568-3add-44ec-a769-915adad37bd2
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: edge-atlru.extazy.net
-  flow: xtls-rprx-vision
-- name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #097'
-  type: vless
-  server: 80.66.79.87
-  port: 443
-  uuid: 919a2568-3add-44ec-a769-915adad37bd2
-  udp: true
-  client-fingerprint: qq
-  tls: true
-  servername: edge-atlru.extazy.net
-  flow: xtls-rprx-vision
-- name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #098'
-  type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
   udp: true
   client-fingerprint: android
   tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: jO SP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-- name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #099'
+  servername: 20ef7310.ferrin.uk
+- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #098'
   type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
   udp: true
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: jO SP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-- name: '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #100'
+  servername: 20ef7310.ferrin.uk
+- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #099'
   type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
+  udp: true
+  client-fingerprint: edge
+  tls: true
+  servername: 20ef7310.ferrin.uk
+- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #100'
+  type: vless
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
   udp: true
   client-fingerprint: ios
   tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: jO SP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-- name: '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #101'
+  servername: 20ef7310.ferrin.uk
+- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #101'
   type: vless
-  server: 45.132.176.9
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
   udp: true
-  client-fingerprint: chrome
+  client-fingerprint: safari
   tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #102'
+  servername: 20ef7310.ferrin.uk
+- name: '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #102'
   type: vless
-  server: 45.132.176.9
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🇦🇹 Австрия | [🏳️LTE] | 🥭🔧 #103'
-  type: vless
-  server: 45.132.176.9
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #104'
-  type: vless
-  server: 45.132.176.125
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🇳🇴 Норвегия [🏳️LTE] | 🥭🔧 #105'
-  type: vless
-  server: 176.108.252.139
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #106'
-  type: vless
-  server: 176.108.252.139
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: de12.h1cloud.net
+  port: 25095
+  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
   udp: true
   client-fingerprint: android
   tls: true
+  servername: www.chip.de
+  reality-opts:
+    public-key: pvXuNe35fkSbA-CVmh6_b3ADAXLY8tBONjnwE8HM8yY
+    short-id: 397c81bed08f3f78
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f3d967fe8981
+- name: '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #103'
+  type: vless
+  server: de12.h1cloud.net
+  port: 25095
+  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: www.chip.de
+  reality-opts:
+    public-key: pvXuNe35fkSbA-CVmh6_b3ADAXLY8tBONjnwE8HM8yY
+    short-id: 397c81bed08f3f78
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f3d967fe8981
+- name: '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #104'
+  type: vless
+  server: 45.132.176.225
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: qq
+  tls: true
   servername: dl.google.com
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
+    public-key: ycPIUcY6ci2yi7 _OHc20e4gzxEdJTqpmeShxSuHRU
+    short-id: aa
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #107'
+- name: '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #105'
   type: vless
-  server: 176.108.252.139
+  server: 45.132.176.225
   port: 9881
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
@@ -1388,23 +1352,53 @@ proxies:
   tls: true
   servername: dl.google.com
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
+    public-key: ycPIUcY6ci2yi7 _OHc20e4gzxEdJTqpmeShxSuHRU
+    short-id: aa
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #108'
+- name: '🇰🇿 Казахстан [🏳️LTE] | 🥭🔧 #106'
   type: vless
-  server: 45.132.176.12
-  port: 9892
+  server: 45.132.176.125
+  port: 9882
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   tls: true
   servername: dl.google.com
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
     short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #107'
+  type: vless
+  server: 45.132.176.62
+  port: 9882
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: android
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #108'
+  type: vless
+  server: 45.132.176.62
+  port: 9882
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: safari
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
@@ -1414,6 +1408,36 @@ proxies:
   port: 9892
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
+  client-fingerprint: edge
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #110'
+  type: vless
+  server: 45.132.176.12
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #111'
+  type: vless
+  server: 45.132.176.12
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
   client-fingerprint: ios
   tls: true
   servername: dl.google.com
@@ -1423,7 +1447,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #110'
+- name: '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #112'
   type: vless
   server: 45.132.176.12
   port: 9892
@@ -1438,7 +1462,22 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #111'
+- name: '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #113'
+  type: vless
+  server: 45.132.176.12
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: android
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #114'
   type: vless
   server: 192.144.13.39
   port: 9872
@@ -1453,143 +1492,69 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #112'
+- name: '🇸🇪 Швеция | [🏳️LTE] | 🥭🔧 #115'
   type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: open.spotify.com
-  reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: 6bc02f1c474260c3
-- name: '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #113'
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  server: 192.144.13.39
+  port: 9872
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   client-fingerprint: qq
   tls: true
-  servername: open.spotify.com
+  servername: dl.google.com
   reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: 6bc02f1c474260c3
-- name: '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #114'
+    public-key: sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc
+    short-id: aabb
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #116'
   type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  server: 45.132.176.169
+  port: 9882
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
-  client-fingerprint: safari
+  client-fingerprint: android
   tls: true
-  servername: open.spotify.com
+  servername: amd.com
   reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: 6bc02f1c474260c3
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #115'
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #117'
   type: vless
-  server: 5.129.222.94
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #116'
-  type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  server: 45.132.176.169
+  port: 9882
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #117'
+  servername: amd.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #118'
   type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  server: 45.132.176.169
+  port: 9882
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
-  client-fingerprint: edge
+  client-fingerprint: safari
   tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #118'
-  type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
+  servername: amd.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #119'
   type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #120'
-  type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: qq
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #121'
-  type: vless
-  server: 5.8.52.100
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: safari
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #122'
-  type: vless
-  server: 45.133.151.162
+  server: us5.h1cloud.net
   port: 25177
   uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
   udp: true
@@ -1600,61 +1565,9 @@ proxies:
     public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
     short-id: 5941fdd509782e74
   network: grpc
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #123'
-  type: vless
-  server: 45.133.151.162
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: www.icloud.com
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #124'
+- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #120'
   type: vless
   server: us5.h1cloud.net
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: www.icloud.com
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #125'
-  type: vless
-  server: 5.129.222.94
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: edge
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #126'
-  type: vless
-  server: 5.129.222.94
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #127'
-  type: vless
-  server: 45.133.151.162
   port: 25177
   uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
   udp: true
@@ -1665,9 +1578,35 @@ proxies:
     public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
     short-id: 5941fdd509782e74
   network: grpc
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #128'
+- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #121'
   type: vless
-  server: 45.133.151.162
+  server: us5.h1cloud.net
+  port: 25177
+  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  udp: true
+  client-fingerprint: edge
+  tls: true
+  servername: www.icloud.com
+  reality-opts:
+    public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
+    short-id: 5941fdd509782e74
+  network: grpc
+- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #122'
+  type: vless
+  server: us5.h1cloud.net
+  port: 25177
+  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: www.icloud.com
+  reality-opts:
+    public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
+    short-id: 5941fdd509782e74
+  network: grpc
+- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #123'
+  type: vless
+  server: us5.h1cloud.net
   port: 25177
   uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
   udp: true
@@ -1678,123 +1617,37 @@ proxies:
     public-key: Fx-24jm_CeI_bLPdVD_5vq-mxRuyWGmqqvQTs8fnFlk
     short-id: 5941fdd509782e74
   network: grpc
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #129'
+- name: '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #124'
   type: vless
-  server: 45.133.151.162
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-  udp: true
-  client-fingerprint: android
-  tls: true
-  servername: www.icloud.com
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #130'
-  type: vless
-  server: 45.133.151.162
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: www.icloud.com
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #131'
-  type: vless
-  server: us5.h1cloud.net
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
-  udp: true
-  client-fingerprint: android
-  tls: true
-  servername: www.icloud.com
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #132'
-  type: vless
-  server: us5.h1cloud.net
-  port: 25178
-  uuid: 95003356-20f9-4c84-a21f-2f9c1fc285eb
+  server: 45.132.176.125
+  port: 9873
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   client-fingerprint: edge
   tls: true
-  servername: www.icloud.com
+  servername: dl.google.com
   reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
-- name: '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #133'
-  type: vless
-  server: 91.142.78.126
-  port: 443
-  uuid: fa47585b-260a-4dbb-a32c-11fe7fb24fc7
-  udp: true
-  client-fingerprint: android
-  tls: true
-  servername: ya.ru
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
     short-id: ''
-- name: '🇧🇸 Эщкерия | 🇳🇱 🇺🇸 [🏳️LTE] | 🥭🔧 #134'
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #125'
   type: vless
-  server: 91.142.78.126
-  port: 443
-  uuid: fa47585b-260a-4dbb-a32c-11fe7fb24fc7
+  server: 45.132.176.125
+  port: 9873
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   client-fingerprint: ios
   tls: true
-  servername: ya.ru
+  servername: dl.google.com
   reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
     short-id: ''
-- name: '🇧🇸 Эщкерия | 🇺🇸 [🏳️LTE] | 🥭🔧 #135'
-  type: vless
-  server: 91.142.78.126
-  port: 443
-  uuid: fa47585b-260a-4dbb-a32c-11fe7fb24fc7
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: ya.ru
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: ''
-- name: '🇩🇪 Германия [🏳️LTE] | 🥭🔧 #136'
-  type: hysteria2
-  server: 77.239.107.191
-  port: 8443
-  password: axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2
-  udp: true
-  sni: wata.internet-card.sbs
-  skip-cert-verify: true
-- name: '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #137'
-  type: hysteria2
-  server: 45.131.186.202
-  port: 18445
-  password: axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2
-  udp: true
-  sni: mapleledger.gazette.help
-  skip-cert-verify: true
-- name: '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #138'
-  type: hysteria2
-  server: 45.144.30.156
-  port: 8443
-  password: axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2
-  udp: true
-  sni: hazeljournal.gazette.help
-  skip-cert-verify: true
-- name: '🇷🇴 Румыния [🏳️LTE] | 🥭🔧 #139'
-  type: hysteria2
-  server: 45.131.186.202
-  port: 18443
-  password: axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2
-  udp: true
-  sni: mapleledger.gazette.help
-  skip-cert-verify: true
-- name: '29.🇳🇱Нидерланды | @LimeVPNFREE #140'
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '29.🇳🇱Нидерланды | @LimeVPNFREE #126'
   type: vless
   server: 72.56.85.221
   port: 443
@@ -1807,7 +1660,7 @@ proxies:
     public-key: uTOxHZkQuw_YnO3GEIV0jDkVNOsOPQrTIPdRb2Rk8DQ
     short-id: 00353c
   flow: xtls-rprx-vision
-- name: '🇳🇴 🥥11🏝️ Norway | [*CIDR] #141'
+- name: '🇳🇴 🥥11🏝️ Norway | [*CIDR] #127'
   type: vless
   server: 176.108.252.139
   port: 9881
@@ -1822,22 +1675,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇮🇹 Italy | [*CIDR] #142'
-  type: vless
-  server: 45.132.176.225
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: qq
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #143'
+- name: '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #128'
   type: vless
   server: 31.129.42.23
   port: 30052
@@ -1849,7 +1687,7 @@ proxies:
   reality-opts:
     public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
     short-id: 54861d36
-- name: '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #144'
+- name: '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #129'
   type: vless
   server: 109.69.17.166
   port: 443
@@ -1861,7 +1699,7 @@ proxies:
   reality-opts:
     public-key: lVSON4vUK765zNEFQtf0GbZNDc-g37JMairlF7hg6y0
     short-id: bb34e8c0603c6686
-- name: '🌐 [wLTE] Global 4 #145'
+- name: '🌐 [wLTE] Global 4 #130'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1875,7 +1713,7 @@ proxies:
     path: /cloud-vps
     headers:
       Host: amiiin.yas-nowin.ir
-- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #146'
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #131'
   type: vless
   server: 95.143.190.125
   port: 9895
@@ -1890,7 +1728,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇳🇴 [WL] Сервер 11 #147'
+- name: '🇳🇴 [WL] Сервер 11 #132'
   type: vless
   server: 5.129.242.110
   port: 443
@@ -1903,7 +1741,7 @@ proxies:
     public-key: Bz5EbrFHttwOTc1VWhPBAOeoIMDMMZcM02PTZs5AgD4
     short-id: 1aa948f94316b975
   flow: xtls-rprx-vision
-- name: '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #148'
+- name: '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #133'
   type: vless
   server: 85.90.197.220
   port: 443
@@ -1916,7 +1754,7 @@ proxies:
     public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
     short-id: 94acb54627612d43
   flow: xtls-rprx-vision
-- name: 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
+- name: 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #134'
   type: vless
   server: 51.250.98.44
   port: 33743
@@ -1931,7 +1769,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #150'
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #135'
   type: vless
   server: 82.202.143.37
   port: 9830
@@ -1946,7 +1784,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: '🇩🇪 Germany — #42 #151'
+- name: '🇩🇪 Germany — #42 #136'
   type: vless
   server: 185.229.9.175
   port: 443
@@ -1959,7 +1797,7 @@ proxies:
     public-key: Eutx4frdhG1y7THj7k3CjazAsrCMj932RtbV4a1QfQk
     short-id: d5b6308860d578bb
   flow: xtls-rprx-vision
-- name: '54.🇳🇱Нидерланды | @LimeVPNFREE #152'
+- name: '54.🇳🇱Нидерланды | @LimeVPNFREE #137'
   type: vless
   server: 185.112.59.107
   port: 443
@@ -1974,7 +1812,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc
-- name: '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #153'
+- name: '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #138'
   type: vless
   server: 91.215.42.63
   port: 443
@@ -1984,7 +1822,7 @@ proxies:
   tls: true
   servername: me.nehtar.ru
 - name: '🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: amp-api-edge.apps.apple.com ┃ 🇳🇱 Нидерланды
-    #154'
+    #139'
   type: vless
   server: nether.velqixa.ir
   port: 8448
@@ -1996,7 +1834,7 @@ proxies:
   reality-opts:
     public-key: FrL9e7VL4vyMK6P9haw7--RGPC1irebFEFfVt7PDz3I
     short-id: 68d2d5f8
-- name: '61.🇫🇮Финляндия | @LimeVPNFREE #155'
+- name: '61.🇫🇮Финляндия | @LimeVPNFREE #140'
   type: vless
   server: 78.17.34.250
   port: 443
@@ -2009,22 +1847,7 @@ proxies:
     public-key: AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI
     short-id: 15bcc0a77c3cacdf
   flow: xtls-rprx-vision
-- name: '🇰🇿 🥥11🏝️ Kazakhstan | [*CIDR] #156'
-  type: vless
-  server: 45.132.176.125
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: dl.google.com
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #157'
+- name: 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #141'
   type: vless
   server: 67.220.73.204
   port: 18662
@@ -2037,7 +1860,7 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   flow: xtls-rprx-vision
-- name: '🌐 [WL] Сервер 39 #158'
+- name: '🌐 [WL] Сервер 39 #142'
   type: vless
   server: 185.147.27.164
   port: 8443
@@ -2048,7 +1871,7 @@ proxies:
   servername: user-6a8d949a.noooo.win
   flow: xtls-rprx-vision
 - name: '🥥SOLO🏝️🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: maps.apple.com ┃ 🇩🇪 Германия
-    #159'
+    #143'
   type: vless
   server: 77.110.104.125
   port: 6443
@@ -2063,7 +1886,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: your-custom-path
-- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #160'
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #144'
   type: vless
   server: 82.202.143.37
   port: 9830
@@ -2078,6 +1901,205 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
+- name: '🇨🇭 Switzerland | [*CIDR] VK #145'
+  type: vless
+  server: 95.163.213.255
+  port: 443
+  uuid: 361d17b2-cafc-4cd8-996c-347f34bc159f
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: ch.cdn.mynetcloud.online
+- name: '4G/LTE №16 📶 #146'
+  type: hysteria2
+  server: 77.239.107.191
+  port: 8443
+  password: axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2
+  udp: true
+  sni: wata.internet-card.sbs
+  skip-cert-verify: true
+- name: '🇪🇪 LTE 47 | тгк: @rostunnel #147'
+  type: vless
+  server: fru01.tunnely.space
+  port: 443
+  uuid: 429747b1-b714-450a-81ff-5ab9c6ed97a7
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: free04.tunnely.space
+  reality-opts:
+    public-key: mChFHtaRmeuO2aDuDPqZvBFaCz6f34sVJIKuJcAR130
+    short-id: d1694c220d4b13e7
+  flow: xtls-rprx-vision
+- name: '🇵🇱 Poland — #60 #148'
+  type: vless
+  server: 109.120.181.153
+  port: 443
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: eh.vk.ru
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  flow: xtls-rprx-vision
+- name: 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
+  type: vless
+  server: 2.27.244.94
+  port: 443
+  uuid: 8c105407-82fb-4dd1-8df4-916d34a7d3fe
+  udp: true
+  client-fingerprint: qq
+  tls: true
+  servername: www.google.com
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+- name: '🇳🇱 [WL] Сервер 35 #150'
+  type: vless
+  server: 85.209.135.145
+  port: 443
+  uuid: 6a3c68b1-d4b8-0006-975f-a01da4184225
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: lk-1.yes-on.ru
+  reality-opts:
+    public-key: EroArXWVxIMXclqgp4WNolB5vtfWSZEF1wjb_t1QrBE
+    short-id: a150dcf9
+  flow: xtls-rprx-vision
+- name: '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 17 #151'
+  type: vless
+  server: 185.251.89.162
+  port: 443
+  uuid: 0d6e70a5-abfd-4766-8ad4-e502173ba82b
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: ''
+  reality-opts:
+    public-key: cqGQoKHFNHp2cnfvnGKrsOcONJFfE7H5tMo6ivGNcQA
+    short-id: '05'
+- name: '🇳🇱 AetrisVPN #152'
+  type: vless
+  server: api.mediaples.cc
+  port: 443
+  uuid: 4baf9205-b5ec-4bf5-8a71-0289f3700bc2
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: api.mediaples.cc
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  flow: xtls-rprx-vision
+- name: '🇬🇷 Греция | БС¹ #153'
+  type: vless
+  server: 85.90.197.220
+  port: 443
+  uuid: 8f704ed6-9a1a-4d04-94dd-1bff501716de
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
+    short-id: 94acb54627612d43
+  flow: xtls-rprx-vision
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇩🇪 Германия #154'
+  type: vless
+  server: 94.241.143.161
+  port: 9871
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  udp: true
+  client-fingerprint: android
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #155'
+  type: vless
+  server: 95.143.190.125
+  port: 9895
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇦🇹 🥥11🏝️ Austria | [*CIDR] #156'
+  type: vless
+  server: 45.132.176.9
+  port: 9830
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  client-fingerprint: android
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #157'
+  type: vless
+  server: 82.202.143.37
+  port: 9830
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  udp: true
+  client-fingerprint: edge
+  tls: true
+  servername: dl.google.com
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🇪🇪🕊 Эстония [Обход БС | Все операторы] #14 #158'
+  type: vless
+  server: dismissaltree.net
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: dismissaltree.net
+- name: '🇩🇪 Germany | 🌐 | [*CIDR] VK #159'
+  type: vless
+  server: 95.163.213.255
+  port: 443
+  uuid: 361d17b2-cafc-4cd8-996c-347f34bc159f
+  udp: true
+  client-fingerprint: safari
+  tls: true
+  servername: uk.cdn.mynetcloud.online
+- name: 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇺🇸 США #160'
+  type: vless
+  server: 193.42.39.10
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: www.google.com
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+    short-id: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
 - name: 'Igareck Node 037 | 🇵🇱 Poland | [*CIDR] #161'
   type: vless
   server: 62.152.58.90
@@ -2545,30 +2567,30 @@ proxies:
   reality-opts:
     public-key: upBeYE6Fyy46znMKXx-jkC66hAgARHcwYIdjNB4yXl8
     short-id: a7a3b3ffe0572fce
-- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #199'
+- name: '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #199'
   type: vless
-  server: 159.194.250.154
-  port: 443
-  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
+  server: 78.17.209.157
+  port: 8443
+  uuid: be2568ed-9b3f-4071-86aa-444891fe2887
+  udp: true
+  client-fingerprint: android
+  tls: true
+  servername: api-maps.yandex.ru
+  reality-opts:
+    public-key: V_AnDtQn2g3kTFu19MUBCwA0LzmYeU68FlnIHcvlADg
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #200'
+  type: vless
+  server: 78.17.209.157
+  port: 8443
+  uuid: be2568ed-9b3f-4071-86aa-444891fe2887
   udp: true
   client-fingerprint: chrome
   tls: true
   servername: api-maps.yandex.ru
   reality-opts:
-    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #200'
-  type: vless
-  server: 159.194.250.154
-  port: 443
-  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
-  udp: true
-  client-fingerprint: edge
-  tls: true
-  servername: api-maps.yandex.ru
-  reality-opts:
-    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
+    public-key: V_AnDtQn2g3kTFu19MUBCwA0LzmYeU68FlnIHcvlADg
     short-id: ''
   flow: xtls-rprx-vision
 proxy-groups:
@@ -2674,72 +2696,72 @@ proxy-groups:
   - 'cfg-021 #093'
   - '🇳🇱 Нидерланды #094'
   - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #095'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #096'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #097'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #098'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #099'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #100'
-  - '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #101'
-  - '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #102'
-  - '🇦🇹 Австрия | [🏳️LTE] | 🥭🔧 #103'
-  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #104'
-  - '🇳🇴 Норвегия [🏳️LTE] | 🥭🔧 #105'
-  - '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #106'
-  - '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #107'
-  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #108'
+  - '🇨🇿 Чехия [🏳️LTE] | 🥭🔧 #096'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #097'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #098'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #099'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #100'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #101'
+  - '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #102'
+  - '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #103'
+  - '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #104'
+  - '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #105'
+  - '🇰🇿 Казахстан [🏳️LTE] | 🥭🔧 #106'
+  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #107'
+  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #108'
   - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #109'
-  - '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #110'
-  - '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #111'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #112'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #113'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #114'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #115'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #116'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #117'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #118'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #110'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #111'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #112'
+  - '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #113'
+  - '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #114'
+  - '🇸🇪 Швеция | [🏳️LTE] | 🥭🔧 #115'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #116'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #117'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #118'
   - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #119'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #120'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #121'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #122'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #123'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #124'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #125'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #126'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #127'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #128'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #129'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #130'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #131'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #132'
-  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #133'
-  - '🇧🇸 Эщкерия | 🇳🇱 🇺🇸 [🏳️LTE] | 🥭🔧 #134'
-  - '🇧🇸 Эщкерия | 🇺🇸 [🏳️LTE] | 🥭🔧 #135'
-  - '🇩🇪 Германия [🏳️LTE] | 🥭🔧 #136'
-  - '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #137'
-  - '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #138'
-  - '🇷🇴 Румыния [🏳️LTE] | 🥭🔧 #139'
-  - '29.🇳🇱Нидерланды | @LimeVPNFREE #140'
-  - '🇳🇴 🥥11🏝️ Norway | [*CIDR] #141'
-  - '🇮🇹 Italy | [*CIDR] #142'
-  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #143'
-  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #144'
-  - '🌐 [wLTE] Global 4 #145'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #146'
-  - '🇳🇴 [WL] Сервер 11 #147'
-  - '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #148'
-  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #150'
-  - '🇩🇪 Germany — #42 #151'
-  - '54.🇳🇱Нидерланды | @LimeVPNFREE #152'
-  - '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #153'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #120'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #121'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #122'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #123'
+  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #124'
+  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #125'
+  - '29.🇳🇱Нидерланды | @LimeVPNFREE #126'
+  - '🇳🇴 🥥11🏝️ Norway | [*CIDR] #127'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #128'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #129'
+  - '🌐 [wLTE] Global 4 #130'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #131'
+  - '🇳🇴 [WL] Сервер 11 #132'
+  - '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #133'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #134'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #135'
+  - '🇩🇪 Germany — #42 #136'
+  - '54.🇳🇱Нидерланды | @LimeVPNFREE #137'
+  - '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #138'
   - '🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: amp-api-edge.apps.apple.com ┃ 🇳🇱 Нидерланды
-    #154'
-  - '61.🇫🇮Финляндия | @LimeVPNFREE #155'
-  - '🇰🇿 🥥11🏝️ Kazakhstan | [*CIDR] #156'
-  - 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #157'
-  - '🌐 [WL] Сервер 39 #158'
-  - '🥥SOLO🏝️🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: maps.apple.com ┃ 🇩🇪 Германия #159'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #160'
+    #139'
+  - '61.🇫🇮Финляндия | @LimeVPNFREE #140'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #141'
+  - '🌐 [WL] Сервер 39 #142'
+  - '🥥SOLO🏝️🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: maps.apple.com ┃ 🇩🇪 Германия #143'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #144'
+  - '🇨🇭 Switzerland | [*CIDR] VK #145'
+  - '4G/LTE №16 📶 #146'
+  - '🇪🇪 LTE 47 | тгк: @rostunnel #147'
+  - '🇵🇱 Poland — #60 #148'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
+  - '🇳🇱 [WL] Сервер 35 #150'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 17 #151'
+  - '🇳🇱 AetrisVPN #152'
+  - '🇬🇷 Греция | БС¹ #153'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇩🇪 Германия #154'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #155'
+  - '🇦🇹 🥥11🏝️ Austria | [*CIDR] #156'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #157'
+  - '🇪🇪🕊 Эстония [Обход БС | Все операторы] #14 #158'
+  - '🇩🇪 Germany | 🌐 | [*CIDR] VK #159'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇺🇸 США #160'
 - name: 🛡️ Emergency-Fallback
   type: fallback
   url: https://pitbit.com
@@ -2793,8 +2815,8 @@ proxy-groups:
   - '🇷🇺 Россия #196'
   - '🇷🇺 Россия #197'
   - '🇷🇺 Россия #198'
-  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #199'
-  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #200'
+  - '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #199'
+  - '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #200'
 - name: 🌐 Manual-Select
   type: select
   proxies:
@@ -2896,72 +2918,72 @@ proxy-groups:
   - 'cfg-021 #093'
   - '🇳🇱 Нидерланды #094'
   - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #095'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #096'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #097'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #098'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #099'
-  - '.𖥔 ݁ ˖ִ🛸༄˖°. | [🏳️LTE] | 🥭🔧 #100'
-  - '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #101'
-  - '🇦🇹 Австрия [🏳️LTE] | 🥭🔧 #102'
-  - '🇦🇹 Австрия | [🏳️LTE] | 🥭🔧 #103'
-  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #104'
-  - '🇳🇴 Норвегия [🏳️LTE] | 🥭🔧 #105'
-  - '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #106'
-  - '🇳🇴 Норвегия | [🏳️LTE] | 🥭🔧 #107'
-  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #108'
+  - '🇨🇿 Чехия [🏳️LTE] | 🥭🔧 #096'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #097'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #098'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #099'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #100'
+  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #101'
+  - '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #102'
+  - '🇩🇪 Германия | [🏳️LTE] | 🥭🔧 #103'
+  - '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #104'
+  - '🇮🇹 Италия | [🏳️LTE] | 🥭🔧 #105'
+  - '🇰🇿 Казахстан [🏳️LTE] | 🥭🔧 #106'
+  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #107'
+  - '🇰🇿 Казахстан | [🏳️LTE] | 🥭🔧 #108'
   - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #109'
-  - '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #110'
-  - '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #111'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #112'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #113'
-  - '🇬🇧 Великобритания | [🏳️LTE] | 🥭🔧 #114'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #115'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #116'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #117'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #118'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #110'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #111'
+  - '🇵🇱 Польша [🏳️LTE] | 🥭🔧 #112'
+  - '🇵🇱 Польша | [🏳️LTE] | 🥭🔧 #113'
+  - '🇸🇪 Швеция [🏳️LTE] | 🥭🔧 #114'
+  - '🇸🇪 Швеция | [🏳️LTE] | 🥭🔧 #115'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #116'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #117'
+  - '🇨🇭 Швейцария | [🏳️LTE] | 🥭🔧 #118'
   - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #119'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #120'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #121'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #122'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #123'
-  - '🇺🇸 Соединенные Штаты [🏳️LTE] | 🥭🔧 #124'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #125'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #126'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #127'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #128'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #129'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #130'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #131'
-  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #132'
-  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #133'
-  - '🇧🇸 Эщкерия | 🇳🇱 🇺🇸 [🏳️LTE] | 🥭🔧 #134'
-  - '🇧🇸 Эщкерия | 🇺🇸 [🏳️LTE] | 🥭🔧 #135'
-  - '🇩🇪 Германия [🏳️LTE] | 🥭🔧 #136'
-  - '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #137'
-  - '🇮🇹 Италия | 🌐 [🏳️LTE] | 🥭🔧 #138'
-  - '🇷🇴 Румыния [🏳️LTE] | 🥭🔧 #139'
-  - '29.🇳🇱Нидерланды | @LimeVPNFREE #140'
-  - '🇳🇴 🥥11🏝️ Norway | [*CIDR] #141'
-  - '🇮🇹 Italy | [*CIDR] #142'
-  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #143'
-  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #144'
-  - '🌐 [wLTE] Global 4 #145'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #146'
-  - '🇳🇴 [WL] Сервер 11 #147'
-  - '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #148'
-  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #150'
-  - '🇩🇪 Germany — #42 #151'
-  - '54.🇳🇱Нидерланды | @LimeVPNFREE #152'
-  - '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #153'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #120'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #121'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #122'
+  - '🇺🇸 Соединенные Штаты | [🏳️LTE] | 🥭🔧 #123'
+  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #124'
+  - '🇺🇸 Соединенные Штаты | 🌐 | [🏳️LTE] | 🥭🔧 #125'
+  - '29.🇳🇱Нидерланды | @LimeVPNFREE #126'
+  - '🇳🇴 🥥11🏝️ Norway | [*CIDR] #127'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 15 #128'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 9 #129'
+  - '🌐 [wLTE] Global 4 #130'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #131'
+  - '🇳🇴 [WL] Сервер 11 #132'
+  - '10 | REALITY | SNI: www.cloudflare.com | IN: GR OUT: GR | RATING: 3/10 #133'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #134'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #135'
+  - '🇩🇪 Germany — #42 #136'
+  - '54.🇳🇱Нидерланды | @LimeVPNFREE #137'
+  - '🇵🇱Обходы - TG: AirLinkVPNBot |0087| #138'
   - '🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: amp-api-edge.apps.apple.com ┃ 🇳🇱 Нидерланды
-    #154'
-  - '61.🇫🇮Финляндия | @LimeVPNFREE #155'
-  - '🇰🇿 🥥11🏝️ Kazakhstan | [*CIDR] #156'
-  - 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #157'
-  - '🌐 [WL] Сервер 39 #158'
-  - '🥥SOLO🏝️🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: maps.apple.com ┃ 🇩🇪 Германия #159'
-  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #160'
+    #139'
+  - '61.🇫🇮Финляндия | @LimeVPNFREE #140'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.apple.com ┃ 🇺🇸 США #141'
+  - '🌐 [WL] Сервер 39 #142'
+  - '🥥SOLO🏝️🥥SOLO🏝️AetrisVPN White list ┃ ✅ SNI: maps.apple.com ┃ 🇩🇪 Германия #143'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #144'
+  - '🇨🇭 Switzerland | [*CIDR] VK #145'
+  - '4G/LTE №16 📶 #146'
+  - '🇪🇪 LTE 47 | тгк: @rostunnel #147'
+  - '🇵🇱 Poland — #60 #148'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇵🇱 Польша #149'
+  - '🇳🇱 [WL] Сервер 35 #150'
+  - '😎@PizMod🤠PizdukVPN🤍Авто🐴Выбор😼 - 17 #151'
+  - '🇳🇱 AetrisVPN #152'
+  - '🇬🇷 Греция | БС¹ #153'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇩🇪 Германия #154'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇵🇱 Польша #155'
+  - '🇦🇹 🥥11🏝️ Austria | [*CIDR] #156'
+  - 'AetrisVPN White list ┃ ✅ SNI: dl.google.com ┃ 🇦🇹 Австрия #157'
+  - '🇪🇪🕊 Эстония [Обход БС | Все операторы] #14 #158'
+  - '🇩🇪 Germany | 🌐 | [*CIDR] VK #159'
+  - 'AetrisVPN White list ┃ ✅ SNI: www.google.com ┃ 🇺🇸 США #160'
   - 'Igareck Node 037 | 🇵🇱 Poland | [*CIDR] #161'
   - 'Igareck Node 038 | 🇵🇱 Poland | [*CIDR] #162'
   - 'Igareck Node 039 | 🇵🇱 Poland | [*CIDR] #163'
@@ -3000,8 +3022,8 @@ proxy-groups:
   - '🇷🇺 Россия #196'
   - '🇷🇺 Россия #197'
   - '🇷🇺 Россия #198'
-  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #199'
-  - '🇫🇮 Финляндия | [🏳️LTE] | 🥭🔧 #200'
+  - '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #199'
+  - '🇩🇪 Германия | | 🥭🔧 api-maps.yandex.ru #200'
 - name: GLOBAL
   type: select
   proxies:
