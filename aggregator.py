@@ -16,8 +16,9 @@ import requests
 
 TEST_URL = os.environ.get("LATENCY_TEST_URL", "https://pitbit.com")
 FALLBACK_TEST_URL = "https://ya.ru"
-MIN_PROXIES = 250
-MAX_PROXIES = 300
+TARGET_PUBLIC_PROXIES = 200
+TARGET_FOREIGN = 160
+TARGET_RU = 40
 
 SOURCES = [
     # Tier 1: igareck/vpn-configs-for-russia (⭐ 9088) - Official Russian Mobile CIDR Whitelists
@@ -288,6 +289,43 @@ def get_proxy_signature(p):
     path = str(p.get("ws-opts", {}).get("path", "")).strip()
     return f"{proto}:{srv}:{port}:{auth}:{fp}:{sni}:{path}"
 
+def load_custom_nodes():
+    custom_nodes = []
+    custom_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "custom_nodes.txt")
+    raw_lines = []
+    
+    if os.path.exists(custom_path):
+        try:
+            with open(custom_path, "r", encoding="utf-8") as f:
+                raw_lines += f.readlines()
+        except Exception as e:
+            print(f"[-] Warning reading custom_nodes.txt: {e}")
+            
+    # Also support GitHub Actions secret / environment variable
+    env_custom = os.environ.get("CUSTOM_NODES", "")
+    if env_custom:
+        raw_lines += env_custom.splitlines()
+        
+    for idx, line in enumerate(raw_lines, 1):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        p = None
+        if line.startswith("vless://"):
+            p = parse_vless_uri(line)
+        elif line.startswith("trojan://"):
+            p = parse_trojan_uri(line)
+        elif line.startswith("hysteria2://") or line.startswith("hy2://"):
+            p = parse_hysteria2_uri(line)
+        if p and p.get("server") and p.get("port"):
+            orig_name = p.get("name", f"{p['server']}:{p['port']}")
+            p["name"] = f"⭐ Paid-VIP #{idx:02d} - {orig_name}"
+            custom_nodes.append(p)
+            
+    if custom_nodes:
+        print(f"[*] Loaded {len(custom_nodes)} custom paid servers.")
+    return custom_nodes
+
 def collect_proxies():
     seen_signatures = set()
     ig_foreign = []
@@ -347,9 +385,9 @@ def collect_proxies():
 
     print(f"[*] Harvested: Igareck: {len(ig_foreign)} foreign, {len(ig_ru)} RU. Others: {len(other_foreign)} foreign, {len(other_ru)} RU.")
 
-    # Target: ~230 foreign nodes, ~50 RU reserve nodes (Total ~280, within 250-300 bounds)
-    target_foreign = 230
-    target_ru = 50
+    # Target: 160 foreign public nodes + 40 RU reserve public nodes = 200 public nodes
+    target_foreign = TARGET_FOREIGN
+    target_ru = TARGET_RU
 
     selected_foreign = ig_foreign[:target_foreign]
     if len(selected_foreign) < target_foreign:
@@ -363,23 +401,23 @@ def collect_proxies():
 
     selected = selected_foreign + selected_ru
 
-    # Ensure bounds between MIN_PROXIES (250) and MAX_PROXIES (300)
-    if len(selected) < MIN_PROXIES:
+    # Ensure exactly TARGET_PUBLIC_PROXIES (200)
+    if len(selected) < TARGET_PUBLIC_PROXIES:
         remainder_foreign = [p for p in other_foreign if p not in selected_foreign]
-        needed = MIN_PROXIES - len(selected)
+        needed = TARGET_PUBLIC_PROXIES - len(selected)
         selected += remainder_foreign[:needed]
-        if len(selected) < MIN_PROXIES:
+        if len(selected) < TARGET_PUBLIC_PROXIES:
             remainder_ru = [p for p in other_ru if p not in selected_ru]
-            needed = MIN_PROXIES - len(selected)
+            needed = TARGET_PUBLIC_PROXIES - len(selected)
             selected += remainder_ru[:needed]
 
-    if len(selected) > MAX_PROXIES:
-        selected = selected[:MAX_PROXIES]
+    if len(selected) > TARGET_PUBLIC_PROXIES:
+        selected = selected[:TARGET_PUBLIC_PROXIES]
 
-    print(f"[*] Final curated node count: {len(selected)} (target: {MIN_PROXIES}-{MAX_PROXIES})")
+    print(f"[*] Final curated public whitelist node count: {len(selected)} (target: {TARGET_PUBLIC_PROXIES})")
     
-    # Assign unique clean names
-    final_proxies = []
+    # Assign unique clean names to public nodes
+    public_proxies = []
     used_names = set()
     for idx, p in enumerate(selected, 1):
         item = copy.deepcopy(p)
@@ -391,12 +429,16 @@ def collect_proxies():
             counter += 1
         used_names.add(name)
         item["name"] = name
-        final_proxies.append(item)
+        public_proxies.append(item)
         
-    return final_proxies
+    custom_nodes = load_custom_nodes()
+    final_proxies = custom_nodes + public_proxies
+    print(f"[*] Total combined proxies: {len(final_proxies)} ({len(custom_nodes)} paid + {len(public_proxies)} public)")
+    return final_proxies, len(custom_nodes)
 
-def build_clash_config(proxies):
+def build_clash_config(proxies, custom_count=0):
     proxy_names = [p["name"] for p in proxies]
+    paid_names = [p["name"] for p in proxies[:custom_count]]
     foreign_names = [p["name"] for p in proxies if not is_russian_node(p)]
     ru_names = [p["name"] for p in proxies if is_russian_node(p)]
     
@@ -404,6 +446,65 @@ def build_clash_config(proxies):
         foreign_names = proxy_names[:]
     if not ru_names:
         ru_names = proxy_names[:]
+
+    proxy_groups = []
+
+    if paid_names:
+        proxy_groups.append({
+            "name": "⭐ Paid-VIP-Auto",
+            "type": "url-test",
+            "url": TEST_URL,
+            "interval": 120,
+            "tolerance": 50,
+            "timeout": 2500,
+            "proxies": paid_names
+        })
+
+    # VIP Auto Select contains paid nodes first (if any), then foreign public nodes
+    vip_proxies = paid_names + [n for n in foreign_names if n not in paid_names]
+    proxy_groups.append({
+        "name": "🚀 VIP-Auto-Select",
+        "type": "url-test",
+        "url": TEST_URL,
+        "interval": 300,
+        "tolerance": 50,
+        "timeout": 3000,
+        "proxies": vip_proxies
+    })
+
+    fallback_proxies = (["⭐ Paid-VIP-Auto"] if paid_names else []) + ["🚀 VIP-Auto-Select", "🇷🇺 Russian-Reserve"]
+    proxy_groups.append({
+        "name": "🛡️ Emergency-Fallback",
+        "type": "fallback",
+        "url": TEST_URL,
+        "interval": 300,
+        "timeout": 3000,
+        "proxies": fallback_proxies
+    })
+
+    proxy_groups.append({
+        "name": "🇷🇺 Russian-Reserve",
+        "type": "url-test",
+        "url": FALLBACK_TEST_URL,
+        "interval": 300,
+        "tolerance": 100,
+        "timeout": 3000,
+        "proxies": ru_names
+    })
+
+    manual_proxies = (["⭐ Paid-VIP-Auto"] if paid_names else []) + ["🚀 VIP-Auto-Select", "🛡️ Emergency-Fallback", "🇷🇺 Russian-Reserve"] + proxy_names
+    proxy_groups.append({
+        "name": "🌐 Manual-Select",
+        "type": "select",
+        "proxies": manual_proxies
+    })
+
+    global_proxies = (["⭐ Paid-VIP-Auto"] if paid_names else []) + ["🚀 VIP-Auto-Select", "🛡️ Emergency-Fallback", "🌐 Manual-Select"]
+    proxy_groups.append({
+        "name": "GLOBAL",
+        "type": "select",
+        "proxies": global_proxies
+    })
 
     config = {
         "port": 7890,
@@ -434,44 +535,7 @@ def build_clash_config(proxies):
             ]
         },
         "proxies": proxies,
-        "proxy-groups": [
-            {
-                "name": "🚀 VIP-Auto-Select",
-                "type": "url-test",
-                "url": TEST_URL,
-                "interval": 180,
-                "tolerance": 50,
-                "timeout": 3000,
-                "proxies": foreign_names
-            },
-            {
-                "name": "🛡️ Emergency-Fallback",
-                "type": "fallback",
-                "url": TEST_URL,
-                "interval": 120,
-                "timeout": 3000,
-                "proxies": ["🚀 VIP-Auto-Select", "🇷🇺 Russian-Reserve"]
-            },
-            {
-                "name": "🇷🇺 Russian-Reserve",
-                "type": "url-test",
-                "url": FALLBACK_TEST_URL,
-                "interval": 300,
-                "tolerance": 100,
-                "timeout": 3000,
-                "proxies": ru_names
-            },
-            {
-                "name": "🌐 Manual-Select",
-                "type": "select",
-                "proxies": ["🚀 VIP-Auto-Select", "🛡️ Emergency-Fallback", "🇷🇺 Russian-Reserve"] + proxy_names
-            },
-            {
-                "name": "GLOBAL",
-                "type": "select",
-                "proxies": ["🚀 VIP-Auto-Select", "🛡️ Emergency-Fallback", "🌐 Manual-Select"]
-            }
-        ],
+        "proxy-groups": proxy_groups,
         "rules": [
             # Russian Whitelist & Domestic Services (Direct without proxy)
             "DOMAIN-SUFFIX,yandex.ru,DIRECT",
@@ -521,18 +585,18 @@ def main():
     print(f"[*] Starting Whitelist Proxy Aggregator...")
     print(f"[*] Latency test target: {TEST_URL}")
     
-    proxies = collect_proxies()
+    proxies, custom_count = collect_proxies()
     if len(proxies) < 10:
         print("[-] Critical Error: Less than 10 proxies collected. Aborting generation.")
         sys.exit(1)
         
-    config = build_clash_config(proxies)
+    config = build_clash_config(proxies, custom_count)
     
     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "clash.yaml")
     with open(output_path, "w", encoding="utf-8") as f:
         yaml.dump(config, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
         
-    print(f"[+] Successfully generated {output_path} with {len(proxies)} proxies.")
+    print(f"[+] Successfully generated {output_path} with {len(proxies)} proxies ({custom_count} paid + {len(proxies)-custom_count} public).")
     
     # Also generate plain nodes list
     nodes_txt_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "nodes.txt")
