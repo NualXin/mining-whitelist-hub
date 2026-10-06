@@ -20,8 +20,10 @@ MIN_PROXIES = 250
 MAX_PROXIES = 300
 
 SOURCES = [
+    # Tier 1: igareck/vpn-configs-for-russia (⭐ 9088) - Official Russian Mobile CIDR Whitelists
     {
-        "id": "igareck_checked",
+        "id": "igareck_checked_cidr",
+        "stars": 9088,
         "priority": 1,
         "type": "clash_yaml",
         "mirrors": [
@@ -32,7 +34,8 @@ SOURCES = [
         ]
     },
     {
-        "id": "igareck_mobile",
+        "id": "igareck_mobile_cidr",
+        "stars": 9088,
         "priority": 1,
         "type": "clash_yaml",
         "mirrors": [
@@ -43,7 +46,8 @@ SOURCES = [
         ]
     },
     {
-        "id": "igareck_cidr_all",
+        "id": "igareck_all_cidr",
+        "stars": 9088,
         "priority": 1,
         "type": "clash_yaml",
         "mirrors": [
@@ -53,20 +57,24 @@ SOURCES = [
             "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml"
         ]
     },
+    # Tier 2: zieng2/wl (⭐ 2803) - Dedicated Whitelist Bypass
     {
-        "id": "igareck_sni_all",
-        "priority": 1,
-        "type": "clash_yaml",
+        "id": "zieng2_wl",
+        "stars": 2803,
+        "priority": 2,
+        "type": "uris",
         "mirrors": [
-            "https://fastly.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
-            "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
-            "https://ghproxy.net/https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
-            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml"
+            "https://fastly.jsdelivr.net/gh/zieng2/wl@main/vless_universal.txt",
+            "https://gitverse.ru/api/repos/zieng2/wl/raw/branch/master/list_universal.txt",
+            "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
+            "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
         ]
     },
+    # Tier 3: RKPchannel/RKP_bypass_configs (⭐ 122) - Mobile Whitelist Configs
     {
-        "id": "rkp_clash",
-        "priority": 2,
+        "id": "rkp_whitelist",
+        "stars": 122,
+        "priority": 3,
         "type": "clash_yaml",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/RKPchannel/RKP_bypass_configs@main/whitelist.yaml",
@@ -75,54 +83,39 @@ SOURCES = [
             "https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/main/whitelist.yaml"
         ]
     },
+    # Tier 4: FLAT447/v2ray-lists (⭐ 67) - Mobile WhiteLite List
     {
-        "id": "zieng2_wl",
-        "priority": 2,
+        "id": "flat447_white_lite",
+        "stars": 67,
+        "priority": 4,
         "type": "uris",
         "mirrors": [
-            "https://gitverse.ru/api/repos/zieng2/wl/raw/branch/master/list_universal.txt",
-            "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
-            "https://fastly.jsdelivr.net/gh/zieng2/wl@main/vless_universal.txt",
-            "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
-        ]
-    },
-    {
-        "id": "flat447_white",
-        "priority": 2,
-        "type": "uris",
-        "mirrors": [
-            "https://fastly.jsdelivr.net/gh/FLAT447/v2ray-lists@main/WHITE_FULL.txt",
             "https://fastly.jsdelivr.net/gh/FLAT447/v2ray-lists@main/WHITE_LITE.txt",
-            "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_FULL.txt"
+            "https://cdn.jsdelivr.net/gh/FLAT447/v2ray-lists@main/WHITE_LITE.txt",
+            "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_LITE.txt"
         ]
     },
+    # Tier 5: Maskkost93/kizyak-vpn-4.0 (⭐ 55) - Mobile LTE Whitelist
     {
-        "id": "whoahaow_bypass",
-        "priority": 2,
+        "id": "kizyak_lte",
+        "stars": 55,
+        "priority": 5,
         "type": "uris",
         "mirrors": [
-            "https://fastly.jsdelivr.net/gh/whoahaow/rjsxrd@main/githubmirror/bypass/bypass-all.txt",
-            "https://cdn.jsdelivr.net/gh/whoahaow/rjsxrd@main/githubmirror/bypass/bypass-all.txt",
-            "https://ghproxy.net/https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/bypass/bypass-all.txt"
+            "https://fastly.jsdelivr.net/gh/Maskkost93/kizyak-vpn-4.0@main/kizyakbeta6.txt",
+            "https://raw.githubusercontent.com/Maskkost93/kizyak-vpn-4.0/main/kizyakbeta6.txt"
         ]
     },
+    # Tier 6: solovyov-jenya2004/all_subs (⭐ 45) - Russian Mobile CIDR Whitelist
     {
         "id": "solovyov_cidr",
-        "priority": 2,
+        "stars": 45,
+        "priority": 6,
         "type": "uris",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/solovyov-jenya2004/all_subs@main/final_sorted",
             "https://cdn.jsdelivr.net/gh/solovyov-jenya2004/all_subs@main/final_sorted",
             "https://raw.githubusercontent.com/solovyov-jenya2004/all_subs/main/final_sorted"
-        ]
-    },
-    {
-        "id": "vansfenix_white",
-        "priority": 2,
-        "type": "uris",
-        "mirrors": [
-            "https://fastly.jsdelivr.net/gh/VansFenix/vpnparser@main/white.txt",
-            "https://cdn.jsdelivr.net/gh/VansFenix/vpnparser@main/white.txt"
         ]
     }
 ]

@@ -37,7 +37,8 @@ class TestWhitelistAggregator(unittest.TestCase):
         seen_names = set()
         for p in proxies:
             path = p.get('ws-opts', {}).get('path', '') if isinstance(p.get('ws-opts'), dict) else ''
-            sig = f"{p['type']}:{p['server']}:{p['port']}:{p.get('uuid') or p.get('password')}:{p.get('client-fingerprint', '')}:{p.get('servername', '')}:{path}"
+            sni = p.get('servername') or p.get('sni') or ''
+            sig = f"{p['type']}:{p['server']}:{p['port']}:{p.get('uuid') or p.get('password')}:{p.get('client-fingerprint', '')}:{sni}:{path}"
             self.assertNotIn(sig, seen_signatures, f"Duplicate proxy configuration detected: {sig}")
             seen_signatures.add(sig)
             self.assertNotIn(p["name"], seen_names, f"Duplicate proxy name: {p['name']}")
