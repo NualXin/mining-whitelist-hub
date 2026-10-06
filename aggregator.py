@@ -16,12 +16,24 @@ import requests
 
 TEST_URL = os.environ.get("LATENCY_TEST_URL", "https://pitbit.com")
 FALLBACK_TEST_URL = "https://ya.ru"
-MIN_PROXIES = 150
-MAX_PROXIES = 200
+MIN_PROXIES = 250
+MAX_PROXIES = 300
 
 SOURCES = [
     {
+        "id": "igareck_checked",
+        "priority": 1,
+        "type": "clash_yaml",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml",
+            "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml",
+            "https://ghproxy.net/https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml",
+            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml"
+        ]
+    },
+    {
         "id": "igareck_mobile",
+        "priority": 1,
         "type": "clash_yaml",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/Vless-Reality-White-Lists-Rus-Mobile-clash-global.yaml",
@@ -31,7 +43,30 @@ SOURCES = [
         ]
     },
     {
+        "id": "igareck_cidr_all",
+        "priority": 1,
+        "type": "clash_yaml",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml",
+            "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml",
+            "https://ghproxy.net/https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml",
+            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml"
+        ]
+    },
+    {
+        "id": "igareck_sni_all",
+        "priority": 1,
+        "type": "clash_yaml",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
+            "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
+            "https://ghproxy.net/https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
+            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml"
+        ]
+    },
+    {
         "id": "rkp_clash",
+        "priority": 2,
         "type": "clash_yaml",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/RKPchannel/RKP_bypass_configs@main/whitelist.yaml",
@@ -42,6 +77,7 @@ SOURCES = [
     },
     {
         "id": "zieng2_wl",
+        "priority": 2,
         "type": "uris",
         "mirrors": [
             "https://gitverse.ru/api/repos/zieng2/wl/raw/branch/master/list_universal.txt",
@@ -52,6 +88,7 @@ SOURCES = [
     },
     {
         "id": "flat447_white",
+        "priority": 2,
         "type": "uris",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/FLAT447/v2ray-lists@main/WHITE_FULL.txt",
@@ -61,6 +98,7 @@ SOURCES = [
     },
     {
         "id": "whoahaow_bypass",
+        "priority": 2,
         "type": "uris",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/whoahaow/rjsxrd@main/githubmirror/bypass/bypass-all.txt",
@@ -70,6 +108,7 @@ SOURCES = [
     },
     {
         "id": "solovyov_cidr",
+        "priority": 2,
         "type": "uris",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/solovyov-jenya2004/all_subs@main/final_sorted",
@@ -79,6 +118,7 @@ SOURCES = [
     },
     {
         "id": "vansfenix_white",
+        "priority": 2,
         "type": "uris",
         "mirrors": [
             "https://fastly.jsdelivr.net/gh/VansFenix/vpnparser@main/white.txt",
@@ -245,9 +285,23 @@ def clean_and_normalize_name(name, server, port, index):
         clean = f"Node-{server}:{port}"
     return f"{clean} #{index:03d}"
 
+def get_proxy_signature(p):
+    srv = str(p.get("server", "")).strip().lower()
+    port = str(p.get("port", "")).strip()
+    proto = str(p.get("type", "")).strip().lower()
+    auth = str(p.get("uuid") or p.get("password") or "").strip()
+    fp = str(p.get("client-fingerprint", "")).strip().lower()
+    sni = str(p.get("servername") or p.get("sni") or "").strip().lower()
+    path = str(p.get("ws-opts", {}).get("path", "")).strip()
+    return f"{proto}:{srv}:{port}:{auth}:{fp}:{sni}:{path}"
+
 def collect_proxies():
-    raw_proxies = []
-    
+    seen_signatures = set()
+    ig_foreign = []
+    ig_ru = []
+    other_foreign = []
+    other_ru = []
+
     for src in SOURCES:
         content, mirror_url = fetch_with_mirrors(src["mirrors"])
         if not content:
@@ -255,13 +309,14 @@ def collect_proxies():
             continue
         print(f"[+] Fetched {src['id']} from {mirror_url}")
         
+        batch = []
         if src["type"] == "clash_yaml":
             try:
                 data = yaml.safe_load(content)
                 if isinstance(data, dict) and "proxies" in data:
                     for p in data["proxies"]:
                         if isinstance(p, dict) and p.get("server") and p.get("port"):
-                            raw_proxies.append(p)
+                            batch.append(p)
             except Exception as e:
                 print(f"[-] YAML parse error for {src['id']}: {e}")
         elif src["type"] == "uris":
@@ -277,54 +332,57 @@ def collect_proxies():
                 elif line.startswith("hysteria2://") or line.startswith("hy2://"):
                     p = parse_hysteria2_uri(line)
                 if p and p.get("server") and p.get("port"):
-                    raw_proxies.append(p)
+                    batch.append(p)
                     
-    print(f"[*] Total raw proxies harvested: {len(raw_proxies)}")
-    
-    # Deduplication by (server, port)
-    seen_endpoints = set()
-    deduped = []
-    for p in raw_proxies:
-        endpoint = f"{str(p['server']).strip()}:{p['port']}"
-        if endpoint in seen_endpoints:
-            continue
-        seen_endpoints.add(endpoint)
-        deduped.append(p)
-        
-    print(f"[*] Unique proxies after endpoint deduplication: {len(deduped)}")
-    
-    # Classify into foreign and RU reserve
-    foreign_nodes = []
-    ru_nodes = []
-    for p in deduped:
-        if is_russian_node(p):
-            ru_nodes.append(p)
-        else:
-            foreign_nodes.append(p)
+        for p in batch:
+            sig = get_proxy_signature(p)
+            if sig in seen_signatures:
+                continue
+            seen_signatures.add(sig)
             
-    print(f"[*] Classified: {len(foreign_nodes)} foreign nodes, {len(ru_nodes)} RU reserve nodes")
-    
-    # Smart Capping to 150-200 nodes
-    # Balance: up to 135 foreign nodes + up to 55 RU reserve nodes
-    target_foreign = min(len(foreign_nodes), 135)
-    target_ru = min(len(ru_nodes), 55)
-    
-    selected = foreign_nodes[:target_foreign] + ru_nodes[:target_ru]
-    
-    # If total selected is less than MIN_PROXIES, take remaining foreign or RU
+            is_ru = is_russian_node(p)
+            if src.get("priority", 2) == 1:
+                if is_ru:
+                    ig_ru.append(p)
+                else:
+                    ig_foreign.append(p)
+            else:
+                if is_ru:
+                    other_ru.append(p)
+                else:
+                    other_foreign.append(p)
+
+    print(f"[*] Harvested: Igareck: {len(ig_foreign)} foreign, {len(ig_ru)} RU. Others: {len(other_foreign)} foreign, {len(other_ru)} RU.")
+
+    # Target: ~230 foreign nodes, ~50 RU reserve nodes (Total ~280, within 250-300 bounds)
+    target_foreign = 230
+    target_ru = 50
+
+    selected_foreign = ig_foreign[:target_foreign]
+    if len(selected_foreign) < target_foreign:
+        needed = target_foreign - len(selected_foreign)
+        selected_foreign += other_foreign[:needed]
+
+    selected_ru = ig_ru[:target_ru]
+    if len(selected_ru) < target_ru:
+        needed = target_ru - len(selected_ru)
+        selected_ru += other_ru[:needed]
+
+    selected = selected_foreign + selected_ru
+
+    # Ensure bounds between MIN_PROXIES (250) and MAX_PROXIES (300)
     if len(selected) < MIN_PROXIES:
-        remainder_foreign = foreign_nodes[target_foreign:]
-        remainder_ru = ru_nodes[target_ru:]
+        remainder_foreign = [p for p in other_foreign if p not in selected_foreign]
         needed = MIN_PROXIES - len(selected)
         selected += remainder_foreign[:needed]
-        needed = MIN_PROXIES - len(selected)
-        if needed > 0:
+        if len(selected) < MIN_PROXIES:
+            remainder_ru = [p for p in other_ru if p not in selected_ru]
+            needed = MIN_PROXIES - len(selected)
             selected += remainder_ru[:needed]
-        
-    # If still more than MAX_PROXIES, hard cap at MAX_PROXIES (e.g. 190)
+
     if len(selected) > MAX_PROXIES:
         selected = selected[:MAX_PROXIES]
-        
+
     print(f"[*] Final curated node count: {len(selected)} (target: {MIN_PROXIES}-{MAX_PROXIES})")
     
     # Assign unique clean names
@@ -374,9 +432,11 @@ def build_clash_config(proxies):
             "enhanced-mode": "fake-ip",
             "fake-ip-range": "198.18.0.1/16",
             "nameserver": [
+                "77.88.8.8",
+                "77.88.8.1",
                 "1.1.1.1",
                 "8.8.8.8",
-                "77.88.8.8",
+                "https://dns.yandex.ru/dns-query",
                 "https://cloudflare-dns.com/dns-query"
             ]
         },
@@ -430,6 +490,14 @@ def build_clash_config(proxies):
             "DOMAIN-SUFFIX,tbank.ru,DIRECT",
             "GEOSITE,category-ru,DIRECT",
             "GEOIP,RU,DIRECT",
+
+            # Whitelist-Proof Self-Update Rules (Always through VIP proxy so router/phone can self-update while tunneled)
+            "DOMAIN-SUFFIX,jsdelivr.net,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,fastly.net,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,github.com,🚀 VIP-Auto-Select",
+            "DOMAIN-SUFFIX,githubusercontent.com,🚀 VIP-Auto-Select",
+            "DOMAIN-KEYWORD,ghproxy,🚀 VIP-Auto-Select",
+            "DOMAIN-KEYWORD,jsdelivr,🚀 VIP-Auto-Select",
 
             # Special Dedicated Endpoints & Protocol Ports (Route through VIP Proxy)
             "DOMAIN-KEYWORD,trustpool,🚀 VIP-Auto-Select",

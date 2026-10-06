@@ -27,21 +27,22 @@ class TestWhitelistAggregator(unittest.TestCase):
 
     def test_proxy_count_within_bounds(self):
         proxies = self.config.get("proxies", [])
-        self.assertGreaterEqual(len(proxies), 150, "Proxy count must be at least 150")
-        self.assertLessEqual(len(proxies), 200, "Proxy count must not exceed 200")
-        print(f"[TEST PASS] Proxy count verified: {len(proxies)} (within 150-200 bounds)")
+        self.assertGreaterEqual(len(proxies), 250, "Proxy count must be at least 250")
+        self.assertLessEqual(len(proxies), 300, "Proxy count must not exceed 300")
+        print(f"[TEST PASS] Proxy count verified: {len(proxies)} (within 250-300 bounds)")
 
     def test_proxy_endpoints_are_unique(self):
         proxies = self.config.get("proxies", [])
-        seen_endpoints = set()
+        seen_signatures = set()
         seen_names = set()
         for p in proxies:
-            ep = f"{p['server']}:{p['port']}"
-            self.assertNotIn(ep, seen_endpoints, f"Duplicate endpoint detected: {ep}")
-            seen_endpoints.add(ep)
+            path = p.get('ws-opts', {}).get('path', '') if isinstance(p.get('ws-opts'), dict) else ''
+            sig = f"{p['type']}:{p['server']}:{p['port']}:{p.get('uuid') or p.get('password')}:{p.get('client-fingerprint', '')}:{p.get('servername', '')}:{path}"
+            self.assertNotIn(sig, seen_signatures, f"Duplicate proxy configuration detected: {sig}")
+            seen_signatures.add(sig)
             self.assertNotIn(p["name"], seen_names, f"Duplicate proxy name: {p['name']}")
             seen_names.add(p["name"])
-        print(f"[TEST PASS] All {len(seen_endpoints)} proxy endpoints and names are strictly unique")
+        print(f"[TEST PASS] All {len(seen_names)} proxy names and configurations are strictly unique")
 
     def test_proxy_groups_structure(self):
         groups = {g["name"]: g for g in self.config.get("proxy-groups", [])}
@@ -67,6 +68,8 @@ class TestWhitelistAggregator(unittest.TestCase):
         self.assertTrue(any("stratum" in r and "VIP-Auto-Select" in r for r in rules), "Stratum proxy rule missing")
         self.assertTrue(any("3333" in r and "VIP-Auto-Select" in r for r in rules), "Stratum port 3333 proxy rule missing")
         self.assertTrue(any("pitbit" in r and "VIP-Auto-Select" in r for r in rules), "Pitbit firmware proxy rule missing")
+        self.assertTrue(any("jsdelivr" in r and "VIP-Auto-Select" in r for r in rules), "Self-update jsdelivr proxy rule missing")
+        self.assertTrue(any("github" in r and "VIP-Auto-Select" in r for r in rules), "Self-update github proxy rule missing")
         self.assertTrue(any("GEOIP,RU,DIRECT" in r for r in rules), "Russian domestic bypass rule missing")
         self.assertTrue(rules[-1].startswith("MATCH,"), "Last rule must be MATCH")
         print("[TEST PASS] Custom routing rules and Russian bypass rules verified")
