@@ -27,9 +27,9 @@ class TestWhitelistAggregator(unittest.TestCase):
 
     def test_proxy_count_within_bounds(self):
         proxies = self.config.get("proxies", [])
-        self.assertGreaterEqual(len(proxies), 195, "Proxy count must be at least 195")
-        self.assertLessEqual(len(proxies), 250, "Proxy count must not exceed 250")
-        print(f"[TEST PASS] Proxy count verified: {len(proxies)} (within 195-250 bounds)")
+        self.assertGreaterEqual(len(proxies), 250, "Proxy count must be at least 250")
+        self.assertLessEqual(len(proxies), 320, "Proxy count must not exceed 320")
+        print(f"[TEST PASS] Proxy count verified: {len(proxies)} (within 250-320 bounds)")
 
     def test_proxy_endpoints_are_unique(self):
         proxies = self.config.get("proxies", [])

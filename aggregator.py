@@ -16,9 +16,9 @@ import requests
 
 TEST_URL = os.environ.get("LATENCY_TEST_URL", "https://pitbit.com")
 FALLBACK_TEST_URL = "https://ya.ru"
-TARGET_PUBLIC_PROXIES = 200
-TARGET_FOREIGN = 160
-TARGET_RU = 40
+TARGET_PUBLIC_PROXIES = 280
+TARGET_FOREIGN = 220
+TARGET_RU = 60
 
 SOURCES = [
     # Tier 1: igareck/vpn-configs-for-russia (⭐ 9088) - Official Russian Mobile CIDR Whitelists
@@ -58,6 +58,18 @@ SOURCES = [
             "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml"
         ]
     },
+    # Tier 2: whoahaow/rjsxrd (⭐ 160) - Hourly Checked Mobile Whitelist Bypass
+    {
+        "id": "whoahaow_bypass",
+        "stars": 160,
+        "priority": 2,
+        "type": "uris",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/whoahaow/rjsxrd@main/githubmirror/bypass/bypass-all.txt",
+            "https://cdn.jsdelivr.net/gh/whoahaow/rjsxrd@main/githubmirror/bypass/bypass-all.txt",
+            "https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/bypass/bypass-all.txt"
+        ]
+    },
     # Tier 2: zieng2/wl (⭐ 2803) - Dedicated Whitelist Bypass
     {
         "id": "zieng2_wl",
@@ -69,6 +81,30 @@ SOURCES = [
             "https://gitverse.ru/api/repos/zieng2/wl/raw/branch/master/list_universal.txt",
             "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
             "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt"
+        ]
+    },
+    # Tier 3: terik21/HiddifySubs-VlessKeys - Dedicated WhiteKeys
+    {
+        "id": "terik21_whitekeys",
+        "stars": 80,
+        "priority": 3,
+        "type": "uris",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/terik21/HiddifySubs-VlessKeys@main/WhiteKeys",
+            "https://cdn.jsdelivr.net/gh/terik21/HiddifySubs-VlessKeys@main/WhiteKeys",
+            "https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/main/WhiteKeys"
+        ]
+    },
+    # Tier 3: hussaroff/lte-universal-checked - LTE Mobile Whitelist
+    {
+        "id": "hussaroff_lte",
+        "stars": 70,
+        "priority": 3,
+        "type": "uris",
+        "mirrors": [
+            "https://fastly.jsdelivr.net/gh/hussaroff/lte-universal-checked@main/whitelist.txt",
+            "https://cdn.jsdelivr.net/gh/hussaroff/lte-universal-checked@main/whitelist.txt",
+            "https://raw.githubusercontent.com/hussaroff/lte-universal-checked/main/whitelist.txt"
         ]
     },
     # Tier 3: RKPchannel/RKP_bypass_configs (⭐ 122) - Mobile Whitelist Configs
