@@ -304,141 +304,96 @@ proxies:
   skip-cert-verify: true
 - name: 'Igareck Node 001 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #021'
   type: vless
-  server: 77.95.206.236
-  port: 64563
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  tls: true
-  servername: www.starlink.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: wtTHheIAfyG6Sis8_GC5aHW06QPs9K-LwTqZ15NHX2M
-    short-id: 04bc4a55875f
-  network: grpc
-- name: 'Igareck Node 002 | 🇦🇹 Austria [*CIDR] #022'
-  type: vless
-  server: 168.113.255.82
-  port: 9831
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 003 | 🇦🇹 Austria [*CIDR] #023'
-  type: vless
-  server: 168.113.255.82
-  port: 9831
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 004 | 🇦🇹 Austria [*CIDR] #024'
-  type: vless
-  server: 168.113.255.82
-  port: 9831
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 005 | 🇦🇹 Austria [*CIDR] #025'
-  type: vless
-  server: 168.113.255.82
-  port: 9831
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 006 | 🇩🇰 Denmark [*CIDR] #026'
-  type: vless
-  server: 168.113.252.62
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 007 | 🇩🇰 Denmark [*CIDR] #027'
-  type: vless
-  server: 168.113.252.62
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 008 | 🇩🇰 Denmark [*CIDR] #028'
-  type: vless
-  server: 168.113.252.62
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 009 | 🇩🇰 Denmark [*CIDR] #029'
-  type: vless
-  server: 168.113.252.62
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 010 | 🇪🇪 Estonia [*CIDR] #030'
-  type: vless
-  server: 188.225.38.216
+  server: a0688bt.us4.h1clayd.click
   port: 443
-  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
   udp: true
   tls: true
-  servername: lalibobi.online
-  network: grpc
-  grpc-opts:
-    grpc-service-name: lalibobi.orbit.v3.Connect
-- name: 'Igareck Node 011 | 🇪🇪 Estonia [*CIDR] #031'
+  servername: a0688bt.us4.h1clayd.click
+  client-fingerprint: android
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  network: tcp
+- name: 'Igareck Node 002 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #022'
+  type: vless
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  servername: a0688bt.us4.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  network: tcp
+- name: 'Igareck Node 003 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #023'
+  type: vless
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  servername: a0688bt.us4.h1clayd.click
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  network: tcp
+- name: 'Igareck Node 004 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #024'
+  type: vless
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  udp: true
+  tls: true
+  servername: 3f8efdt.fi1.h1clayd.click
+  client-fingerprint: android
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  network: tcp
+- name: 'Igareck Node 005 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #025'
+  type: vless
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  udp: true
+  tls: true
+  servername: 3f8efdt.fi1.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  network: tcp
+- name: 'Igareck Node 006 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #026'
+  type: vless
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  udp: true
+  tls: true
+  servername: 3f8efdt.fi1.h1clayd.click
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  network: tcp
+- name: 'Igareck Node 007 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #027'
+  type: vless
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  udp: true
+  tls: true
+  servername: 3f8efdt.fi1.h1clayd.click
+  client-fingerprint: ios
+  reality-opts:
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  network: tcp
+- name: 'Igareck Node 008 | 🇪🇪 Estonia [*CIDR] #028'
   type: vless
   server: lalibobi.online
   port: 443
@@ -446,482 +401,74 @@ proxies:
   udp: true
   tls: true
   servername: lalibobi.online
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: lalibobi.orbit.v3.Connect
-- name: 'Igareck Node 012 | 🇪🇪 Estonia [*CIDR] #032'
+- name: 'Igareck Node 009 | 🇪🇪 Estonia [*CIDR] #029'
   type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 013 | 🇪🇪 Estonia [*CIDR] #033'
-  type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 014 | 🇪🇪 Estonia [*CIDR] #034'
-  type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  skip-cert-verify: true
-- name: 'Igareck Node 015 | 🇪🇪 Estonia [*CIDR] #035'
-  type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 016 | 🇪🇪 Estonia [*CIDR] #036'
-  type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 017 | 🇪🇪 Estonia [*CIDR] #037'
-  type: vless
-  server: 45.132.179.12
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 018 | 🇪🇪 Estonia [*CIDR] #038'
-  type: vless
-  server: 185.76.241.49
+  server: lalibobi.online
   port: 443
-  uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ru-in-est-4vp.movietop24.site
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: -vbYsY2UQcGl7Z6eTc5KDhxOfo_OhsqFlI_SyeL4TSE
-    short-id: b927c029ece94e02
-  network: tcp
-- name: 'Igareck Node 019 | 🇫🇮 Finland [*CIDR] #039'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: edge
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #040'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 021 | 🇫🇮 Finland [*CIDR] #041'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: ios
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 022 | 🇫🇮 Finland [*CIDR] #042'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: qq
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 023 | 🇫🇮 Finland [*CIDR] #043'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: safari
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 024 | 🇫🇮 Finland [*CIDR] #044'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: random
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 026 | 🇫🇮 Finland [*CIDR] #045'
-  type: vless
-  server: 263651t.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 263651t.fi3.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nNe5Y8_G7L0_VO5lqlee3h5UmRH4RXjaRYGCDUkbQz4
-    short-id: 2892e611785bafd1
-  network: tcp
-- name: 'Igareck Node 027 | 🇫🇮 Finland [*CIDR] #046'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 028 | 🇫🇮 Finland [*CIDR] #047'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: edge
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 029 | 🇫🇮 Finland [*CIDR] #048'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 030 | 🇫🇮 Finland [*CIDR] #049'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: ios
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 031 | 🇫🇮 Finland [*CIDR] #050'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: qq
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 032 | 🇫🇮 Finland [*CIDR] #051'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: safari
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 033 | 🇫🇮 Finland [*CIDR] #052'
-  type: vless
-  server: 8fc752g.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: random
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 'Igareck Node 034 | 🇫🇮 Finland [*CIDR] #053'
-  type: vless
-  server: faf318x.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: faf318x.fi3.h1clayd.click
-  client-fingerprint: edge
-  reality-opts:
-    public-key: iZD9niaCQZpjG_ndVq8N2pY4hLNg0n7_oT7qJUMkDEI
-    short-id: 248965340b604f9c
-  network: xhttp
-  xhttp-opts:
-    path: /30ed746037ba
-    mode: auto
-- name: 'Igareck Node 035 | 🇫🇮 Finland [*CIDR] #054'
-  type: vless
-  server: faf318x.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: faf318x.fi3.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: iZD9niaCQZpjG_ndVq8N2pY4hLNg0n7_oT7qJUMkDEI
-    short-id: 248965340b604f9c
-  network: xhttp
-  xhttp-opts:
-    path: /30ed746037ba
-    mode: auto
-- name: 'Igareck Node 036 | 🇫🇮 Finland [*CIDR] #055'
-  type: vless
-  server: faf318x.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: faf318x.fi3.h1clayd.click
-  client-fingerprint: ios
-  reality-opts:
-    public-key: iZD9niaCQZpjG_ndVq8N2pY4hLNg0n7_oT7qJUMkDEI
-    short-id: 248965340b604f9c
-  network: xhttp
-  xhttp-opts:
-    path: /30ed746037ba
-    mode: auto
-- name: 'Igareck Node 037 | 🇫🇮 Finland [*CIDR] #056'
-  type: vless
-  server: faf318x.fi3.h1clayd.click
-  port: 443
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  servername: faf318x.fi3.h1clayd.click
-  client-fingerprint: qq
-  reality-opts:
-    public-key: iZD9niaCQZpjG_ndVq8N2pY4hLNg0n7_oT7qJUMkDEI
-    short-id: 248965340b604f9c
-  network: xhttp
-  xhttp-opts:
-    path: /30ed746037ba
-    mode: auto
-- name: 'Igareck Node 038 | 🇫🇮 Finland [*CIDR] #057'
-  type: vless
-  server: cdn111.whitenw.net
-  port: 8449
   uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
   udp: true
   tls: true
-  servername: foliage.lalibobi.online
-  network: ws
-  ws-opts:
-    path: /journal-sync/e8d4c790
-- name: 'Igareck Node 039 | 🇫🇮 Finland [*CIDR] #058'
-  type: vless
-  server: 45.144.30.113
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: syberia.russiavibory.online
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  network: tcp
-- name: 'Igareck Node 040 | 🇫🇮 Finland [*CIDR] #059'
-  type: vless
-  server: 36a466g.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
-  udp: true
-  tls: true
-  servername: 36a466g.fi1.h1clayd.click
-  reality-opts:
-    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
-    short-id: b3c9d0c6bdd114a6
+  servername: lalibobi.online
+  client-fingerprint: ios
   network: grpc
   grpc-opts:
-    grpc-service-name: 0adb9638509b
-- name: 'Igareck Node 041 | 🇫🇮 Finland [*CIDR] #060'
+    grpc-service-name: lalibobi.orbit.v3.Connect
+- name: 'Igareck Node 010 | 🇪🇪 Estonia [*CIDR] #030'
   type: vless
-  server: 36a466g.fi1.h1clayd.click
+  server: lalibobi.online
   port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
   udp: true
   tls: true
-  servername: 36a466g.fi1.h1clayd.click
-  client-fingerprint: qq
-  reality-opts:
-    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
-    short-id: b3c9d0c6bdd114a6
+  servername: lalibobi.online
+  client-fingerprint: safari
   network: grpc
   grpc-opts:
-    grpc-service-name: 0adb9638509b
-- name: 'Igareck Node 043 | 🇫🇮 Finland [*CIDR] #061'
+    grpc-service-name: lalibobi.orbit.v3.Connect
+- name: 'Igareck Node 016 | 🇪🇪 Estonia | [*CIDR] #031'
   type: vless
-  server: 36a466g.fi1.h1clayd.click
+  server: lalibobi.online
   port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
   udp: true
   tls: true
-  servername: 36a466g.fi1.h1clayd.click
-  client-fingerprint: random
-  reality-opts:
-    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
-    short-id: b3c9d0c6bdd114a6
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 0adb9638509b
-- name: 'Igareck Node 047 | 🇫🇮 Finland [*CIDR] #062'
-  type: vless
-  server: 3f8efdt.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
-  udp: true
-  tls: true
-  servername: 3f8efdt.fi1.h1clayd.click
+  servername: lalibobi.online
   client-fingerprint: edge
-  reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-    short-id: 023a1e6ffc32be10
-  network: tcp
-- name: 'Igareck Node 048 | 🇫🇮 Finland [*CIDR] #063'
+  network: grpc
+  grpc-opts:
+    grpc-service-name: lalibobi.orbit.v3.Connect
+- name: 'Igareck Node 017 | 🇪🇪 Estonia | [*CIDR] #032'
   type: vless
-  server: 3f8efdt.fi1.h1clayd.click
+  server: lalibobi.online
+  port: 443
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
+  udp: true
+  tls: true
+  servername: lalibobi.online
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: lalibobi.orbit.v3.Connect
+- name: 'Igareck Node 018 | 🇫🇮 Finland [*CIDR] #033'
+  type: vless
+  server: 36a466g.fi1.h1clayd.click
   port: 443
   uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
   udp: true
   tls: true
-  servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: chrome
+  servername: 36a466g.fi1.h1clayd.click
+  client-fingerprint: qq
   reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-    short-id: 023a1e6ffc32be10
-  network: tcp
-- name: 'Igareck Node 049 | 🇫🇮 Finland [*CIDR] #064'
-  type: vless
-  server: 3f8efdt.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
-  udp: true
-  tls: true
-  servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-    short-id: 023a1e6ffc32be10
-  network: tcp
-- name: 'Igareck Node 050 | 🇫🇮 Finland [*CIDR] #065'
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 0adb9638509b
+- name: 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #034'
   type: vless
   server: 3f8efdt.fi1.h1clayd.click
   port: 443
@@ -934,7 +481,7 @@ proxies:
     public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
     short-id: 023a1e6ffc32be10
   network: tcp
-- name: 'Igareck Node 051 | 🇫🇮 Finland [*CIDR] #066'
+- name: 'Igareck Node 025 | 🇫🇮 Finland | [*CIDR] #035'
   type: vless
   server: 3f8efdt.fi1.h1clayd.click
   port: 443
@@ -942,26 +489,12 @@ proxies:
   udp: true
   tls: true
   servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: safari
+  client-fingerprint: firefox
   reality-opts:
     public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
     short-id: 023a1e6ffc32be10
   network: tcp
-- name: 'Igareck Node 052 | 🇫🇮 Finland [*CIDR] #067'
-  type: vless
-  server: 3f8efdt.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
-  udp: true
-  tls: true
-  servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: ios
-  reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-    short-id: 023a1e6ffc32be10
-  network: tcp
-  skip-cert-verify: true
-- name: 'Igareck Node 053 | 🇫🇮 Finland [*CIDR] #068'
+- name: 'Igareck Node 027 | 🇫🇮 Finland | [*CIDR] #036'
   type: vless
   server: 3f8efdt.fi1.h1clayd.click
   port: 443
@@ -974,553 +507,245 @@ proxies:
     public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
     short-id: 023a1e6ffc32be10
   network: tcp
-- name: 'Igareck Node 054 | 🇫🇷 France | 🌐 [*CIDR] #069'
+- name: 'Igareck Node 028 | 🇫🇮 Finland | [*CIDR] #037'
   type: vless
-  server: 168.113.252.137
-  port: 9880
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 3f8efdt.fi1.h1clayd.click
+  port: 443
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
   udp: true
   tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 055 | 🇫🇷 France | 🌐 [*CIDR] #070'
-  type: vless
-  server: 168.113.252.137
-  port: 9880
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 056 | 🇫🇷 France | 🌐 [*CIDR] #071'
-  type: vless
-  server: 168.113.252.137
-  port: 9880
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
+  servername: 3f8efdt.fi1.h1clayd.click
   client-fingerprint: safari
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 057 | 🇫🇷 France | 🌐 [*CIDR] #072'
+    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
+    short-id: 023a1e6ffc32be10
+  network: tcp
+- name: 'Igareck Node 029 | 🇫🇮 Finland | [*CIDR] #038'
   type: vless
-  server: 168.113.252.137
-  port: 9880
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 058 | 🇫🇷 France | 🌐 [*CIDR] #073'
-  type: vless
-  server: 168.113.252.137
-  port: 9880
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 059 | 🇩🇪 Germany [*CIDR] #074'
-  type: vless
-  server: dwgurq.edge-assets.ru
+  server: fast80.slopllex.app
   port: 443
-  uuid: 1f36039a-6117-4847-bf47-3c7b21d17730
-  udp: true
-  tls: true
-  servername: dwgurq.edge-assets.ru
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/nhde5se4/sync/
-    host: dwgurq.edge-assets.ru
-    mode: packet-up
-- name: 'Igareck Node 060 | 🇩🇪 Germany [*CIDR] #075'
-  type: vless
-  server: 45.12.114.90
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: wow.eos-shop.online
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
+  servername: fast80.slopllex.app
+  client-fingerprint: edge
   network: tcp
-- name: 'Igareck Node 061 | 🇩🇪 Germany [*CIDR] #076'
+- name: 'Igareck Node 030 | 🇫🇮 Finland | [*CIDR] #039'
   type: vless
-  server: 185.72.144.98
+  server: fast80.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast80.slopllex.app
+  client-fingerprint: firefox
+  network: tcp
+- name: 'Igareck Node 031 | 🇫🇮 Finland | [*CIDR] #040'
+  type: vless
+  server: fast80.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast80.slopllex.app
+  client-fingerprint: ios
+  network: tcp
+- name: 'Igareck Node 032 | 🇫🇮 Finland | [*CIDR] #041'
+  type: vless
+  server: fast80.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast80.slopllex.app
+  client-fingerprint: qq
+  network: tcp
+- name: 'Igareck Node 033 | 🇫🇮 Finland | [*CIDR] #042'
+  type: vless
+  server: fast80.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast80.slopllex.app
+  client-fingerprint: safari
+  network: tcp
+- name: 'Igareck Node 034 | 🇫🇮 Finland | [*CIDR] #043'
+  type: vless
+  server: fast_s78.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast_s78.slopllex.app
+  client-fingerprint: android
+  network: tcp
+- name: 'Igareck Node 035 | 🇫🇮 Finland | [*CIDR] #044'
+  type: vless
+  server: fast_s78.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast_s78.slopllex.app
+  client-fingerprint: edge
+  network: tcp
+- name: 'Igareck Node 036 | 🇫🇮 Finland | [*CIDR] #045'
+  type: vless
+  server: fast_s78.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast_s78.slopllex.app
+  client-fingerprint: firefox
+  network: tcp
+- name: 'Igareck Node 037 | 🇫🇮 Finland | [*CIDR] #046'
+  type: vless
+  server: fast_s78.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast_s78.slopllex.app
+  client-fingerprint: qq
+  network: tcp
+- name: 'Igareck Node 038 | 🇫🇮 Finland | [*CIDR] #047'
+  type: vless
+  server: fast_s78.slopllex.app
+  port: 443
+  uuid: f85af535-d0ff-437f-ad79-4be0e7c1f350
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fast_s78.slopllex.app
+  client-fingerprint: safari
+  network: tcp
+- name: 'Igareck Node 039 | 🇩🇪 Germany | 🌐 [*CIDR] #048'
+  type: vless
+  server: 45.142.44.112
   port: 8443
   uuid: deba253c-fceb-4efb-b1b8-f7295ef2ec36
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: assets.blogger.com
+  servername: cdn.g.co
   client-fingerprint: firefox
   reality-opts:
     public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
     short-id: 1ec515b87b68eab9
   network: tcp
-- name: 'Igareck Node 062 | 🇩🇪 Germany | 🌐 [*CIDR] #077'
+- name: 'Igareck Node 040 | 🇩🇪 Germany | 🌐 | [*CIDR] #049'
   type: vless
-  server: dwgurq.edge-assets.ru
-  port: 443
-  uuid: 1f36039a-6117-4847-bf47-3c7b21d17730
-  udp: true
-  tls: true
-  servername: dwgurq.edge-assets.ru
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/nhde5se4/sync/
-    host: dwgurq.edge-assets.ru
-    mode: packet-up
-- name: 'Igareck Node 063 | 🇩🇪 Germany | 🌐 [*CIDR] #078'
-  type: vless
-  server: dwgurq.edge-assets.ru
-  port: 443
-  uuid: 1f36039a-6117-4847-bf47-3c7b21d17730
-  udp: true
-  tls: true
-  servername: dwgurq.edge-assets.ru
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/nhde5se4/sync/
-    host: dwgurq.edge-assets.ru
-    mode: packet-up
-- name: 'Igareck Node 064 | 🇩🇪 Germany | 🌐 [*CIDR] #079'
-  type: vless
-  server: dwgurq.edge-assets.ru
-  port: 443
-  uuid: 1f36039a-6117-4847-bf47-3c7b21d17730
-  udp: true
-  tls: true
-  servername: dwgurq.edge-assets.ru
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/nhde5se4/sync/
-    host: dwgurq.edge-assets.ru
-    mode: packet-up
-- name: 'Igareck Node 065 | 🇩🇪 Germany | 🌐 [*CIDR] #080'
-  type: vless
-  server: dwgurq.edge-assets.ru
-  port: 443
-  uuid: 1f36039a-6117-4847-bf47-3c7b21d17730
-  udp: true
-  tls: true
-  servername: dwgurq.edge-assets.ru
-  client-fingerprint: safari
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/nhde5se4/sync/
-    host: dwgurq.edge-assets.ru
-    mode: packet-up
-- name: 'Igareck Node 066 | 🇩🇪 Germany | 🌐 [*CIDR] #081'
-  type: vless
-  server: 147.45.46.148
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de.ozon.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  network: tcp
-- name: 'Igareck Node 067 | 🇩🇪 Germany | 🌐 [*CIDR] #082'
-  type: vless
-  server: 201.51.30.47
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: quest.eos-shop.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  network: tcp
-- name: 'Igareck Node 068 | 🇩🇪 Germany | 🌐 [*CIDR] #083'
-  type: vless
-  server: 185.72.144.98
-  port: 2087
+  server: 45.142.44.112
+  port: 8443
   uuid: deba253c-fceb-4efb-b1b8-f7295ef2ec36
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: assets.blogger.com
-  client-fingerprint: firefox
+  servername: cdn.g.co
+  client-fingerprint: android
   reality-opts:
     public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
     short-id: 1ec515b87b68eab9
   network: tcp
-- name: 'Igareck Node 069 | 🇩🇪 Germany | 🌐 [*CIDR] #084'
+- name: 'Igareck Node 041 | 🇩🇪 Germany | 🌐 | [*CIDR] #050'
   type: vless
-  server: 185.72.144.98
-  port: 443
+  server: 45.142.44.112
+  port: 8443
   uuid: deba253c-fceb-4efb-b1b8-f7295ef2ec36
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: assets.blogger.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
-    short-id: 1ec515b87b68eab9
-  network: tcp
-- name: 'Igareck Node 070 | 🇮🇹 Italy [*CIDR] #085'
-  type: vless
-  server: 168.113.252.7
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 071 | 🇮🇹 Italy [*CIDR] #086'
-  type: vless
-  server: 168.113.252.7
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 072 | 🇮🇹 Italy [*CIDR] #087'
-  type: vless
-  server: 168.113.252.7
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 073 | 🇮🇹 Italy [*CIDR] #088'
-  type: vless
-  server: 168.113.252.7
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 074 | 🇮🇹 Italy [*CIDR] #089'
-  type: vless
-  server: 168.113.252.7
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 075 | 🇰🇿 Kazakhstan [*CIDR] #090'
-  type: vless
-  server: 45.144.30.92
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: astana.vkusnews.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  network: tcp
-- name: 'Igareck Node 076 | 🇰🇿 Kazakhstan [*CIDR] #091'
-  type: vless
-  server: 45.84.1.110
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: a5.eosapp.net
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SC6AnZ_BlvDruiGFpDRno9b1V3wMmq9gjB-KEHHUlE4
-  network: tcp
-- name: 'Igareck Node 077 | 🇰🇿 Kazakhstan [*CIDR] #092'
-  type: vless
-  server: 168.113.254.253
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 078 | 🇰🇿 Kazakhstan [*CIDR] #093'
-  type: vless
-  server: 168.113.254.253
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 079 | 🇰🇿 Kazakhstan [*CIDR] #094'
-  type: vless
-  server: 168.113.254.253
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 080 | 🇰🇿 Kazakhstan [*CIDR] #095'
-  type: vless
-  server: 168.113.254.253
-  port: 9882
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 081 | 🇳🇴 Norway [*CIDR] #096'
-  type: vless
-  server: 168.113.252.128
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 082 | 🇳🇴 Norway [*CIDR] #097'
-  type: vless
-  server: 168.113.252.128
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 083 | 🇳🇴 Norway [*CIDR] #098'
-  type: vless
-  server: 168.113.252.128
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 084 | 🇳🇴 Norway [*CIDR] #099'
-  type: vless
-  server: 168.113.252.128
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 086 | 🇷🇸 Serbia [*CIDR] #100'
-  type: vless
-  server: 168.113.252.74
-  port: 9889
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 'Igareck Node 087 | 🇳🇱 The Netherlands [*CIDR] #101'
-  type: vless
-  server: 78.17.98.140
-  port: 443
-  uuid: 0bf8538b-6299-46b0-9775-8b00939dccb5
-  udp: true
-  tls: true
-  servername: www.kinopoisk.ru
-  client-fingerprint: qq
-  reality-opts:
-    public-key: sapNNbl_WY4Ya6Exv1UtDC6KShf_ivUFLbseliIVOAY
-    short-id: 1ec5187f1f007c88
-  network: xhttp
-  xhttp-opts:
-    path: /entry-xh
-    mode: auto
-- name: 'Igareck Node 088 | 🇳🇱 The Netherlands [*CIDR] #102'
-  type: vless
-  server: 78.17.98.140
-  port: 443
-  uuid: 0bf8538b-6299-46b0-9775-8b00939dccb5
-  udp: true
-  tls: true
-  servername: www.kinopoisk.ru
-  client-fingerprint: safari
-  reality-opts:
-    public-key: sapNNbl_WY4Ya6Exv1UtDC6KShf_ivUFLbseliIVOAY
-    short-id: 1ec5187f1f007c88
-  network: xhttp
-  xhttp-opts:
-    path: /entry-xh
-    mode: auto
-- name: 'Igareck Node 089 | 🇳🇱 The Netherlands [*CIDR] #103'
-  type: vless
-  server: api.mediaklenov.cc
-  port: 443
-  uuid: 8221d527-431a-4a5d-b45a-1af799ebf5e1
-  udp: true
-  tls: true
-  servername: api.mediaklenov.cc
-  alpn:
-  - h2
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 3e99d50d5740985d
-- name: 'Igareck Node 090 | 🇺🇸 United States [*CIDR] #104'
-  type: vless
-  server: 45.144.30.138
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: siri.russiaai.space
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  network: tcp
-- name: 'Igareck Node 091 | 🇺🇸 United States | 🌐 [*CIDR] #105'
-  type: vless
-  server: 141.98.190.152
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: allo.eosvpn.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  network: tcp
-- name: 'Igareck Node 138 | 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 [*CIDR] #106'
-  type: vless
-  server: 194.87.71.141
-  port: 443
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  udp: true
-  tls: true
-  servername: cf-1rm.pages.dev
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-1rm.pages.dev
-- name: 'Igareck Node 139 | 🌐 Anycast-IP | 🇧🇪 🇳🇱 [*CIDR] #107'
-  type: vless
-  server: floweroom.vip
-  port: 443
-  uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
-  udp: true
-  tls: true
-  servername: floweroom.vip
-  alpn:
-  - http/1.1
+  servername: cdn.g.co
   client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /cart/sync/g-jSjxyhq24P
-- name: 'Igareck Node 140 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #108'
+  reality-opts:
+    public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
+    short-id: 1ec515b87b68eab9
+  network: tcp
+- name: 'Igareck Node 042 | 🇩🇪 Germany | 🌐 | [*CIDR] #051'
+  type: vless
+  server: 45.142.44.112
+  port: 8443
+  uuid: deba253c-fceb-4efb-b1b8-f7295ef2ec36
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn.g.co
+  client-fingerprint: qq
+  reality-opts:
+    public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
+    short-id: 1ec515b87b68eab9
+  network: tcp
+- name: 'Igareck Node 043 | 🇩🇪 Germany | 🌐 | [*CIDR] #052'
+  type: vless
+  server: 45.142.44.112
+  port: 8443
+  uuid: deba253c-fceb-4efb-b1b8-f7295ef2ec36
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn.g.co
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 1ZjjxRjaJlzXQOupvNZ5pyK5xbaZGskjC6HkXGzMjys
+    short-id: 1ec515b87b68eab9
+  network: tcp
+- name: 'Igareck Node 044 | 🇺🇸 United States [*CIDR] #053'
+  type: vless
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  servername: a0688bt.us4.h1clayd.click
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  network: tcp
+- name: 'Igareck Node 045 | 🇺🇸 United States [*CIDR] #054'
+  type: vless
+  server: a0688bt.us4.h1clayd.click
+  port: 443
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  servername: a0688bt.us4.h1clayd.click
+  client-fingerprint: ios
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  network: tcp
+- name: 'Igareck Node 046 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #055'
   type: vless
   server: toggle.skelmoridianservice.com
   port: 443
-  uuid: 26dd886d-3eae-4eda-a92d-dc5d5e7e036e
+  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
+  udp: true
+  tls: true
+  servername: my.hexagonicfield.com
+  client-fingerprint: android
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: a1b2c3d4e5f6a7b8
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 'Igareck Node 047 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #056'
+  type: vless
+  server: toggle.skelmoridianservice.com
+  port: 443
+  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
   udp: true
   tls: true
   servername: my.hexagonicfield.com
@@ -1531,11 +756,11 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: moktana.net.v1.StreamService
-- name: 'Igareck Node 141 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #109'
+- name: 'Igareck Node 048 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #057'
   type: vless
   server: toggle.skelmoridianservice.com
   port: 443
-  uuid: 26dd886d-3eae-4eda-a92d-dc5d5e7e036e
+  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
   udp: true
   tls: true
   servername: my.hexagonicfield.com
@@ -1546,62 +771,37 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: moktana.net.v1.StreamService
-- name: 'Igareck Node 142 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 [*CIDR] #110'
+- name: 'Igareck Node 049 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #058'
   type: vless
-  server: 194.87.71.141
+  server: toggle.skelmoridianservice.com
   port: 443
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
   udp: true
   tls: true
-  servername: cf-1rm.pages.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-1rm.pages.dev
-- name: 'Igareck Node 143 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #111'
-  type: vless
-  server: 194.87.71.141
-  port: 443
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  udp: true
-  tls: true
-  servername: cf-1rm.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-1rm.pages.dev
-- name: 'Igareck Node 144 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #112'
-  type: vless
-  server: 194.87.71.141
-  port: 443
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  udp: true
-  tls: true
-  servername: cf-1rm.pages.dev
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf-1rm.pages.dev
-- name: '🇵🇱 波兰 | POL t.me/rjsxrd #113'
-  type: vless
-  server: 144.31.0.140
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: api.sakhalin.fyi
+  servername: my.hexagonicfield.com
+  client-fingerprint: qq
   reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
-  flow: xtls-rprx-vision
-- name: '🇩🇪_德国_5 t.me/rjsxrd #114'
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: a1b2c3d4e5f6a7b8
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 'Igareck Node 050 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #059'
+  type: vless
+  server: toggle.skelmoridianservice.com
+  port: 443
+  uuid: 27926680-f006-4805-ad00-2fb5e55e87c7
+  udp: true
+  tls: true
+  servername: my.hexagonicfield.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: a1b2c3d4e5f6a7b8
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: '🇩🇪_德国_16 t.me/rjsxrd #060'
   type: vless
   server: 31.59.216.141
   port: 443
@@ -1614,671 +814,22 @@ proxies:
     public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4
     short-id: 70b4ca
   flow: xtls-rprx-vision
-- name: 'CF中转_1022062542 t.me/rjsxrd #115'
+- name: '🇨🇭 Switzerland | TG: @HardVpn_robot t.me/rjsxrd #061'
   type: vless
-  server: 172.64.144.82
+  server: 45.90.59.15
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  client-fingerprint: qq
-  tls: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: '🇱🇻_拉脱维亚_128 t.me/rjsxrd #116'
-  type: trojan
-  server: lv1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: lv1.dedushka.top
-  skip-cert-verify: true
-- name: 'CF中转_1022062473 t.me/rjsxrd #117'
-  type: vless
-  server: 104.17.100.185
-  port: 443
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: vlesss.xttd.eu.org
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
-- name: '🇫🇷_法国_70 t.me/rjsxrd #118'
-  type: vless
-  server: 62.210.91.10
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: fuck.rkn
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: 'CF中转_1022063842 t.me/rjsxrd #119'
-  type: vless
-  server: 104.16.159.6
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: edg-2oo.pages.dev
-  network: ws
-  ws-opts:
-    path: /lives?ed=2560
-    headers:
-      Host: edg-2oo.pages.dev
-- name: 'CF中转_1022063125 t.me/rjsxrd #120'
-  type: vless
-  server: 104.17.54.216
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: edg-2oo.pages.dev
-  network: ws
-  ws-opts:
-    path: /services?ed=2560
-    headers:
-      Host: edg-2oo.pages.dev
-- name: '🇵🇱 波兰 | POL t.me/rjsxrd #121'
-  type: vless
-  server: 91.149.167.147
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #122'
-  type: vless
-  server: 172.64.159.33
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪 德国 | DEU t.me/rjsxrd #123'
-  type: vless
-  server: 167.172.97.15
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_235 t.me/rjsxrd #124'
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022062250 t.me/rjsxrd #125'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: server13.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /resiouhgggggggggg?ed=2560fp=chrome
-    headers:
-      Host: server13.9966338.xyz
-- name: 'CF中转_102206206 t.me/rjsxrd #126'
-  type: vless
-  server: 172.64.150.43
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: unsafe
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_527 t.me/rjsxrd #127'
-  type: trojan
-  server: 104.16.72.50
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: 'CF中转_1022063819 t.me/rjsxrd #128'
-  type: vless
-  server: 172.64.159.45
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '🇳🇱_荷兰_236 t.me/rjsxrd #129'
-  type: vless
-  server: 130.78.190.134
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_262 t.me/rjsxrd #130'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_182 t.me/rjsxrd #131'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_284 t.me/rjsxrd #132'
-  type: vless
-  server: 185.230.44.140
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_102206454 t.me/rjsxrd #133'
-  type: vless
-  server: 104.26.8.117
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_102206199 t.me/rjsxrd #134'
-  type: vless
-  server: 104.19.45.195
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇬🇧_英国_280 t.me/rjsxrd #135'
-  type: vless
-  server: 104.194.140.26
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_537 t.me/rjsxrd #136'
-  type: trojan
-  server: 162.159.244.91
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: '🏳️_未知_263 t.me/rjsxrd #137'
-  type: vless
-  server: 172.64.150.43
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #138'
-  type: vless
-  server: 104.18.33.121
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇬🇧_英国_188 t.me/rjsxrd #139'
-  type: vless
-  server: 104.194.140.26
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #140'
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_162 t.me/rjsxrd #141'
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸_美国_250 t.me/rjsxrd #142'
-  type: vless
-  server: 162.159.135.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022061973 t.me/rjsxrd #143'
-  type: vless
-  server: 104.21.1.150
-  port: 2087
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: fu.baiproxy.us.ci
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fu.baiproxy.us.ci
-- name: '🇸🇬_新加坡_205 t.me/rjsxrd #144'
-  type: vless
-  server: 43.174.195.1
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022062114 t.me/rjsxrd #145'
-  type: vless
-  server: 172.64.80.1
-  port: 2083
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: fans.liverpool.qzz.io
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
-- name: '🇫🇮 Finland [*CIDR] t.me/rjsxrd #146'
-  type: vless
-  server: cdn111.whitenw.net
-  port: 8449
-  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: foliage.lalibobi.online
-  network: ws
-  ws-opts:
-    path: /journal-sync/e8d4c790
-    headers:
-      Host: foliage.lalibobi.online
-- name: 'CF中转_1022062676 t.me/rjsxrd #147'
-  type: vless
-  server: 104.18.37.127
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪 德国 | DEU t.me/rjsxrd #148'
-  type: vless
-  server: 104.26.8.117
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇱🇹 立陶宛 | LTU t.me/rjsxrd #149'
-  type: vless
-  server: 185.80.131.40
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇪🇪 Estonia [*CIDR] t.me/rjsxrd #150'
-  type: vless
-  server: lalibobi.online
-  port: 443
-  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: lalibobi.online
-  network: grpc
-  grpc-opts:
-    grpc-service-name: lalibobi.orbit.v3.Connect
-- name: '🏳️_未知_366 t.me/rjsxrd #151'
-  type: trojan
-  server: b2n.ir
-  port: 443
-  password: mitivpn
-  udp: true
-  sni: de.mitivpn.in.net
-  skip-cert-verify: true
-- name: '🏳️_未知_177 t.me/rjsxrd #152'
-  type: vless
-  server: 172.64.150.43
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=unsafe
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_99 t.me/rjsxrd #153'
-  type: trojan
-  server: de7.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de7.dedushka.top
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #154'
-  type: vless
-  server: 104.17.134.88
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_500 t.me/rjsxrd #155'
-  type: vless
-  server: ccc.010304.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-- name: '🏳️_未知_257 t.me/rjsxrd #156'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #157'
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022062191 t.me/rjsxrd #158'
-  type: vless
-  server: 104.19.150.163
-  port: 443
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: vlesss.xttd.eu.org
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
-- name: '🇩🇪_德国_282 t.me/rjsxrd #159'
-  type: vless
-  server: 209.38.254.20
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸_美国_219 t.me/rjsxrd #160'
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇧🇪_比利时_290 t.me/rjsxrd #161'
-  type: vless
-  server: 141.98.233.6
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_223 t.me/rjsxrd #162'
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇵🇱 波兰 | POL t.me/rjsxrd #163'
-  type: vless
-  server: dfb71ct.plp1.h1cloud.net
-  port: 443
-  uuid: 3acb386b-fdd7-4bc9-911f-159fdcd834ce
+  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
   udp: true
   client-fingerprint: firefox
   tls: true
-  servername: dfb71ct.plp1.h1cloud.net
+  servername: www.cloudflare.com
   reality-opts:
-    public-key: TpxHnHiT0eGfe7fNyD5P0pfKK0-MW_9PQUkIchFpiAo
-    short-id: 06f7b70bb75f454e
-- name: 'CF中转_1022063087 t.me/rjsxrd #164'
+    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+    short-id: 19253fae84102271
+  flow: xtls-rprx-vision
+- name: '🏳️_未知_239 t.me/rjsxrd #062'
   type: vless
-  server: 172.64.148.193
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #165'
-  type: vless
-  server: 162.159.140.116
+  server: 104.17.69.244
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -2290,91 +841,20 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022063415 t.me/rjsxrd #166'
+- name: '每天更新，请加电报群防止失联 t.me/rjsxrd #063'
   type: vless
-  server: 104.17.221.218
+  server: snow.betust.net
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: edg-2oo.pages.dev
-  network: ws
-  ws-opts:
-    path: /lib?ed=2560fp=chrome
-    headers:
-      Host: edg-2oo.pages.dev
-- name: '🇩🇪_德国_252 t.me/rjsxrd #167'
-  type: vless
-  server: 93.127.223.238
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸_美国_145 t.me/rjsxrd #168'
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸_美国_156 t.me/rjsxrd #169'
-  type: vless
-  server: 162.159.135.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_102206453 t.me/rjsxrd #170'
-  type: vless
-  server: 172.64.153.61
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdipfp=unsafefp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_102206194 t.me/rjsxrd #171'
-  type: vless
-  server: 172.67.118.45
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_275 t.me/rjsxrd #172'
+  servername: api37.betust.net
+  reality-opts:
+    public-key: 92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE
+    short-id: b7a5c406
+  flow: xtls-rprx-vision
+- name: '🇩🇪_德国_121 t.me/rjsxrd #064'
   type: vless
   server: 138.124.54.223
   port: 443
@@ -2388,59 +868,9 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022062382 t.me/rjsxrd #173'
+- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #065'
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: bf9f5e8f-0777-4ee2-b509-efff28f6298a
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: support.zoom.us.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: support.zoom.us.r3xxe.eu.cc
-- name: 'CF中转_1022062293 t.me/rjsxrd #174'
-  type: vless
-  server: 162.159.153.194
-  port: 443
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: vlesss.xttd.eu.org
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
-- name: '🇩🇪_德国_216 t.me/rjsxrd #175'
-  type: vless
-  server: 178.105.215.151
-  port: 2053
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_414 t.me/rjsxrd #176'
-  type: trojan
-  server: 8.47.69.0
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-- name: '🇺🇸_美国_202 t.me/rjsxrd #177'
-  type: vless
-  server: saas.sin.fan
+  server: 104.18.33.121
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -2452,399 +882,7 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022063862 t.me/rjsxrd #178'
-  type: vless
-  server: 172.67.74.90
-  port: 443
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: cvhpyn.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cvhpyn.pages.dev
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #179'
-  type: vless
-  server: 104.17.29.46
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇫🇷 法国 | FRA t.me/rjsxrd #180'
-  type: vless
-  server: 178.104.16.207
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_504 t.me/rjsxrd #181'
-  type: vless
-  server: 94.143.231.146
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: '🇩🇪_德国_239 t.me/rjsxrd #182'
-  type: vless
-  server: 31.70.89.136
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_543 t.me/rjsxrd #183'
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: '🏳️_未知_171 t.me/rjsxrd #184'
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_436 t.me/rjsxrd #185'
-  type: trojan
-  server: 104.21.37.56
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.volumeroot.com
-  skip-cert-verify: true
-- name: '🇩🇪_德国_149 t.me/rjsxrd #186'
-  type: vless
-  server: 2.28.42.209
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇧🇬 Bulgaria — #80 [Verified RU] t.me/rjsxrd #187'
-  type: vless
-  server: 78.159.246.85
-  port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: fitindoor.net
-- name: '🇫🇷_法国_173 t.me/rjsxrd #188'
-  type: vless
-  server: 57.131.153.153
-  port: 2053
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_155 t.me/rjsxrd #189'
-  type: vless
-  server: 178.105.215.151
-  port: 2053
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇫🇷_法国_246 t.me/rjsxrd #190'
-  type: vless
-  server: 57.131.153.153
-  port: 2053
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_214 t.me/rjsxrd #191'
-  type: vless
-  server: 178.105.113.205
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_226 t.me/rjsxrd #192'
-  type: vless
-  server: 89.127.210.245
-  port: 2053
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_243 t.me/rjsxrd #193'
-  type: vless
-  server: 144.31.181.177
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇪🇪_爱沙尼亚_256 t.me/rjsxrd #194'
-  type: vless
-  server: 114.129.9.132
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #195'
-  type: vless
-  server: 104.18.89.52
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇧🇬 Bulgaria — #74 [Verified RU] t.me/rjsxrd #196'
-  type: vless
-  server: 78.159.246.85
-  port: 8443
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: fitindoor.net
-- name: '🇩🇪_德国_517 t.me/rjsxrd #197'
-  type: trojan
-  server: 191.96.94.226
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: '🇺🇸 美国 | USA t.me/rjsxrd #198'
-  type: vless
-  server: 104.19.53.46
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_224 t.me/rjsxrd #199'
-  type: vless
-  server: 178.105.133.160
-  port: 4443
-  uuid: fb0818b3-4031-4843-b5f7-1d75177a1758
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-- name: '🇩🇪_德国_154 t.me/rjsxrd #200'
-  type: vless
-  server: 178.105.113.205
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🏳️_未知_228 t.me/rjsxrd #201'
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_225 t.me/rjsxrd #202'
-  type: vless
-  server: 2.28.42.209
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022062547 t.me/rjsxrd #203'
-  type: vless
-  server: 162.159.153.217
-  port: 443
-  uuid: 1e922b22-d169-4461-89c1-07e09ff2617c
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: vlesss.xttd.eu.org
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.fxxk.dedyn.io
-    headers:
-      Host: vlesss.xttd.eu.org
-- name: '🇩🇪_德国_229 t.me/rjsxrd #204'
-  type: vless
-  server: 188.245.191.19
-  port: 2040
-  uuid: bdd897a6-57f2-4311-835f-0b6c5ac5a1a2
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-- name: '🇩🇪_德国_160 t.me/rjsxrd #205'
-  type: vless
-  server: 2.28.42.209
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇦🇹_奥地利_261 t.me/rjsxrd #206'
-  type: vless
-  server: 110.172.148.33
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇺🇸_美国_164 t.me/rjsxrd #207'
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #208'
+- name: '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #066'
   type: vless
   server: 185.135.86.41
   port: 443
@@ -2858,23 +896,18 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪_德国_165 t.me/rjsxrd #209'
+- name: '🇧🇬 Bulgaria — #49 [Verified RU] t.me/rjsxrd #067'
   type: vless
-  server: 31.70.89.136
+  server: 78.159.246.179
   port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
   udp: true
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇦🇹_奥地利_181 t.me/rjsxrd #210'
+  servername: randomquaint.net
+- name: '🏳️_未知_148 t.me/rjsxrd #068'
   type: vless
-  server: 110.172.148.33
+  server: 104.26.8.117
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
@@ -2883,21 +916,97 @@ proxies:
   servername: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇦🇪_阿拉伯联合酋长国_531 t.me/rjsxrd #211'
-  type: trojan
-  server: 31.57.190.73
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.volumeroot.com
-  skip-cert-verify: true
-- name: '🇵🇱_波兰_192 t.me/rjsxrd #212'
+- name: '🏳️_未知_156 t.me/rjsxrd #069'
   type: vless
-  server: 104.245.245.16
-  port: 8443
+  server: 104.17.148.22
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_202 t.me/rjsxrd #070'
+  type: vless
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #071'
+  type: vless
+  server: 104.18.42.153
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_249 t.me/rjsxrd #072'
+  type: vless
+  server: 172.64.150.43
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #073'
+  type: vless
+  server: 104.18.89.52
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_345 t.me/rjsxrd #074'
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_201 t.me/rjsxrd #075'
+  type: vless
+  server: 72.56.106.210
+  port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   client-fingerprint: chrome
@@ -2908,32 +1017,38 @@ proxies:
     path: /fp=chrome
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇩🇪 德国 | DEU t.me/rjsxrd #213'
+- name: '🏳️_未知_253 t.me/rjsxrd #076'
   type: vless
-  server: 903.rtgpu.com
+  server: 172.64.150.43
   port: 443
-  uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: 903.rtgpu.com
+  servername: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /nmd2
+    path: fp=unsafe
     headers:
-      Host: 903.rtgpu.com
-- name: '🇩🇪_德国_453 t.me/rjsxrd #214'
-  type: trojan
-  server: 185.220.100.168
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-- name: '🇯🇵_日本_221 t.me/rjsxrd #215'
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_197 t.me/rjsxrd #077'
   type: vless
-  server: 103.31.77.108
-  port: 2053
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_277 t.me/rjsxrd #078'
+  type: vless
+  server: 172.64.150.43
+  port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   client-fingerprint: chrome
@@ -2944,7 +1059,417 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇵🇱_波兰_293 t.me/rjsxrd #216'
+- name: '🇬🇧 英国 | GBR t.me/rjsxrd #079'
+  type: vless
+  server: 104.194.140.26
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_142 t.me/rjsxrd #080'
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_235 t.me/rjsxrd #081'
+  type: vless
+  server: 172.67.118.45
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #082'
+  type: vless
+  server: 172.64.159.18
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇬 Bulgaria — #56 [Verified RU] t.me/rjsxrd #083'
+  type: vless
+  server: 78.159.246.179
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: randomquaint.net
+- name: '🏳️_未知_344 t.me/rjsxrd #084'
+  type: vless
+  server: 104.19.45.195
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_151 t.me/rjsxrd #085'
+  type: vless
+  server: 104.17.29.46
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_296 t.me/rjsxrd #086'
+  type: vless
+  server: 13.143.182.82
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_206 t.me/rjsxrd #087'
+  type: vless
+  server: 162.159.140.116
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_214 t.me/rjsxrd #088'
+  type: vless
+  server: 31.70.89.136
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_138 t.me/rjsxrd #089'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_54 t.me/rjsxrd #090'
+  type: vless
+  server: 72.56.106.210
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_231 t.me/rjsxrd #091'
+  type: vless
+  server: 172.64.153.61
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdipfp=unsafe
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_154 t.me/rjsxrd #092'
+  type: vless
+  server: 172.64.159.33
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_351 t.me/rjsxrd #093'
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇬 Bulgaria — #48 [Verified RU] t.me/rjsxrd #094'
+  type: vless
+  server: 78.159.246.179
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: randomquaint.net
+- name: '🇩🇪 德国 | DEU t.me/rjsxrd #095'
+  type: vless
+  server: 64.188.71.236
+  port: 2083
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_45 t.me/rjsxrd #096'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #097'
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_243 t.me/rjsxrd #098'
+  type: vless
+  server: 13.143.182.82
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_322 t.me/rjsxrd #099'
+  type: vless
+  server: 195.133.17.250
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_196 t.me/rjsxrd #100'
+  type: vless
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_145 t.me/rjsxrd #101'
+  type: vless
+  server: 172.64.144.100
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_50 t.me/rjsxrd #102'
+  type: vless
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #103'
+  type: vless
+  server: 104.18.42.162
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_90 t.me/rjsxrd #104'
+  type: vless
+  server: 104.19.212.207
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_290 t.me/rjsxrd #105'
+  type: vless
+  server: 45.157.233.109
+  port: 2087
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_276 t.me/rjsxrd #106'
+  type: vless
+  server: 209.38.254.20
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_105 t.me/rjsxrd #107'
+  type: vless
+  server: 172.67.118.45
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #108'
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇵🇱 波兰 | POL t.me/rjsxrd #109'
   type: vless
   server: 104.245.245.16
   port: 8443
@@ -2958,7 +1483,91 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇧🇬 保加利亚 | BGR t.me/rjsxrd #217'
+- name: '🏳️_未知_147 t.me/rjsxrd #110'
+  type: vless
+  server: 172.64.150.43
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: unsafe
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_146 t.me/rjsxrd #111'
+  type: vless
+  server: 104.19.53.46
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_46 t.me/rjsxrd #112'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_176 t.me/rjsxrd #113'
+  type: vless
+  server: 2.28.42.209
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_44 t.me/rjsxrd #114'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇨🇭_瑞士_244 t.me/rjsxrd #115'
+  type: vless
+  server: 91.245.225.69
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇬 保加利亚 | BGR t.me/rjsxrd #116'
   type: vless
   server: 13.140.29.253
   port: 443
@@ -2972,21 +1581,393 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 'CF中转_1022063078 t.me/rjsxrd #218'
+- name: '🇩🇪_德国_175 t.me/rjsxrd #117'
   type: vless
-  server: 104.19.34.75
+  server: 2.28.42.209
   port: 8443
-  uuid: a6ba51de-d50a-407f-a8bb-5dc8b3073ec1
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: frosty-clover-b8ea-df1f0206.pages.dev
+  servername: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /7f0776a02fac
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
     headers:
-      Host: frosty-clover-b8ea-df1f0206.pages.dev
-- name: '🇦🇿_阿塞拜疆_287 t.me/rjsxrd #219'
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_141 t.me/rjsxrd #118'
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_218 t.me/rjsxrd #119'
+  type: vless
+  server: 31.70.89.136
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_291 t.me/rjsxrd #120'
+  type: vless
+  server: 185.230.44.200
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_143 t.me/rjsxrd #121'
+  type: trojan
+  server: b2n.ir
+  port: 443
+  password: mitivpn
+  udp: true
+  sni: de.mitivpn.in.net
+  skip-cert-verify: true
+- name: '🇺🇸_美国_108 t.me/rjsxrd #122'
+  type: vless
+  server: 162.159.128.253
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_55 t.me/rjsxrd #123'
+  type: vless
+  server: 195.133.17.250
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_185 t.me/rjsxrd #124'
+  type: vless
+  server: 130.78.190.134
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_164 t.me/rjsxrd #125'
+  type: vless
+  server: 104.18.46.214
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_75 t.me/rjsxrd #126'
+  type: vless
+  server: 104.17.134.88
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #127'
+  type: vless
+  server: 104.16.250.207
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_89 t.me/rjsxrd #128'
+  type: vless
+  server: 31.70.89.136
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_283 t.me/rjsxrd #129'
+  type: vless
+  server: 104.24.95.193
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇬_保加利亚_129 t.me/rjsxrd #130'
+  type: vless
+  server: 13.140.29.253
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_97 t.me/rjsxrd #131'
+  type: vless
+  server: 104.17.167.134
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_135 t.me/rjsxrd #132'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇵🇱_波兰_321 t.me/rjsxrd #133'
+  type: vless
+  server: 94.183.209.60
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇮🇸_冰岛_273 t.me/rjsxrd #134'
+  type: vless
+  server: 167.148.156.160
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇨🇭_瑞士_217 t.me/rjsxrd #135'
+  type: vless
+  server: 2.59.219.220
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇦🇿_阿塞拜疆_298 t.me/rjsxrd #136'
+  type: vless
+  server: 94.20.154.66
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇫🇮_芬兰_303 t.me/rjsxrd #137'
+  type: vless
+  server: 45.118.248.254
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_188 t.me/rjsxrd #138'
+  type: vless
+  server: 2.28.42.209
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_137 t.me/rjsxrd #139'
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇬🇧_英国_62 t.me/rjsxrd #140'
+  type: vless
+  server: 104.194.140.26
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_87 t.me/rjsxrd #141'
+  type: vless
+  server: 104.18.89.52
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇰🇬_吉尔吉斯斯坦_123 t.me/rjsxrd #142'
+  type: vless
+  server: 193.36.95.34
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_211 t.me/rjsxrd #143'
+  type: vless
+  server: 138.124.54.223
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇭🇺_匈牙利_320 t.me/rjsxrd #144'
+  type: vless
+  server: 91.219.236.136
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇦🇿_阿塞拜疆_297 t.me/rjsxrd #145'
   type: vless
   server: 94.20.154.66
   port: 443
@@ -3000,7 +1981,808 @@ proxies:
     path: /
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #220'
+- name: '🇵🇱_波兰_56 t.me/rjsxrd #146'
+  type: vless
+  server: 104.245.245.16
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇵🇹_葡萄牙_289 t.me/rjsxrd #147'
+  type: vless
+  server: 195.133.92.228
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_96 t.me/rjsxrd #148'
+  type: vless
+  server: 104.19.53.46
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇬🇪_格鲁吉亚_301 t.me/rjsxrd #149'
+  type: vless
+  server: 194.135.119.82
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_60 t.me/rjsxrd #150'
+  type: vless
+  server: 104.17.187.57
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_58 t.me/rjsxrd #151'
+  type: vless
+  server: 104.18.33.121
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_272 t.me/rjsxrd #152'
+  type: vless
+  server: 130.78.185.4
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇪🇸 西班牙 | ESP t.me/rjsxrd #153'
+  type: vless
+  server: 195.133.92.228
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇷🇴_罗马尼亚_325 t.me/rjsxrd #154'
+  type: vless
+  server: 212.81.59.35
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇪 瑞典 | SWE t.me/rjsxrd #155'
+  type: vless
+  server: ct.877774.xyz
+  port: 443
+  uuid: fffd4cb3-d5e2-4a11-936e-b8da5b240b8d
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: se-sto.862400.xyz
+  network: ws
+  ws-opts:
+    path: /announcement?ed=2048
+    headers:
+      Host: se-sto.862400.xyz
+- name: '🇺🇸_美国_92 t.me/rjsxrd #156'
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_95 t.me/rjsxrd #157'
+  type: vless
+  server: 104.17.139.37
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇬🇪_格鲁吉亚_343 t.me/rjsxrd #158'
+  type: vless
+  server: 194.135.119.82
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_153 t.me/rjsxrd #159'
+  type: vless
+  server: 104.19.45.195
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 United States | TG: @HardVpn_robot t.me/rjsxrd #160'
+  type: vless
+  server: 167.17.69.171
+  port: 443
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  flow: xtls-rprx-vision
+- name: '🇳🇱_荷兰_285 t.me/rjsxrd #161'
+  type: vless
+  server: 31.192.239.107
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇨🇾 塞浦路斯 | CYP t.me/rjsxrd #162'
+  type: vless
+  server: 194.55.164.118
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇮🇸_冰岛_284 t.me/rjsxrd #163'
+  type: vless
+  server: 167.148.156.160
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇮🇱_以色列_346 t.me/rjsxrd #164'
+  type: vless
+  server: 185.239.48.154
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_189 t.me/rjsxrd #165'
+  type: vless
+  server: 130.78.190.134
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_99 t.me/rjsxrd #166'
+  type: vless
+  server: 104.17.162.3
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇮🇱_以色列_347 t.me/rjsxrd #167'
+  type: vless
+  server: 185.239.48.154
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇵🇹_葡萄牙_76 t.me/rjsxrd #168'
+  type: vless
+  server: 195.133.92.228
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_173 t.me/rjsxrd #169'
+  type: vless
+  server: 104.17.148.22
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_73 t.me/rjsxrd #170'
+  type: vless
+  server: 185.208.172.85
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇪🇸 西班牙 | ESP t.me/rjsxrd #171'
+  type: vless
+  server: 162.35.127.65
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇩🇪_德国_241 t.me/rjsxrd #172'
+  type: vless
+  server: 144.31.181.177
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇬 Bulgaria — #66 [Verified RU] t.me/rjsxrd #173'
+  type: vless
+  server: 78.159.246.85
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: fitindoor.net
+- name: '🇺🇸_美国_312 t.me/rjsxrd #174'
+  type: vless
+  server: 162.35.127.65
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇧🇾_白俄罗斯_98 t.me/rjsxrd #175'
+  type: vless
+  server: 185.179.82.246
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇨🇿_捷克_53 t.me/rjsxrd #176'
+  type: vless
+  server: 95.182.94.128
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇳🇱_荷兰_210 t.me/rjsxrd #177'
+  type: vless
+  server: 130.78.190.134
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 United States — #687 t.me/rjsxrd #178'
+  type: vless
+  server: 47.253.226.114
+  port: 443
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🏳️_未知_150 t.me/rjsxrd #179'
+  type: vless
+  server: 903.rtgpu.com
+  port: 443
+  uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  network: ws
+  ws-opts:
+    path: /nmd2
+- name: '🇺🇸_美国_144 t.me/rjsxrd #180'
+  type: vless
+  server: 45.61.149.205
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_237 t.me/rjsxrd #181'
+  type: vless
+  server: 188.255.157.188
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🏳️_未知_149 t.me/rjsxrd #182'
+  type: vless
+  server: 903.rtgpu.com
+  port: 443
+  uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: 903.rtgpu.com
+  network: ws
+  ws-opts:
+    path: /nmd2
+    headers:
+      Host: 903.rtgpu.com
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #183'
+  type: vless
+  server: 141.98.41.80
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_318 t.me/rjsxrd #184'
+  type: vless
+  server: 45.76.70.251
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_268 t.me/rjsxrd #185'
+  type: vless
+  server: 203.88.117.190
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_238 t.me/rjsxrd #186'
+  type: vless
+  server: 203.88.117.227
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_274 t.me/rjsxrd #187'
+  type: vless
+  server: 203.88.117.190
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #188'
+  type: vless
+  server: 208.68.180.147
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_184 t.me/rjsxrd #189'
+  type: vless
+  server: 154.17.11.190
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_271 t.me/rjsxrd #190'
+  type: vless
+  server: 188.255.157.177
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #191'
+  type: vless
+  server: 141.98.41.20
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: fp=unsafe
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_102 t.me/rjsxrd #192'
+  type: vless
+  server: 205.185.126.59
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇦🇺 澳大利亚 | AUS t.me/rjsxrd #193'
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 54528
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: www.apple.com
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  flow: xtls-rprx-vision
+- name: '🏳️_未知_225 t.me/rjsxrd #194'
+  type: vless
+  server: 172.64.79.1
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸 美国 | USA t.me/rjsxrd #195'
+  type: vless
+  server: 188.255.156.218
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_94 t.me/rjsxrd #196'
+  type: vless
+  server: 162.35.169.69
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇫🇮_芬兰_308 t.me/rjsxrd #197'
+  type: vless
+  server: 91.108.241.242
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_107 t.me/rjsxrd #198'
+  type: vless
+  server: 117.55.232.3
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_179 t.me/rjsxrd #199'
+  type: vless
+  server: 179.255.127.209
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_82 t.me/rjsxrd #200'
+  type: vless
+  server: 162.35.169.69
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_72 t.me/rjsxrd #201'
+  type: vless
+  server: 179.255.140.73
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇯🇵 日本 | JPN t.me/rjsxrd #202'
+  type: vless
+  server: 178.239.117.133
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇲🇾_马来西亚_242 t.me/rjsxrd #203'
+  type: vless
+  server: 45.195.76.138
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #204'
   type: vless
   server: 81.181.166.197
   port: 443
@@ -3012,6 +2794,230 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬_新加坡_334 t.me/rjsxrd #205'
+  type: vless
+  server: 194.127.192.138
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬 新加坡 | SGP t.me/rjsxrd #206'
+  type: vless
+  server: 45.194.27.99
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇪_瑞典_300 t.me/rjsxrd #207'
+  type: vless
+  server: 213.165.46.55
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇲🇾_马来西亚_236 t.me/rjsxrd #208'
+  type: vless
+  server: 166.88.194.74
+  port: 2087
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬_新加坡_130 t.me/rjsxrd #209'
+  type: vless
+  server: 194.127.192.138
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇸🇬_新加坡_262 t.me/rjsxrd #210'
+  type: vless
+  server: 161.118.198.68
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇭🇰 香港 | HKG t.me/rjsxrd #211'
+  type: vless
+  server: 103.38.236.248
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇭🇰 香港 | HKG t.me/rjsxrd #212'
+  type: vless
+  server: 172.93.188.25
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇭🇰_香港_169 t.me/rjsxrd #213'
+  type: vless
+  server: 5.188.33.40
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇰🇬 KG_70 t.me/rjsxrd #214'
+  type: vless
+  server: 188.240.213.98
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇻🇳_越南_335 t.me/rjsxrd #215'
+  type: vless
+  server: 103.161.178.205
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇻🇳_越南_306 t.me/rjsxrd #216'
+  type: vless
+  server: 103.199.19.132
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇺🇸_美国_84 t.me/rjsxrd #217'
+  type: vless
+  server: 38.147.163.239
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇻🇳_越南_348 t.me/rjsxrd #218'
+  type: vless
+  server: 103.161.178.215
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇻🇳_越南_307 t.me/rjsxrd #219'
+  type: vless
+  server: 103.199.19.132
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇻🇳_越南_349 t.me/rjsxrd #220'
+  type: vless
+  server: 103.161.178.215
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
     headers:
       Host: snip.edgeoneai.cc.cd
 - name: 'Igareck Node 004 | 🇷🇺 Russia | 🌐 [*CIDR] CDN #221'
@@ -3336,191 +3342,106 @@ proxies:
     public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
     short-id: 27e53bbcab7593d7
   network: grpc
-- name: 'Igareck Node 085 | 🇵🇱 Poland [*CIDR] #242'
+- name: 'Igareck Node 051 | 🇷🇺 Russia | 🌐 [*CIDR] VK #242'
   type: vless
-  server: 62.152.58.90
+  server: terraavenue.net
   port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   udp: true
   tls: true
-  servername: 360.yandex.ru
-  client-fingerprint: random
-  reality-opts:
-    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
-    short-id: 27e53bbcab7593d7
-  network: grpc
-- name: 'Igareck Node 092 | 🇷🇺 Russia [*CIDR] #243'
+  servername: terraavenue.net
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/upload
+    host: terraavenue.net
+    mode: auto
+- name: 'Igareck Node 052 | 🇷🇺 Russia | 🌐 [*CIDR] VK #243'
   type: vless
-  server: rucdn15.zak-rkp.net
+  server: terraavenue.net
   port: 443
-  uuid: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   udp: true
   tls: true
-  servername: rucdn15.zak-rkp.net
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /media/ws/
-- name: '🇷🇺 VK — #53 t.me/rjsxrd #244'
-  type: vless
-  server: 78.159.246.85
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
+  servername: terraavenue.net
+  alpn:
+  - h2
+  - http/1.1
   client-fingerprint: ios
-  tls: true
-  servername: fitindoor.net
-- name: '🇷🇺 Russia | 🌐 [*CIDR] t.me/rjsxrd #245'
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/upload
+    host: terraavenue.net
+    mode: auto
+- name: 'Igareck Node 054 | 🇷🇺 Russia | 🌐 [*CIDR] VK #244'
   type: vless
-  server: 185.147.27.92
+  server: terraavenue.net
   port: 443
-  uuid: 1d690248-024b-4923-aab2-0abebe0688d3
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  tls: true
+  servername: terraavenue.net
+  alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: safari
+  network: xhttp
+  xhttp-opts:
+    path: /api/v1/upload
+    host: terraavenue.net
+    mode: auto
+- name: '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #245'
+  type: vless
+  server: 88.218.170.236
+  port: 443
+  uuid: b872771d-e9d1-42d7-ad29-a9acff49ea2d
   udp: true
   client-fingerprint: firefox
   tls: true
-  servername: fotaku.xyz
+  servername: www.sun6-21.userapi.com
   reality-opts:
-    public-key: dMy6EEwckj-LDysvKx0HflY60Z3YiuGD7D7UeJjItDA
-    short-id: ''
-- name: '🇳🇱 The Netherlands [*CIDR] t.me/rjsxrd #246'
+    public-key: qC4VE5jv0q0ALYAfCNtAHU-kN32OdA-cqJmXpL4Y2VY
+    short-id: 3199b70105c62ce0
+  flow: xtls-rprx-vision
+- name: '🇷🇺 VK — #8 t.me/rjsxrd #246'
   type: vless
-  server: 90.156.226.4
-  port: 8093
-  uuid: 0d55ea1d-5587-4c17-9e85-3ee9b279aa8f
+  server: 78.159.246.179
+  port: 2053
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: randomquaint.net
+- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #247'
+  type: vless
+  server: 45.144.52.65
+  port: 8443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
   udp: true
   client-fingerprint: qq
   tls: true
-  servername: travel.yandex.ru
+  servername: vk.ru
   reality-opts:
-    public-key: kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A
-    short-id: ca6703afd42cadcd
-  flow: xtls-rprx-vision
-- name: '🇷🇺 VK — #47 t.me/rjsxrd #247'
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: randomquaint.net
-- name: '🇷🇺 VK — #21 t.me/rjsxrd #248'
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: safari
-  tls: true
-  servername: randomquaint.net
-- name: '🇷🇺 Timeweb — #70 t.me/rjsxrd #249'
-  type: vless
-  server: 188.225.83.133
-  port: 443
-  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: xnodtwx.artemida.live
-  reality-opts:
-    public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
-    short-id: a1b2c3d4e5f6a7b8
+    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
+    short-id: 4d2cf3
   network: grpc
-- name: '🇷🇺 Timeweb — #72 t.me/rjsxrd #250'
+- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #248'
   type: vless
-  server: 188.225.83.133
-  port: 443
-  uuid: 4c346148-ece9-487a-bffb-ba5a399b2d71
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: xnodtwx.artemida.live
-  reality-opts:
-    public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
-    short-id: a1b2c3d4e5f6a7b8
-  network: grpc
-- name: '🇷🇺 VK — #30 t.me/rjsxrd #251'
-  type: vless
-  server: 78.159.246.85
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: fitindoor.net
-- name: '🇷🇺 VK — #55 t.me/rjsxrd #252'
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: randomquaint.net
-- name: '🇷🇺 VK — #12 t.me/rjsxrd #253'
-  type: vless
-  server: 78.159.246.85
-  port: 2053
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: fitindoor.net
-- name: '🇷🇺 VK — #10 t.me/rjsxrd #254'
-  type: vless
-  server: 78.159.246.179
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: randomquaint.net
-- name: '🇷🇺 VK — #38 t.me/rjsxrd #255'
-  type: vless
-  server: 78.159.246.85
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: chrome
-  tls: true
-  servername: fitindoor.net
-- name: '🇷🇺 Russia [*CIDR] t.me/rjsxrd #256'
-  type: vless
-  server: 46.254.17.88
-  port: 30065
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: a3.eosapp.net
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇷🇺 VK — #41 t.me/rjsxrd #257'
-  type: vless
-  server: 78.159.246.85
-  port: 2053
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  udp: true
-  client-fingerprint: safari
-  tls: true
-  servername: fitindoor.net
-- name: '🇷🇺_俄罗斯_244 t.me/rjsxrd #258'
-  type: vless
-  server: 139.100.226.187
+  server: 45.144.52.65
   port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
   udp: true
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: '🇷🇺_俄罗斯_166 t.me/rjsxrd #259'
+  servername: vk.ru
+  reality-opts:
+    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
+    short-id: 4d2cf3
+  network: grpc
+- name: '🇷🇺_俄罗斯_226 t.me/rjsxrd #249'
   type: vless
   server: 139.100.226.187
   port: 8443
@@ -3534,288 +3455,371 @@ proxies:
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: '🇷🇺 Russia [*CIDR] t.me/rjsxrd #260'
+- name: '🇷🇺_俄罗斯_257 t.me/rjsxrd #250'
   type: vless
-  server: 45.9.118.187
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: ozon.ru
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '[453ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #261'
-  type: vless
-  server: 81.26.182.128
-  port: 443
-  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '[452ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #262'
-  type: vless
-  server: 81.26.182.128
-  port: 443
-  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
+  server: 139.100.226.187
+  port: 8443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '哈萨克斯坦_102206042 t.me/rjsxrd #263'
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #251'
   type: vless
-  server: sisipisi.yandex-api.com
-  port: 443
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: sisipisi.yandex-api.com
-  reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: a9dc98a7dc87a7dc
-  flow: xtls-rprx-vision
-- name: '白俄罗斯_102206005 t.me/rjsxrd #264'
-  type: vless
-  server: 178.172.227.228
-  port: 10444
-  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
-  udp: true
-  client-fingerprint: safari
-  tls: true
-  servername: ads.x5.ru
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  flow: xtls-rprx-vision
-- name: '[544ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #265'
-  type: vless
-  server: 193.233.90.93
+  server: 45.144.52.65
   port: 8443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: assets.uzumaki.lol
-  reality-opts:
-    public-key: TLxUogtDgnVgAZaPtiSmsKWeJvLqhSKSmKdGTTxKZSE
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 'Бесплатный VPN Tg:VlessForU 🇫🇷 t.me/rjsxrd #266'
-  type: vless
-  server: 62.210.91.2
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: fuck.rkn
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '[481ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #267'
-  type: vless
-  server: 193.233.90.77
-  port: 25443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: media.uzumaki.lol
-  reality-opts:
-    public-key: 3RAtCvqClGsqdQO2RXS91mG_FfEaHEF5RJ9bU1QtqWk
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🇩🇪 Germany (сервер) | 🇷🇺 Russia (выход 212.111.86.154) | @RaViraNet t.me/rjsxrd
-    #268'
-  type: vless
-  server: 50.7.157.237
-  port: 443
-  uuid: 258d8fc5-206c-48fd-88df-169dbbe44d3f
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: edge-fr.extazy.net
-  reality-opts:
-    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '[615ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #269'
-  type: vless
-  server: 168.222.143.254
-  port: 443
-  uuid: ebdf87e8-4f75-4b84-94e0-65ce4894993a
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
   udp: true
   client-fingerprint: chrome
   tls: true
-  servername: st.avito.ru
+  servername: vk.ru
   reality-opts:
-    public-key: 3_Qy1SAtWfbiQbznyhlXxJtqB-5QQ46VF1Uz2h5A7Q4
-    short-id: 2dc17935
-  flow: xtls-rprx-vision
-- name: '[467ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #270'
-  type: vless
-  server: 81.26.182.128
-  port: 443
-  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
-  udp: true
-  client-fingerprint: safari
-  tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '[556ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #271'
-  type: vless
-  server: 193.233.90.77
-  port: 1443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: static.nyx53.shop
-  reality-opts:
-    public-key: vi1vP3RJQgLsRgzaiKvjr44iNRzI62lSYMipnrTMAUs
-    short-id: ''
+    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
+    short-id: 4d2cf3
   network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '[545ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #272'
-  type: vless
-  server: 193.233.90.77
-  port: 5443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: files.nyx53.shop
-  reality-opts:
-    public-key: m95xufOq7mmISN572WqkK0Bzmzb3hDfpr6WNp76xfyc
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '[4137ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #273'
-  type: vless
-  server: 209.182.100.216
-  port: 8443
-  uuid: 2620fca9-2d47-0082-b51a-50ff5ed307d3
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: x5club.ru
-  reality-opts:
-    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
-    short-id: 187eea0acfb7f778
-- name: '[512ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #274'
-  type: vless
-  server: 193.233.90.77
-  port: 2443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: assets.polina.lol
-  reality-opts:
-    public-key: QnKEZ1Y6NPOi-XcRC-uA8bzhfffQbswLIuGpxkBHSVs
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '[479ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #275'
-  type: vless
-  server: 81.26.182.128
-  port: 443
-  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
-  udp: true
-  client-fingerprint: firefox
-  tls: true
-  servername: www.samsung.com
-  reality-opts:
-    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇩🇪 Germany | [*CIDR] t.me/rjsxrd #276'
-  type: vless
-  server: 45.150.9.191
-  port: 8643
-  uuid: 0d55ea1d-5587-4c17-9e85-3ee9b279aa8f
-  udp: true
-  client-fingerprint: qq
-  tls: true
-  servername: travel.yandex.ru
-  reality-opts:
-    public-key: kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A
-    short-id: ca6703afd42cadcd
-  flow: xtls-rprx-vision
-- name: '[607ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #277'
-  type: vless
-  server: 193.233.90.93
-  port: 24443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: ios
-  tls: true
-  servername: img.suzuki.lol
-  reality-opts:
-    public-key: UMibHia_DnLd07hISnmp-_LZgY6ltCsgc3rXJ6xK8zA
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '[552ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #278'
-  type: vless
-  server: 72.56.241.75
-  port: 7443
-  uuid: 92e135b9-4c04-4e7e-8b28-d8074a202cf8
-  udp: true
-  client-fingerprint: random
-  tls: true
-  servername: cdn.suzuki.lol
-  reality-opts:
-    public-key: 36VgwCvCzW3ST22DrfRU7y8mVfm0PM7JpkXQnN9yLiE
-    short-id: ''
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🇷🇺Обходы - TG: AirLinkVPNBot |0049| t.me/rjsxrd #279'
+- name: '🇷🇺 VK — #29 t.me/rjsxrd #252'
   type: vless
   server: 78.159.246.179
   port: 2053
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
   udp: true
   client-fingerprint: firefox
   tls: true
   servername: randomquaint.net
-- name: '[4239ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
+- name: '🇷🇺_俄罗斯_287 t.me/rjsxrd #253'
   type: vless
-  server: 209.182.100.216
+  server: 139.100.226.187
   port: 8443
-  uuid: 2620fca9-2d47-0082-b51a-50ff5ed307d3
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: '🇷🇺 VK — #28 t.me/rjsxrd #254'
+  type: vless
+  server: 78.159.246.179
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: randomquaint.net
+- name: '🇷🇺 VK — #17 t.me/rjsxrd #255'
+  type: vless
+  server: 78.159.246.179
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  udp: true
+  client-fingerprint: ios
+  tls: true
+  servername: randomquaint.net
+- name: '🇷🇺 VK — #10 t.me/rjsxrd #256'
+  type: vless
+  server: 78.159.246.179
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: randomquaint.net
+- name: '🇷🇺 VK — #11 t.me/rjsxrd #257'
+  type: vless
+  server: 78.159.246.179
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
   udp: true
   client-fingerprint: safari
   tls: true
-  servername: x5club.ru
+  servername: randomquaint.net
+- name: '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #258'
+  type: vless
+  server: 45.144.52.65
+  port: 8443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  client-fingerprint: ios
+  tls: true
+  servername: vk.ru
   reality-opts:
-    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
-    short-id: 187eea0acfb7f778
+    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
+    short-id: 4d2cf3
+  network: grpc
+- name: '🇷🇺 VK — #32 t.me/rjsxrd #259'
+  type: vless
+  server: 81.94.148.232
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: windytrout.net
+- name: '🇷🇺 [VL] Россия #6322 | РосТуннель t.me/rjsxrd #260'
+  type: vless
+  server: 188.225.77.143
+  port: 8468
+  uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
+    short-id: 6ba85179e30d4fc2
+- name: '🇷🇺 [VL] Россия #13949 | РосТуннель t.me/rjsxrd #261'
+  type: vless
+  server: 79.137.192.13
+  port: 8443
+  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: cdn-pl.cahmes.space
+  reality-opts:
+    public-key: upBeYE6Fyy46znMKXx-jkC66hAgARHcwYIdjNB4yXl8
+    short-id: a7a3b3ffe0572fce
+- name: '🇷🇺 [VL] Россия #213 | РосТуннель t.me/rjsxrd #262'
+  type: vless
+  server: 78.159.250.214
+  port: 443
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: qq.utiltools.site
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: '00000000'
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #253 | РосТуннель t.me/rjsxrd #263'
+  type: vless
+  server: 78.159.246.85
+  port: 2053
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  udp: true
+  client-fingerprint: ios
+  tls: true
+  servername: fitindoor.net
+- name: '🇱🇹 [VL] Литва #11722 | РосТуннель t.me/rjsxrd #264'
+  type: vless
+  server: 147.45.217.114
+  port: 21731
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: metrika.yandex.ru
+  reality-opts:
+    public-key: QeLV1NQeTG3e1DRFSNnK_f9Ca5Gf9smexICxtr27WUA
+    short-id: 0446eb17
+  flow: xtls-rprx-vision
+- name: '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #265'
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: yandex.ru
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #2083 | РосТуннель t.me/rjsxrd #266'
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  client-fingerprint: safari
+  tls: true
+  servername: yandex.ru
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  flow: xtls-rprx-vision
+- name: '🇺🇸 [VL] США #1017 | РосТуннель t.me/rjsxrd #267'
+  type: vless
+  server: 88.218.92.41
+  port: 24694
+  uuid: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: metrika.yandex.ru
+  reality-opts:
+    public-key: kaPztgo_2b2CKxytGWXzn6EauyNKr6Ho8xerGpSS-SQ
+    short-id: '58301280'
+  flow: xtls-rprx-vision
+- name: '🇹🇯 [VL] Таджикистан #898 | РосТуннель t.me/rjsxrd #268'
+  type: vless
+  server: hahahaarmenia.redemshenvpn.site
+  port: 24694
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: metrika.yandex.ru
+  reality-opts:
+    public-key: kaPztgo_2b2CKxytGWXzn6EauyNKr6Ho8xerGpSS-SQ
+    short-id: '58301280'
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #1706 | РосТуннель t.me/rjsxrd #269'
+  type: vless
+  server: 147.45.60.160
+  port: 8444
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: github.com
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: '🇫🇮 [VL] Финляндия #3260 | РосТуннель t.me/rjsxrd #270'
+  type: vless
+  server: qcloudge1.exitvpn.shop
+  port: 20268
+  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: metrika.yandex.ru
+  reality-opts:
+    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
+    short-id: 0c774b50
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #1223 | РосТуннель t.me/rjsxrd #271'
+  type: vless
+  server: cctvhikvision.center
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  client-fingerprint: chrome
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: '🇷🇺 [VL] Россия #10232 | РосТуннель t.me/rjsxrd #272'
+  type: vless
+  server: 95.182.120.128
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: api.stride.surf
+  reality-opts:
+    public-key: 7MRwvMvlDcjZqfdbBmePpZI5WDEYgya1y_pOp7B9CDc
+    short-id: d0dc65ab94f5e69b
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #5788 | РосТуннель t.me/rjsxrd #273'
+  type: vless
+  server: 82.202.182.41
+  port: 2443
+  uuid: 928a3079-7c20-40cc-9c92-e878ba959dcd
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: smartcaptcha.yandexcloud.net
+  reality-opts:
+    public-key: 7VEbBMpg2DyUHU53a76muNrCES-g12FyRUvThr4lvy4
+    short-id: b208
+  flow: xtls-rprx-vision
+- name: '🇮🇱 [VL] Израиль #674 | РосТуннель t.me/rjsxrd #274'
+  type: vless
+  server: sweedenqfds777.qcloud.surf
+  port: 21221
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: metrika.yandex.ru
+  reality-opts:
+    public-key: RtxGqCtQJeOyUwSe7k6oZOrQWV1hPbC-TMqqgxl9fn4
+    short-id: c430045c
+  flow: xtls-rprx-vision
+- name: '🇷🇺 [VL] Россия #2578 | РосТуннель t.me/rjsxrd #275'
+  type: vless
+  server: 81.94.148.232
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: windytrout.net
+- name: '🇷🇺 [VL] Россия #260 | РосТуннель t.me/rjsxrd #276'
+  type: vless
+  server: 185.126.93.226
+  port: 443
+  uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: tg1.cdnphotos.org
+- name: '🇷🇺 [VL] Россия #8971 | РосТуннель t.me/rjsxrd #277'
+  type: vless
+  server: 185.126.93.227
+  port: 443
+  uuid: f04cc810-aaf2-4a7b-8cad-356cdd30d394
+  udp: true
+  client-fingerprint: random
+  tls: true
+  servername: tg1.cdnphotos.org
+- name: '🇷🇺 [VL] Россия #948 | РосТуннель t.me/rjsxrd #278'
+  type: vless
+  server: 176.124.223.176
+  port: 8443
+  uuid: 068c73f5-c2fc-4579-96be-6e37cfcf58ed
+  udp: true
+  client-fingerprint: firefox
+  tls: true
+  servername: cdn-nl.cahmes.space
+  reality-opts:
+    public-key: R3xeImGP5Bsx42LkRruIs3vIKHnPVR9aodbouAiemzM
+    short-id: d73a212e98084d3b
+- name: '[406ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #279'
+  type: vless
+  server: 81.26.182.128
+  port: 443
+  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
+  udp: true
+  client-fingerprint: ios
+  tls: true
+  servername: www.samsung.com
+  reality-opts:
+    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '[411ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
+  type: vless
+  server: 81.26.182.128
+  port: 443
+  uuid: 5d7e07ba-f460-4638-af79-bbcde67fcb6b
+  udp: true
+  client-fingerprint: safari
+  tls: true
+  servername: www.samsung.com
+  reality-opts:
+    public-key: xlXuN8KDdbqGEsaj1m2D8NUnR5d2oeo5TT71RSMmfxY
+    short-id: ''
+  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🚀 VIP-Auto-Select
   type: url-test
@@ -3845,205 +3849,205 @@ proxy-groups:
   - 'Igareck Node 016 | 🇩🇪 Germany | [*CIDR] #019'
   - 'Igareck Node 019 | 🇩🇪 Germany | [*CIDR] #020'
   - 'Igareck Node 001 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #021'
-  - 'Igareck Node 002 | 🇦🇹 Austria [*CIDR] #022'
-  - 'Igareck Node 003 | 🇦🇹 Austria [*CIDR] #023'
-  - 'Igareck Node 004 | 🇦🇹 Austria [*CIDR] #024'
-  - 'Igareck Node 005 | 🇦🇹 Austria [*CIDR] #025'
-  - 'Igareck Node 006 | 🇩🇰 Denmark [*CIDR] #026'
-  - 'Igareck Node 007 | 🇩🇰 Denmark [*CIDR] #027'
-  - 'Igareck Node 008 | 🇩🇰 Denmark [*CIDR] #028'
-  - 'Igareck Node 009 | 🇩🇰 Denmark [*CIDR] #029'
+  - 'Igareck Node 002 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #022'
+  - 'Igareck Node 003 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #023'
+  - 'Igareck Node 004 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #024'
+  - 'Igareck Node 005 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #025'
+  - 'Igareck Node 006 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #026'
+  - 'Igareck Node 007 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #027'
+  - 'Igareck Node 008 | 🇪🇪 Estonia [*CIDR] #028'
+  - 'Igareck Node 009 | 🇪🇪 Estonia [*CIDR] #029'
   - 'Igareck Node 010 | 🇪🇪 Estonia [*CIDR] #030'
-  - 'Igareck Node 011 | 🇪🇪 Estonia [*CIDR] #031'
-  - 'Igareck Node 012 | 🇪🇪 Estonia [*CIDR] #032'
-  - 'Igareck Node 013 | 🇪🇪 Estonia [*CIDR] #033'
-  - 'Igareck Node 014 | 🇪🇪 Estonia [*CIDR] #034'
-  - 'Igareck Node 015 | 🇪🇪 Estonia [*CIDR] #035'
-  - 'Igareck Node 016 | 🇪🇪 Estonia [*CIDR] #036'
-  - 'Igareck Node 017 | 🇪🇪 Estonia [*CIDR] #037'
-  - 'Igareck Node 018 | 🇪🇪 Estonia [*CIDR] #038'
-  - 'Igareck Node 019 | 🇫🇮 Finland [*CIDR] #039'
-  - 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #040'
-  - 'Igareck Node 021 | 🇫🇮 Finland [*CIDR] #041'
-  - 'Igareck Node 022 | 🇫🇮 Finland [*CIDR] #042'
-  - 'Igareck Node 023 | 🇫🇮 Finland [*CIDR] #043'
-  - 'Igareck Node 024 | 🇫🇮 Finland [*CIDR] #044'
-  - 'Igareck Node 026 | 🇫🇮 Finland [*CIDR] #045'
-  - 'Igareck Node 027 | 🇫🇮 Finland [*CIDR] #046'
-  - 'Igareck Node 028 | 🇫🇮 Finland [*CIDR] #047'
-  - 'Igareck Node 029 | 🇫🇮 Finland [*CIDR] #048'
-  - 'Igareck Node 030 | 🇫🇮 Finland [*CIDR] #049'
-  - 'Igareck Node 031 | 🇫🇮 Finland [*CIDR] #050'
-  - 'Igareck Node 032 | 🇫🇮 Finland [*CIDR] #051'
-  - 'Igareck Node 033 | 🇫🇮 Finland [*CIDR] #052'
-  - 'Igareck Node 034 | 🇫🇮 Finland [*CIDR] #053'
-  - 'Igareck Node 035 | 🇫🇮 Finland [*CIDR] #054'
-  - 'Igareck Node 036 | 🇫🇮 Finland [*CIDR] #055'
-  - 'Igareck Node 037 | 🇫🇮 Finland [*CIDR] #056'
-  - 'Igareck Node 038 | 🇫🇮 Finland [*CIDR] #057'
-  - 'Igareck Node 039 | 🇫🇮 Finland [*CIDR] #058'
-  - 'Igareck Node 040 | 🇫🇮 Finland [*CIDR] #059'
-  - 'Igareck Node 041 | 🇫🇮 Finland [*CIDR] #060'
-  - 'Igareck Node 043 | 🇫🇮 Finland [*CIDR] #061'
-  - 'Igareck Node 047 | 🇫🇮 Finland [*CIDR] #062'
-  - 'Igareck Node 048 | 🇫🇮 Finland [*CIDR] #063'
-  - 'Igareck Node 049 | 🇫🇮 Finland [*CIDR] #064'
-  - 'Igareck Node 050 | 🇫🇮 Finland [*CIDR] #065'
-  - 'Igareck Node 051 | 🇫🇮 Finland [*CIDR] #066'
-  - 'Igareck Node 052 | 🇫🇮 Finland [*CIDR] #067'
-  - 'Igareck Node 053 | 🇫🇮 Finland [*CIDR] #068'
-  - 'Igareck Node 054 | 🇫🇷 France | 🌐 [*CIDR] #069'
-  - 'Igareck Node 055 | 🇫🇷 France | 🌐 [*CIDR] #070'
-  - 'Igareck Node 056 | 🇫🇷 France | 🌐 [*CIDR] #071'
-  - 'Igareck Node 057 | 🇫🇷 France | 🌐 [*CIDR] #072'
-  - 'Igareck Node 058 | 🇫🇷 France | 🌐 [*CIDR] #073'
-  - 'Igareck Node 059 | 🇩🇪 Germany [*CIDR] #074'
-  - 'Igareck Node 060 | 🇩🇪 Germany [*CIDR] #075'
-  - 'Igareck Node 061 | 🇩🇪 Germany [*CIDR] #076'
-  - 'Igareck Node 062 | 🇩🇪 Germany | 🌐 [*CIDR] #077'
-  - 'Igareck Node 063 | 🇩🇪 Germany | 🌐 [*CIDR] #078'
-  - 'Igareck Node 064 | 🇩🇪 Germany | 🌐 [*CIDR] #079'
-  - 'Igareck Node 065 | 🇩🇪 Germany | 🌐 [*CIDR] #080'
-  - 'Igareck Node 066 | 🇩🇪 Germany | 🌐 [*CIDR] #081'
-  - 'Igareck Node 067 | 🇩🇪 Germany | 🌐 [*CIDR] #082'
-  - 'Igareck Node 068 | 🇩🇪 Germany | 🌐 [*CIDR] #083'
-  - 'Igareck Node 069 | 🇩🇪 Germany | 🌐 [*CIDR] #084'
-  - 'Igareck Node 070 | 🇮🇹 Italy [*CIDR] #085'
-  - 'Igareck Node 071 | 🇮🇹 Italy [*CIDR] #086'
-  - 'Igareck Node 072 | 🇮🇹 Italy [*CIDR] #087'
-  - 'Igareck Node 073 | 🇮🇹 Italy [*CIDR] #088'
-  - 'Igareck Node 074 | 🇮🇹 Italy [*CIDR] #089'
-  - 'Igareck Node 075 | 🇰🇿 Kazakhstan [*CIDR] #090'
-  - 'Igareck Node 076 | 🇰🇿 Kazakhstan [*CIDR] #091'
-  - 'Igareck Node 077 | 🇰🇿 Kazakhstan [*CIDR] #092'
-  - 'Igareck Node 078 | 🇰🇿 Kazakhstan [*CIDR] #093'
-  - 'Igareck Node 079 | 🇰🇿 Kazakhstan [*CIDR] #094'
-  - 'Igareck Node 080 | 🇰🇿 Kazakhstan [*CIDR] #095'
-  - 'Igareck Node 081 | 🇳🇴 Norway [*CIDR] #096'
-  - 'Igareck Node 082 | 🇳🇴 Norway [*CIDR] #097'
-  - 'Igareck Node 083 | 🇳🇴 Norway [*CIDR] #098'
-  - 'Igareck Node 084 | 🇳🇴 Norway [*CIDR] #099'
-  - 'Igareck Node 086 | 🇷🇸 Serbia [*CIDR] #100'
-  - 'Igareck Node 087 | 🇳🇱 The Netherlands [*CIDR] #101'
-  - 'Igareck Node 088 | 🇳🇱 The Netherlands [*CIDR] #102'
-  - 'Igareck Node 089 | 🇳🇱 The Netherlands [*CIDR] #103'
-  - 'Igareck Node 090 | 🇺🇸 United States [*CIDR] #104'
-  - 'Igareck Node 091 | 🇺🇸 United States | 🌐 [*CIDR] #105'
-  - 'Igareck Node 138 | 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 [*CIDR] #106'
-  - 'Igareck Node 139 | 🌐 Anycast-IP | 🇧🇪 🇳🇱 [*CIDR] #107'
-  - 'Igareck Node 140 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #108'
-  - 'Igareck Node 141 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #109'
-  - 'Igareck Node 142 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 [*CIDR] #110'
-  - 'Igareck Node 143 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #111'
-  - 'Igareck Node 144 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #112'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #113'
-  - '🇩🇪_德国_5 t.me/rjsxrd #114'
-  - 'CF中转_1022062542 t.me/rjsxrd #115'
-  - '🇱🇻_拉脱维亚_128 t.me/rjsxrd #116'
-  - 'CF中转_1022062473 t.me/rjsxrd #117'
-  - '🇫🇷_法国_70 t.me/rjsxrd #118'
-  - 'CF中转_1022063842 t.me/rjsxrd #119'
-  - 'CF中转_1022063125 t.me/rjsxrd #120'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #121'
-  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #122'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #123'
-  - '🏳️_未知_235 t.me/rjsxrd #124'
-  - 'CF中转_1022062250 t.me/rjsxrd #125'
-  - 'CF中转_102206206 t.me/rjsxrd #126'
-  - '🏳️_未知_527 t.me/rjsxrd #127'
-  - 'CF中转_1022063819 t.me/rjsxrd #128'
-  - '🇳🇱_荷兰_236 t.me/rjsxrd #129'
-  - '🏳️_未知_262 t.me/rjsxrd #130'
-  - '🏳️_未知_182 t.me/rjsxrd #131'
-  - '🇩🇪_德国_284 t.me/rjsxrd #132'
-  - 'CF中转_102206454 t.me/rjsxrd #133'
-  - 'CF中转_102206199 t.me/rjsxrd #134'
-  - '🇬🇧_英国_280 t.me/rjsxrd #135'
-  - '🏳️_未知_537 t.me/rjsxrd #136'
-  - '🏳️_未知_263 t.me/rjsxrd #137'
-  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #138'
-  - '🇬🇧_英国_188 t.me/rjsxrd #139'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #140'
-  - '🏳️_未知_162 t.me/rjsxrd #141'
-  - '🇺🇸_美国_250 t.me/rjsxrd #142'
-  - 'CF中转_1022061973 t.me/rjsxrd #143'
-  - '🇸🇬_新加坡_205 t.me/rjsxrd #144'
-  - 'CF中转_1022062114 t.me/rjsxrd #145'
-  - '🇫🇮 Finland [*CIDR] t.me/rjsxrd #146'
-  - 'CF中转_1022062676 t.me/rjsxrd #147'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #148'
-  - '🇱🇹 立陶宛 | LTU t.me/rjsxrd #149'
-  - '🇪🇪 Estonia [*CIDR] t.me/rjsxrd #150'
-  - '🏳️_未知_366 t.me/rjsxrd #151'
-  - '🏳️_未知_177 t.me/rjsxrd #152'
-  - '🇩🇪_德国_99 t.me/rjsxrd #153'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #154'
-  - '🏳️_未知_500 t.me/rjsxrd #155'
-  - '🏳️_未知_257 t.me/rjsxrd #156'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #157'
-  - 'CF中转_1022062191 t.me/rjsxrd #158'
-  - '🇩🇪_德国_282 t.me/rjsxrd #159'
-  - '🇺🇸_美国_219 t.me/rjsxrd #160'
-  - '🇧🇪_比利时_290 t.me/rjsxrd #161'
-  - '🏳️_未知_223 t.me/rjsxrd #162'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #163'
-  - 'CF中转_1022063087 t.me/rjsxrd #164'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #165'
-  - 'CF中转_1022063415 t.me/rjsxrd #166'
-  - '🇩🇪_德国_252 t.me/rjsxrd #167'
-  - '🇺🇸_美国_145 t.me/rjsxrd #168'
-  - '🇺🇸_美国_156 t.me/rjsxrd #169'
-  - 'CF中转_102206453 t.me/rjsxrd #170'
-  - 'CF中转_102206194 t.me/rjsxrd #171'
-  - '🇩🇪_德国_275 t.me/rjsxrd #172'
-  - 'CF中转_1022062382 t.me/rjsxrd #173'
-  - 'CF中转_1022062293 t.me/rjsxrd #174'
-  - '🇩🇪_德国_216 t.me/rjsxrd #175'
-  - '🏳️_未知_414 t.me/rjsxrd #176'
-  - '🇺🇸_美国_202 t.me/rjsxrd #177'
-  - 'CF中转_1022063862 t.me/rjsxrd #178'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #179'
-  - '🇫🇷 法国 | FRA t.me/rjsxrd #180'
-  - '🇩🇪_德国_504 t.me/rjsxrd #181'
-  - '🇩🇪_德国_239 t.me/rjsxrd #182'
-  - '🏳️_未知_543 t.me/rjsxrd #183'
-  - '🏳️_未知_171 t.me/rjsxrd #184'
-  - '🏳️_未知_436 t.me/rjsxrd #185'
-  - '🇩🇪_德国_149 t.me/rjsxrd #186'
-  - '🇧🇬 Bulgaria — #80 [Verified RU] t.me/rjsxrd #187'
-  - '🇫🇷_法国_173 t.me/rjsxrd #188'
-  - '🇩🇪_德国_155 t.me/rjsxrd #189'
-  - '🇫🇷_法国_246 t.me/rjsxrd #190'
-  - '🇩🇪_德国_214 t.me/rjsxrd #191'
-  - '🇩🇪_德国_226 t.me/rjsxrd #192'
-  - '🇩🇪_德国_243 t.me/rjsxrd #193'
-  - '🇪🇪_爱沙尼亚_256 t.me/rjsxrd #194'
+  - 'Igareck Node 016 | 🇪🇪 Estonia | [*CIDR] #031'
+  - 'Igareck Node 017 | 🇪🇪 Estonia | [*CIDR] #032'
+  - 'Igareck Node 018 | 🇫🇮 Finland [*CIDR] #033'
+  - 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #034'
+  - 'Igareck Node 025 | 🇫🇮 Finland | [*CIDR] #035'
+  - 'Igareck Node 027 | 🇫🇮 Finland | [*CIDR] #036'
+  - 'Igareck Node 028 | 🇫🇮 Finland | [*CIDR] #037'
+  - 'Igareck Node 029 | 🇫🇮 Finland | [*CIDR] #038'
+  - 'Igareck Node 030 | 🇫🇮 Finland | [*CIDR] #039'
+  - 'Igareck Node 031 | 🇫🇮 Finland | [*CIDR] #040'
+  - 'Igareck Node 032 | 🇫🇮 Finland | [*CIDR] #041'
+  - 'Igareck Node 033 | 🇫🇮 Finland | [*CIDR] #042'
+  - 'Igareck Node 034 | 🇫🇮 Finland | [*CIDR] #043'
+  - 'Igareck Node 035 | 🇫🇮 Finland | [*CIDR] #044'
+  - 'Igareck Node 036 | 🇫🇮 Finland | [*CIDR] #045'
+  - 'Igareck Node 037 | 🇫🇮 Finland | [*CIDR] #046'
+  - 'Igareck Node 038 | 🇫🇮 Finland | [*CIDR] #047'
+  - 'Igareck Node 039 | 🇩🇪 Germany | 🌐 [*CIDR] #048'
+  - 'Igareck Node 040 | 🇩🇪 Germany | 🌐 | [*CIDR] #049'
+  - 'Igareck Node 041 | 🇩🇪 Germany | 🌐 | [*CIDR] #050'
+  - 'Igareck Node 042 | 🇩🇪 Germany | 🌐 | [*CIDR] #051'
+  - 'Igareck Node 043 | 🇩🇪 Germany | 🌐 | [*CIDR] #052'
+  - 'Igareck Node 044 | 🇺🇸 United States [*CIDR] #053'
+  - 'Igareck Node 045 | 🇺🇸 United States [*CIDR] #054'
+  - 'Igareck Node 046 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #055'
+  - 'Igareck Node 047 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #056'
+  - 'Igareck Node 048 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #057'
+  - 'Igareck Node 049 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #058'
+  - 'Igareck Node 050 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #059'
+  - '🇩🇪_德国_16 t.me/rjsxrd #060'
+  - '🇨🇭 Switzerland | TG: @HardVpn_robot t.me/rjsxrd #061'
+  - '🏳️_未知_239 t.me/rjsxrd #062'
+  - '每天更新，请加电报群防止失联 t.me/rjsxrd #063'
+  - '🇩🇪_德国_121 t.me/rjsxrd #064'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #065'
+  - '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #066'
+  - '🇧🇬 Bulgaria — #49 [Verified RU] t.me/rjsxrd #067'
+  - '🏳️_未知_148 t.me/rjsxrd #068'
+  - '🏳️_未知_156 t.me/rjsxrd #069'
+  - '🇺🇸_美国_202 t.me/rjsxrd #070'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #071'
+  - '🏳️_未知_249 t.me/rjsxrd #072'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #073'
+  - '🇺🇸_美国_345 t.me/rjsxrd #074'
+  - '🇩🇪_德国_201 t.me/rjsxrd #075'
+  - '🏳️_未知_253 t.me/rjsxrd #076'
+  - '🇺🇸_美国_197 t.me/rjsxrd #077'
+  - '🏳️_未知_277 t.me/rjsxrd #078'
+  - '🇬🇧 英国 | GBR t.me/rjsxrd #079'
+  - '🇺🇸_美国_142 t.me/rjsxrd #080'
+  - '🏳️_未知_235 t.me/rjsxrd #081'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #082'
+  - '🇧🇬 Bulgaria — #56 [Verified RU] t.me/rjsxrd #083'
+  - '🏳️_未知_344 t.me/rjsxrd #084'
+  - '🏳️_未知_151 t.me/rjsxrd #085'
+  - '🇺🇸_美国_296 t.me/rjsxrd #086'
+  - '🇺🇸_美国_206 t.me/rjsxrd #087'
+  - '🇩🇪_德国_214 t.me/rjsxrd #088'
+  - '🇺🇸_美国_138 t.me/rjsxrd #089'
+  - '🇩🇪_德国_54 t.me/rjsxrd #090'
+  - '🏳️_未知_231 t.me/rjsxrd #091'
+  - '🏳️_未知_154 t.me/rjsxrd #092'
+  - '🏳️_未知_351 t.me/rjsxrd #093'
+  - '🇧🇬 Bulgaria — #48 [Verified RU] t.me/rjsxrd #094'
+  - '🇩🇪 德国 | DEU t.me/rjsxrd #095'
+  - '🇺🇸_美国_45 t.me/rjsxrd #096'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #097'
+  - '🇺🇸_美国_243 t.me/rjsxrd #098'
+  - '🇳🇱_荷兰_322 t.me/rjsxrd #099'
+  - '🇺🇸_美国_196 t.me/rjsxrd #100'
+  - '🏳️_未知_145 t.me/rjsxrd #101'
+  - '🇺🇸_美国_50 t.me/rjsxrd #102'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #103'
+  - '🏳️_未知_90 t.me/rjsxrd #104'
+  - '🇩🇪_德国_290 t.me/rjsxrd #105'
+  - '🇩🇪_德国_276 t.me/rjsxrd #106'
+  - '🏳️_未知_105 t.me/rjsxrd #107'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #108'
+  - '🇵🇱 波兰 | POL t.me/rjsxrd #109'
+  - '🏳️_未知_147 t.me/rjsxrd #110'
+  - '🏳️_未知_146 t.me/rjsxrd #111'
+  - '🇺🇸_美国_46 t.me/rjsxrd #112'
+  - '🇩🇪_德国_176 t.me/rjsxrd #113'
+  - '🇺🇸_美国_44 t.me/rjsxrd #114'
+  - '🇨🇭_瑞士_244 t.me/rjsxrd #115'
+  - '🇧🇬 保加利亚 | BGR t.me/rjsxrd #116'
+  - '🇩🇪_德国_175 t.me/rjsxrd #117'
+  - '🇺🇸_美国_141 t.me/rjsxrd #118'
+  - '🇩🇪_德国_218 t.me/rjsxrd #119'
+  - '🇩🇪_德国_291 t.me/rjsxrd #120'
+  - '🏳️_未知_143 t.me/rjsxrd #121'
+  - '🇺🇸_美国_108 t.me/rjsxrd #122'
+  - '🇳🇱_荷兰_55 t.me/rjsxrd #123'
+  - '🇳🇱_荷兰_185 t.me/rjsxrd #124'
+  - '🏳️_未知_164 t.me/rjsxrd #125'
+  - '🏳️_未知_75 t.me/rjsxrd #126'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #127'
+  - '🇩🇪_德国_89 t.me/rjsxrd #128'
+  - '🏳️_未知_283 t.me/rjsxrd #129'
+  - '🇧🇬_保加利亚_129 t.me/rjsxrd #130'
+  - '🏳️_未知_97 t.me/rjsxrd #131'
+  - '🇺🇸_美国_135 t.me/rjsxrd #132'
+  - '🇵🇱_波兰_321 t.me/rjsxrd #133'
+  - '🇮🇸_冰岛_273 t.me/rjsxrd #134'
+  - '🇨🇭_瑞士_217 t.me/rjsxrd #135'
+  - '🇦🇿_阿塞拜疆_298 t.me/rjsxrd #136'
+  - '🇫🇮_芬兰_303 t.me/rjsxrd #137'
+  - '🇩🇪_德国_188 t.me/rjsxrd #138'
+  - '🏳️_未知_137 t.me/rjsxrd #139'
+  - '🇬🇧_英国_62 t.me/rjsxrd #140'
+  - '🏳️_未知_87 t.me/rjsxrd #141'
+  - '🇰🇬_吉尔吉斯斯坦_123 t.me/rjsxrd #142'
+  - '🇩🇪_德国_211 t.me/rjsxrd #143'
+  - '🇭🇺_匈牙利_320 t.me/rjsxrd #144'
+  - '🇦🇿_阿塞拜疆_297 t.me/rjsxrd #145'
+  - '🇵🇱_波兰_56 t.me/rjsxrd #146'
+  - '🇵🇹_葡萄牙_289 t.me/rjsxrd #147'
+  - '🏳️_未知_96 t.me/rjsxrd #148'
+  - '🇬🇪_格鲁吉亚_301 t.me/rjsxrd #149'
+  - '🏳️_未知_60 t.me/rjsxrd #150'
+  - '🏳️_未知_58 t.me/rjsxrd #151'
+  - '🇳🇱_荷兰_272 t.me/rjsxrd #152'
+  - '🇪🇸 西班牙 | ESP t.me/rjsxrd #153'
+  - '🇷🇴_罗马尼亚_325 t.me/rjsxrd #154'
+  - '🇸🇪 瑞典 | SWE t.me/rjsxrd #155'
+  - '🇺🇸_美国_92 t.me/rjsxrd #156'
+  - '🏳️_未知_95 t.me/rjsxrd #157'
+  - '🇬🇪_格鲁吉亚_343 t.me/rjsxrd #158'
+  - '🏳️_未知_153 t.me/rjsxrd #159'
+  - '🇺🇸 United States | TG: @HardVpn_robot t.me/rjsxrd #160'
+  - '🇳🇱_荷兰_285 t.me/rjsxrd #161'
+  - '🇨🇾 塞浦路斯 | CYP t.me/rjsxrd #162'
+  - '🇮🇸_冰岛_284 t.me/rjsxrd #163'
+  - '🇮🇱_以色列_346 t.me/rjsxrd #164'
+  - '🇳🇱_荷兰_189 t.me/rjsxrd #165'
+  - '🏳️_未知_99 t.me/rjsxrd #166'
+  - '🇮🇱_以色列_347 t.me/rjsxrd #167'
+  - '🇵🇹_葡萄牙_76 t.me/rjsxrd #168'
+  - '🏳️_未知_173 t.me/rjsxrd #169'
+  - '🇩🇪_德国_73 t.me/rjsxrd #170'
+  - '🇪🇸 西班牙 | ESP t.me/rjsxrd #171'
+  - '🇩🇪_德国_241 t.me/rjsxrd #172'
+  - '🇧🇬 Bulgaria — #66 [Verified RU] t.me/rjsxrd #173'
+  - '🇺🇸_美国_312 t.me/rjsxrd #174'
+  - '🇧🇾_白俄罗斯_98 t.me/rjsxrd #175'
+  - '🇨🇿_捷克_53 t.me/rjsxrd #176'
+  - '🇳🇱_荷兰_210 t.me/rjsxrd #177'
+  - '🇺🇸 United States — #687 t.me/rjsxrd #178'
+  - '🏳️_未知_150 t.me/rjsxrd #179'
+  - '🇺🇸_美国_144 t.me/rjsxrd #180'
+  - '🇺🇸_美国_237 t.me/rjsxrd #181'
+  - '🏳️_未知_149 t.me/rjsxrd #182'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #183'
+  - '🇺🇸_美国_318 t.me/rjsxrd #184'
+  - '🇺🇸_美国_268 t.me/rjsxrd #185'
+  - '🇺🇸_美国_238 t.me/rjsxrd #186'
+  - '🇺🇸_美国_274 t.me/rjsxrd #187'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #188'
+  - '🇺🇸_美国_184 t.me/rjsxrd #189'
+  - '🇺🇸_美国_271 t.me/rjsxrd #190'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #191'
+  - '🇺🇸_美国_102 t.me/rjsxrd #192'
+  - '🇦🇺 澳大利亚 | AUS t.me/rjsxrd #193'
+  - '🏳️_未知_225 t.me/rjsxrd #194'
   - '🇺🇸 美国 | USA t.me/rjsxrd #195'
-  - '🇧🇬 Bulgaria — #74 [Verified RU] t.me/rjsxrd #196'
-  - '🇩🇪_德国_517 t.me/rjsxrd #197'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #198'
-  - '🇩🇪_德国_224 t.me/rjsxrd #199'
-  - '🇩🇪_德国_154 t.me/rjsxrd #200'
-  - '🏳️_未知_228 t.me/rjsxrd #201'
-  - '🇩🇪_德国_225 t.me/rjsxrd #202'
-  - 'CF中转_1022062547 t.me/rjsxrd #203'
-  - '🇩🇪_德国_229 t.me/rjsxrd #204'
-  - '🇩🇪_德国_160 t.me/rjsxrd #205'
-  - '🇦🇹_奥地利_261 t.me/rjsxrd #206'
-  - '🇺🇸_美国_164 t.me/rjsxrd #207'
-  - '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #208'
-  - '🇩🇪_德国_165 t.me/rjsxrd #209'
-  - '🇦🇹_奥地利_181 t.me/rjsxrd #210'
-  - '🇦🇪_阿拉伯联合酋长国_531 t.me/rjsxrd #211'
-  - '🇵🇱_波兰_192 t.me/rjsxrd #212'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #213'
-  - '🇩🇪_德国_453 t.me/rjsxrd #214'
-  - '🇯🇵_日本_221 t.me/rjsxrd #215'
-  - '🇵🇱_波兰_293 t.me/rjsxrd #216'
-  - '🇧🇬 保加利亚 | BGR t.me/rjsxrd #217'
-  - 'CF中转_1022063078 t.me/rjsxrd #218'
-  - '🇦🇿_阿塞拜疆_287 t.me/rjsxrd #219'
-  - '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #220'
+  - '🇺🇸_美国_94 t.me/rjsxrd #196'
+  - '🇫🇮_芬兰_308 t.me/rjsxrd #197'
+  - '🇺🇸_美国_107 t.me/rjsxrd #198'
+  - '🇺🇸_美国_179 t.me/rjsxrd #199'
+  - '🇺🇸_美国_82 t.me/rjsxrd #200'
+  - '🇺🇸_美国_72 t.me/rjsxrd #201'
+  - '🇯🇵 日本 | JPN t.me/rjsxrd #202'
+  - '🇲🇾_马来西亚_242 t.me/rjsxrd #203'
+  - '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #204'
+  - '🇸🇬_新加坡_334 t.me/rjsxrd #205'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #206'
+  - '🇸🇪_瑞典_300 t.me/rjsxrd #207'
+  - '🇲🇾_马来西亚_236 t.me/rjsxrd #208'
+  - '🇸🇬_新加坡_130 t.me/rjsxrd #209'
+  - '🇸🇬_新加坡_262 t.me/rjsxrd #210'
+  - '🇭🇰 香港 | HKG t.me/rjsxrd #211'
+  - '🇭🇰 香港 | HKG t.me/rjsxrd #212'
+  - '🇭🇰_香港_169 t.me/rjsxrd #213'
+  - '🇰🇬 KG_70 t.me/rjsxrd #214'
+  - '🇻🇳_越南_335 t.me/rjsxrd #215'
+  - '🇻🇳_越南_306 t.me/rjsxrd #216'
+  - '🇺🇸_美国_84 t.me/rjsxrd #217'
+  - '🇻🇳_越南_348 t.me/rjsxrd #218'
+  - '🇻🇳_越南_307 t.me/rjsxrd #219'
+  - '🇻🇳_越南_349 t.me/rjsxrd #220'
 - name: 🛡️ Emergency-Fallback
   type: fallback
   url: https://pitbit.com
@@ -4080,46 +4084,45 @@ proxy-groups:
   - 'Igareck Node 023 | 🇵🇱 Poland | [*CIDR] #239'
   - 'Igareck Node 024 | 🇵🇱 Poland | [*CIDR] #240'
   - 'Igareck Node 025 | 🇵🇱 Poland | [*CIDR] #241'
-  - 'Igareck Node 085 | 🇵🇱 Poland [*CIDR] #242'
-  - 'Igareck Node 092 | 🇷🇺 Russia [*CIDR] #243'
-  - '🇷🇺 VK — #53 t.me/rjsxrd #244'
-  - '🇷🇺 Russia | 🌐 [*CIDR] t.me/rjsxrd #245'
-  - '🇳🇱 The Netherlands [*CIDR] t.me/rjsxrd #246'
-  - '🇷🇺 VK — #47 t.me/rjsxrd #247'
-  - '🇷🇺 VK — #21 t.me/rjsxrd #248'
-  - '🇷🇺 Timeweb — #70 t.me/rjsxrd #249'
-  - '🇷🇺 Timeweb — #72 t.me/rjsxrd #250'
-  - '🇷🇺 VK — #30 t.me/rjsxrd #251'
-  - '🇷🇺 VK — #55 t.me/rjsxrd #252'
-  - '🇷🇺 VK — #12 t.me/rjsxrd #253'
-  - '🇷🇺 VK — #10 t.me/rjsxrd #254'
-  - '🇷🇺 VK — #38 t.me/rjsxrd #255'
-  - '🇷🇺 Russia [*CIDR] t.me/rjsxrd #256'
-  - '🇷🇺 VK — #41 t.me/rjsxrd #257'
-  - '🇷🇺_俄罗斯_244 t.me/rjsxrd #258'
-  - '🇷🇺_俄罗斯_166 t.me/rjsxrd #259'
-  - '🇷🇺 Russia [*CIDR] t.me/rjsxrd #260'
-  - '[453ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #261'
-  - '[452ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #262'
-  - '哈萨克斯坦_102206042 t.me/rjsxrd #263'
-  - '白俄罗斯_102206005 t.me/rjsxrd #264'
-  - '[544ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #265'
-  - 'Бесплатный VPN Tg:VlessForU 🇫🇷 t.me/rjsxrd #266'
-  - '[481ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #267'
-  - '🇩🇪 Germany (сервер) | 🇷🇺 Russia (выход 212.111.86.154) | @RaViraNet t.me/rjsxrd
-    #268'
-  - '[615ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #269'
-  - '[467ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #270'
-  - '[556ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #271'
-  - '[545ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #272'
-  - '[4137ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #273'
-  - '[512ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #274'
-  - '[479ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #275'
-  - '🇩🇪 Germany | [*CIDR] t.me/rjsxrd #276'
-  - '[607ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #277'
-  - '[552ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #278'
-  - '🇷🇺Обходы - TG: AirLinkVPNBot |0049| t.me/rjsxrd #279'
-  - '[4239ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
+  - 'Igareck Node 051 | 🇷🇺 Russia | 🌐 [*CIDR] VK #242'
+  - 'Igareck Node 052 | 🇷🇺 Russia | 🌐 [*CIDR] VK #243'
+  - 'Igareck Node 054 | 🇷🇺 Russia | 🌐 [*CIDR] VK #244'
+  - '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #245'
+  - '🇷🇺 VK — #8 t.me/rjsxrd #246'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #247'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #248'
+  - '🇷🇺_俄罗斯_226 t.me/rjsxrd #249'
+  - '🇷🇺_俄罗斯_257 t.me/rjsxrd #250'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #251'
+  - '🇷🇺 VK — #29 t.me/rjsxrd #252'
+  - '🇷🇺_俄罗斯_287 t.me/rjsxrd #253'
+  - '🇷🇺 VK — #28 t.me/rjsxrd #254'
+  - '🇷🇺 VK — #17 t.me/rjsxrd #255'
+  - '🇷🇺 VK — #10 t.me/rjsxrd #256'
+  - '🇷🇺 VK — #11 t.me/rjsxrd #257'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #258'
+  - '🇷🇺 VK — #32 t.me/rjsxrd #259'
+  - '🇷🇺 [VL] Россия #6322 | РосТуннель t.me/rjsxrd #260'
+  - '🇷🇺 [VL] Россия #13949 | РосТуннель t.me/rjsxrd #261'
+  - '🇷🇺 [VL] Россия #213 | РосТуннель t.me/rjsxrd #262'
+  - '🇷🇺 [VL] Россия #253 | РосТуннель t.me/rjsxrd #263'
+  - '🇱🇹 [VL] Литва #11722 | РосТуннель t.me/rjsxrd #264'
+  - '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #265'
+  - '🇷🇺 [VL] Россия #2083 | РосТуннель t.me/rjsxrd #266'
+  - '🇺🇸 [VL] США #1017 | РосТуннель t.me/rjsxrd #267'
+  - '🇹🇯 [VL] Таджикистан #898 | РосТуннель t.me/rjsxrd #268'
+  - '🇷🇺 [VL] Россия #1706 | РосТуннель t.me/rjsxrd #269'
+  - '🇫🇮 [VL] Финляндия #3260 | РосТуннель t.me/rjsxrd #270'
+  - '🇷🇺 [VL] Россия #1223 | РосТуннель t.me/rjsxrd #271'
+  - '🇷🇺 [VL] Россия #10232 | РосТуннель t.me/rjsxrd #272'
+  - '🇷🇺 [VL] Россия #5788 | РосТуннель t.me/rjsxrd #273'
+  - '🇮🇱 [VL] Израиль #674 | РосТуннель t.me/rjsxrd #274'
+  - '🇷🇺 [VL] Россия #2578 | РосТуннель t.me/rjsxrd #275'
+  - '🇷🇺 [VL] Россия #260 | РосТуннель t.me/rjsxrd #276'
+  - '🇷🇺 [VL] Россия #8971 | РосТуннель t.me/rjsxrd #277'
+  - '🇷🇺 [VL] Россия #948 | РосТуннель t.me/rjsxrd #278'
+  - '[406ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #279'
+  - '[411ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
 - name: 🌐 Manual-Select
   type: select
   proxies:
@@ -4147,205 +4150,205 @@ proxy-groups:
   - 'Igareck Node 016 | 🇩🇪 Germany | [*CIDR] #019'
   - 'Igareck Node 019 | 🇩🇪 Germany | [*CIDR] #020'
   - 'Igareck Node 001 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #021'
-  - 'Igareck Node 002 | 🇦🇹 Austria [*CIDR] #022'
-  - 'Igareck Node 003 | 🇦🇹 Austria [*CIDR] #023'
-  - 'Igareck Node 004 | 🇦🇹 Austria [*CIDR] #024'
-  - 'Igareck Node 005 | 🇦🇹 Austria [*CIDR] #025'
-  - 'Igareck Node 006 | 🇩🇰 Denmark [*CIDR] #026'
-  - 'Igareck Node 007 | 🇩🇰 Denmark [*CIDR] #027'
-  - 'Igareck Node 008 | 🇩🇰 Denmark [*CIDR] #028'
-  - 'Igareck Node 009 | 🇩🇰 Denmark [*CIDR] #029'
+  - 'Igareck Node 002 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #022'
+  - 'Igareck Node 003 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #023'
+  - 'Igareck Node 004 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #024'
+  - 'Igareck Node 005 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #025'
+  - 'Igareck Node 006 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #026'
+  - 'Igareck Node 007 | .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] #027'
+  - 'Igareck Node 008 | 🇪🇪 Estonia [*CIDR] #028'
+  - 'Igareck Node 009 | 🇪🇪 Estonia [*CIDR] #029'
   - 'Igareck Node 010 | 🇪🇪 Estonia [*CIDR] #030'
-  - 'Igareck Node 011 | 🇪🇪 Estonia [*CIDR] #031'
-  - 'Igareck Node 012 | 🇪🇪 Estonia [*CIDR] #032'
-  - 'Igareck Node 013 | 🇪🇪 Estonia [*CIDR] #033'
-  - 'Igareck Node 014 | 🇪🇪 Estonia [*CIDR] #034'
-  - 'Igareck Node 015 | 🇪🇪 Estonia [*CIDR] #035'
-  - 'Igareck Node 016 | 🇪🇪 Estonia [*CIDR] #036'
-  - 'Igareck Node 017 | 🇪🇪 Estonia [*CIDR] #037'
-  - 'Igareck Node 018 | 🇪🇪 Estonia [*CIDR] #038'
-  - 'Igareck Node 019 | 🇫🇮 Finland [*CIDR] #039'
-  - 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #040'
-  - 'Igareck Node 021 | 🇫🇮 Finland [*CIDR] #041'
-  - 'Igareck Node 022 | 🇫🇮 Finland [*CIDR] #042'
-  - 'Igareck Node 023 | 🇫🇮 Finland [*CIDR] #043'
-  - 'Igareck Node 024 | 🇫🇮 Finland [*CIDR] #044'
-  - 'Igareck Node 026 | 🇫🇮 Finland [*CIDR] #045'
-  - 'Igareck Node 027 | 🇫🇮 Finland [*CIDR] #046'
-  - 'Igareck Node 028 | 🇫🇮 Finland [*CIDR] #047'
-  - 'Igareck Node 029 | 🇫🇮 Finland [*CIDR] #048'
-  - 'Igareck Node 030 | 🇫🇮 Finland [*CIDR] #049'
-  - 'Igareck Node 031 | 🇫🇮 Finland [*CIDR] #050'
-  - 'Igareck Node 032 | 🇫🇮 Finland [*CIDR] #051'
-  - 'Igareck Node 033 | 🇫🇮 Finland [*CIDR] #052'
-  - 'Igareck Node 034 | 🇫🇮 Finland [*CIDR] #053'
-  - 'Igareck Node 035 | 🇫🇮 Finland [*CIDR] #054'
-  - 'Igareck Node 036 | 🇫🇮 Finland [*CIDR] #055'
-  - 'Igareck Node 037 | 🇫🇮 Finland [*CIDR] #056'
-  - 'Igareck Node 038 | 🇫🇮 Finland [*CIDR] #057'
-  - 'Igareck Node 039 | 🇫🇮 Finland [*CIDR] #058'
-  - 'Igareck Node 040 | 🇫🇮 Finland [*CIDR] #059'
-  - 'Igareck Node 041 | 🇫🇮 Finland [*CIDR] #060'
-  - 'Igareck Node 043 | 🇫🇮 Finland [*CIDR] #061'
-  - 'Igareck Node 047 | 🇫🇮 Finland [*CIDR] #062'
-  - 'Igareck Node 048 | 🇫🇮 Finland [*CIDR] #063'
-  - 'Igareck Node 049 | 🇫🇮 Finland [*CIDR] #064'
-  - 'Igareck Node 050 | 🇫🇮 Finland [*CIDR] #065'
-  - 'Igareck Node 051 | 🇫🇮 Finland [*CIDR] #066'
-  - 'Igareck Node 052 | 🇫🇮 Finland [*CIDR] #067'
-  - 'Igareck Node 053 | 🇫🇮 Finland [*CIDR] #068'
-  - 'Igareck Node 054 | 🇫🇷 France | 🌐 [*CIDR] #069'
-  - 'Igareck Node 055 | 🇫🇷 France | 🌐 [*CIDR] #070'
-  - 'Igareck Node 056 | 🇫🇷 France | 🌐 [*CIDR] #071'
-  - 'Igareck Node 057 | 🇫🇷 France | 🌐 [*CIDR] #072'
-  - 'Igareck Node 058 | 🇫🇷 France | 🌐 [*CIDR] #073'
-  - 'Igareck Node 059 | 🇩🇪 Germany [*CIDR] #074'
-  - 'Igareck Node 060 | 🇩🇪 Germany [*CIDR] #075'
-  - 'Igareck Node 061 | 🇩🇪 Germany [*CIDR] #076'
-  - 'Igareck Node 062 | 🇩🇪 Germany | 🌐 [*CIDR] #077'
-  - 'Igareck Node 063 | 🇩🇪 Germany | 🌐 [*CIDR] #078'
-  - 'Igareck Node 064 | 🇩🇪 Germany | 🌐 [*CIDR] #079'
-  - 'Igareck Node 065 | 🇩🇪 Germany | 🌐 [*CIDR] #080'
-  - 'Igareck Node 066 | 🇩🇪 Germany | 🌐 [*CIDR] #081'
-  - 'Igareck Node 067 | 🇩🇪 Germany | 🌐 [*CIDR] #082'
-  - 'Igareck Node 068 | 🇩🇪 Germany | 🌐 [*CIDR] #083'
-  - 'Igareck Node 069 | 🇩🇪 Germany | 🌐 [*CIDR] #084'
-  - 'Igareck Node 070 | 🇮🇹 Italy [*CIDR] #085'
-  - 'Igareck Node 071 | 🇮🇹 Italy [*CIDR] #086'
-  - 'Igareck Node 072 | 🇮🇹 Italy [*CIDR] #087'
-  - 'Igareck Node 073 | 🇮🇹 Italy [*CIDR] #088'
-  - 'Igareck Node 074 | 🇮🇹 Italy [*CIDR] #089'
-  - 'Igareck Node 075 | 🇰🇿 Kazakhstan [*CIDR] #090'
-  - 'Igareck Node 076 | 🇰🇿 Kazakhstan [*CIDR] #091'
-  - 'Igareck Node 077 | 🇰🇿 Kazakhstan [*CIDR] #092'
-  - 'Igareck Node 078 | 🇰🇿 Kazakhstan [*CIDR] #093'
-  - 'Igareck Node 079 | 🇰🇿 Kazakhstan [*CIDR] #094'
-  - 'Igareck Node 080 | 🇰🇿 Kazakhstan [*CIDR] #095'
-  - 'Igareck Node 081 | 🇳🇴 Norway [*CIDR] #096'
-  - 'Igareck Node 082 | 🇳🇴 Norway [*CIDR] #097'
-  - 'Igareck Node 083 | 🇳🇴 Norway [*CIDR] #098'
-  - 'Igareck Node 084 | 🇳🇴 Norway [*CIDR] #099'
-  - 'Igareck Node 086 | 🇷🇸 Serbia [*CIDR] #100'
-  - 'Igareck Node 087 | 🇳🇱 The Netherlands [*CIDR] #101'
-  - 'Igareck Node 088 | 🇳🇱 The Netherlands [*CIDR] #102'
-  - 'Igareck Node 089 | 🇳🇱 The Netherlands [*CIDR] #103'
-  - 'Igareck Node 090 | 🇺🇸 United States [*CIDR] #104'
-  - 'Igareck Node 091 | 🇺🇸 United States | 🌐 [*CIDR] #105'
-  - 'Igareck Node 138 | 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 [*CIDR] #106'
-  - 'Igareck Node 139 | 🌐 Anycast-IP | 🇧🇪 🇳🇱 [*CIDR] #107'
-  - 'Igareck Node 140 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #108'
-  - 'Igareck Node 141 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] #109'
-  - 'Igareck Node 142 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇺🇸 [*CIDR] #110'
-  - 'Igareck Node 143 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #111'
-  - 'Igareck Node 144 | 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR] #112'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #113'
-  - '🇩🇪_德国_5 t.me/rjsxrd #114'
-  - 'CF中转_1022062542 t.me/rjsxrd #115'
-  - '🇱🇻_拉脱维亚_128 t.me/rjsxrd #116'
-  - 'CF中转_1022062473 t.me/rjsxrd #117'
-  - '🇫🇷_法国_70 t.me/rjsxrd #118'
-  - 'CF中转_1022063842 t.me/rjsxrd #119'
-  - 'CF中转_1022063125 t.me/rjsxrd #120'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #121'
-  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #122'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #123'
-  - '🏳️_未知_235 t.me/rjsxrd #124'
-  - 'CF中转_1022062250 t.me/rjsxrd #125'
-  - 'CF中转_102206206 t.me/rjsxrd #126'
-  - '🏳️_未知_527 t.me/rjsxrd #127'
-  - 'CF中转_1022063819 t.me/rjsxrd #128'
-  - '🇳🇱_荷兰_236 t.me/rjsxrd #129'
-  - '🏳️_未知_262 t.me/rjsxrd #130'
-  - '🏳️_未知_182 t.me/rjsxrd #131'
-  - '🇩🇪_德国_284 t.me/rjsxrd #132'
-  - 'CF中转_102206454 t.me/rjsxrd #133'
-  - 'CF中转_102206199 t.me/rjsxrd #134'
-  - '🇬🇧_英国_280 t.me/rjsxrd #135'
-  - '🏳️_未知_537 t.me/rjsxrd #136'
-  - '🏳️_未知_263 t.me/rjsxrd #137'
-  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #138'
-  - '🇬🇧_英国_188 t.me/rjsxrd #139'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #140'
-  - '🏳️_未知_162 t.me/rjsxrd #141'
-  - '🇺🇸_美国_250 t.me/rjsxrd #142'
-  - 'CF中转_1022061973 t.me/rjsxrd #143'
-  - '🇸🇬_新加坡_205 t.me/rjsxrd #144'
-  - 'CF中转_1022062114 t.me/rjsxrd #145'
-  - '🇫🇮 Finland [*CIDR] t.me/rjsxrd #146'
-  - 'CF中转_1022062676 t.me/rjsxrd #147'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #148'
-  - '🇱🇹 立陶宛 | LTU t.me/rjsxrd #149'
-  - '🇪🇪 Estonia [*CIDR] t.me/rjsxrd #150'
-  - '🏳️_未知_366 t.me/rjsxrd #151'
-  - '🏳️_未知_177 t.me/rjsxrd #152'
-  - '🇩🇪_德国_99 t.me/rjsxrd #153'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #154'
-  - '🏳️_未知_500 t.me/rjsxrd #155'
-  - '🏳️_未知_257 t.me/rjsxrd #156'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #157'
-  - 'CF中转_1022062191 t.me/rjsxrd #158'
-  - '🇩🇪_德国_282 t.me/rjsxrd #159'
-  - '🇺🇸_美国_219 t.me/rjsxrd #160'
-  - '🇧🇪_比利时_290 t.me/rjsxrd #161'
-  - '🏳️_未知_223 t.me/rjsxrd #162'
-  - '🇵🇱 波兰 | POL t.me/rjsxrd #163'
-  - 'CF中转_1022063087 t.me/rjsxrd #164'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #165'
-  - 'CF中转_1022063415 t.me/rjsxrd #166'
-  - '🇩🇪_德国_252 t.me/rjsxrd #167'
-  - '🇺🇸_美国_145 t.me/rjsxrd #168'
-  - '🇺🇸_美国_156 t.me/rjsxrd #169'
-  - 'CF中转_102206453 t.me/rjsxrd #170'
-  - 'CF中转_102206194 t.me/rjsxrd #171'
-  - '🇩🇪_德国_275 t.me/rjsxrd #172'
-  - 'CF中转_1022062382 t.me/rjsxrd #173'
-  - 'CF中转_1022062293 t.me/rjsxrd #174'
-  - '🇩🇪_德国_216 t.me/rjsxrd #175'
-  - '🏳️_未知_414 t.me/rjsxrd #176'
-  - '🇺🇸_美国_202 t.me/rjsxrd #177'
-  - 'CF中转_1022063862 t.me/rjsxrd #178'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #179'
-  - '🇫🇷 法国 | FRA t.me/rjsxrd #180'
-  - '🇩🇪_德国_504 t.me/rjsxrd #181'
-  - '🇩🇪_德国_239 t.me/rjsxrd #182'
-  - '🏳️_未知_543 t.me/rjsxrd #183'
-  - '🏳️_未知_171 t.me/rjsxrd #184'
-  - '🏳️_未知_436 t.me/rjsxrd #185'
-  - '🇩🇪_德国_149 t.me/rjsxrd #186'
-  - '🇧🇬 Bulgaria — #80 [Verified RU] t.me/rjsxrd #187'
-  - '🇫🇷_法国_173 t.me/rjsxrd #188'
-  - '🇩🇪_德国_155 t.me/rjsxrd #189'
-  - '🇫🇷_法国_246 t.me/rjsxrd #190'
-  - '🇩🇪_德国_214 t.me/rjsxrd #191'
-  - '🇩🇪_德国_226 t.me/rjsxrd #192'
-  - '🇩🇪_德国_243 t.me/rjsxrd #193'
-  - '🇪🇪_爱沙尼亚_256 t.me/rjsxrd #194'
+  - 'Igareck Node 016 | 🇪🇪 Estonia | [*CIDR] #031'
+  - 'Igareck Node 017 | 🇪🇪 Estonia | [*CIDR] #032'
+  - 'Igareck Node 018 | 🇫🇮 Finland [*CIDR] #033'
+  - 'Igareck Node 020 | 🇫🇮 Finland [*CIDR] #034'
+  - 'Igareck Node 025 | 🇫🇮 Finland | [*CIDR] #035'
+  - 'Igareck Node 027 | 🇫🇮 Finland | [*CIDR] #036'
+  - 'Igareck Node 028 | 🇫🇮 Finland | [*CIDR] #037'
+  - 'Igareck Node 029 | 🇫🇮 Finland | [*CIDR] #038'
+  - 'Igareck Node 030 | 🇫🇮 Finland | [*CIDR] #039'
+  - 'Igareck Node 031 | 🇫🇮 Finland | [*CIDR] #040'
+  - 'Igareck Node 032 | 🇫🇮 Finland | [*CIDR] #041'
+  - 'Igareck Node 033 | 🇫🇮 Finland | [*CIDR] #042'
+  - 'Igareck Node 034 | 🇫🇮 Finland | [*CIDR] #043'
+  - 'Igareck Node 035 | 🇫🇮 Finland | [*CIDR] #044'
+  - 'Igareck Node 036 | 🇫🇮 Finland | [*CIDR] #045'
+  - 'Igareck Node 037 | 🇫🇮 Finland | [*CIDR] #046'
+  - 'Igareck Node 038 | 🇫🇮 Finland | [*CIDR] #047'
+  - 'Igareck Node 039 | 🇩🇪 Germany | 🌐 [*CIDR] #048'
+  - 'Igareck Node 040 | 🇩🇪 Germany | 🌐 | [*CIDR] #049'
+  - 'Igareck Node 041 | 🇩🇪 Germany | 🌐 | [*CIDR] #050'
+  - 'Igareck Node 042 | 🇩🇪 Germany | 🌐 | [*CIDR] #051'
+  - 'Igareck Node 043 | 🇩🇪 Germany | 🌐 | [*CIDR] #052'
+  - 'Igareck Node 044 | 🇺🇸 United States [*CIDR] #053'
+  - 'Igareck Node 045 | 🇺🇸 United States [*CIDR] #054'
+  - 'Igareck Node 046 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #055'
+  - 'Igareck Node 047 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #056'
+  - 'Igareck Node 048 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #057'
+  - 'Igareck Node 049 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #058'
+  - 'Igareck Node 050 | 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] #059'
+  - '🇩🇪_德国_16 t.me/rjsxrd #060'
+  - '🇨🇭 Switzerland | TG: @HardVpn_robot t.me/rjsxrd #061'
+  - '🏳️_未知_239 t.me/rjsxrd #062'
+  - '每天更新，请加电报群防止失联 t.me/rjsxrd #063'
+  - '🇩🇪_德国_121 t.me/rjsxrd #064'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #065'
+  - '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #066'
+  - '🇧🇬 Bulgaria — #49 [Verified RU] t.me/rjsxrd #067'
+  - '🏳️_未知_148 t.me/rjsxrd #068'
+  - '🏳️_未知_156 t.me/rjsxrd #069'
+  - '🇺🇸_美国_202 t.me/rjsxrd #070'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #071'
+  - '🏳️_未知_249 t.me/rjsxrd #072'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #073'
+  - '🇺🇸_美国_345 t.me/rjsxrd #074'
+  - '🇩🇪_德国_201 t.me/rjsxrd #075'
+  - '🏳️_未知_253 t.me/rjsxrd #076'
+  - '🇺🇸_美国_197 t.me/rjsxrd #077'
+  - '🏳️_未知_277 t.me/rjsxrd #078'
+  - '🇬🇧 英国 | GBR t.me/rjsxrd #079'
+  - '🇺🇸_美国_142 t.me/rjsxrd #080'
+  - '🏳️_未知_235 t.me/rjsxrd #081'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #082'
+  - '🇧🇬 Bulgaria — #56 [Verified RU] t.me/rjsxrd #083'
+  - '🏳️_未知_344 t.me/rjsxrd #084'
+  - '🏳️_未知_151 t.me/rjsxrd #085'
+  - '🇺🇸_美国_296 t.me/rjsxrd #086'
+  - '🇺🇸_美国_206 t.me/rjsxrd #087'
+  - '🇩🇪_德国_214 t.me/rjsxrd #088'
+  - '🇺🇸_美国_138 t.me/rjsxrd #089'
+  - '🇩🇪_德国_54 t.me/rjsxrd #090'
+  - '🏳️_未知_231 t.me/rjsxrd #091'
+  - '🏳️_未知_154 t.me/rjsxrd #092'
+  - '🏳️_未知_351 t.me/rjsxrd #093'
+  - '🇧🇬 Bulgaria — #48 [Verified RU] t.me/rjsxrd #094'
+  - '🇩🇪 德国 | DEU t.me/rjsxrd #095'
+  - '🇺🇸_美国_45 t.me/rjsxrd #096'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #097'
+  - '🇺🇸_美国_243 t.me/rjsxrd #098'
+  - '🇳🇱_荷兰_322 t.me/rjsxrd #099'
+  - '🇺🇸_美国_196 t.me/rjsxrd #100'
+  - '🏳️_未知_145 t.me/rjsxrd #101'
+  - '🇺🇸_美国_50 t.me/rjsxrd #102'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #103'
+  - '🏳️_未知_90 t.me/rjsxrd #104'
+  - '🇩🇪_德国_290 t.me/rjsxrd #105'
+  - '🇩🇪_德国_276 t.me/rjsxrd #106'
+  - '🏳️_未知_105 t.me/rjsxrd #107'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #108'
+  - '🇵🇱 波兰 | POL t.me/rjsxrd #109'
+  - '🏳️_未知_147 t.me/rjsxrd #110'
+  - '🏳️_未知_146 t.me/rjsxrd #111'
+  - '🇺🇸_美国_46 t.me/rjsxrd #112'
+  - '🇩🇪_德国_176 t.me/rjsxrd #113'
+  - '🇺🇸_美国_44 t.me/rjsxrd #114'
+  - '🇨🇭_瑞士_244 t.me/rjsxrd #115'
+  - '🇧🇬 保加利亚 | BGR t.me/rjsxrd #116'
+  - '🇩🇪_德国_175 t.me/rjsxrd #117'
+  - '🇺🇸_美国_141 t.me/rjsxrd #118'
+  - '🇩🇪_德国_218 t.me/rjsxrd #119'
+  - '🇩🇪_德国_291 t.me/rjsxrd #120'
+  - '🏳️_未知_143 t.me/rjsxrd #121'
+  - '🇺🇸_美国_108 t.me/rjsxrd #122'
+  - '🇳🇱_荷兰_55 t.me/rjsxrd #123'
+  - '🇳🇱_荷兰_185 t.me/rjsxrd #124'
+  - '🏳️_未知_164 t.me/rjsxrd #125'
+  - '🏳️_未知_75 t.me/rjsxrd #126'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #127'
+  - '🇩🇪_德国_89 t.me/rjsxrd #128'
+  - '🏳️_未知_283 t.me/rjsxrd #129'
+  - '🇧🇬_保加利亚_129 t.me/rjsxrd #130'
+  - '🏳️_未知_97 t.me/rjsxrd #131'
+  - '🇺🇸_美国_135 t.me/rjsxrd #132'
+  - '🇵🇱_波兰_321 t.me/rjsxrd #133'
+  - '🇮🇸_冰岛_273 t.me/rjsxrd #134'
+  - '🇨🇭_瑞士_217 t.me/rjsxrd #135'
+  - '🇦🇿_阿塞拜疆_298 t.me/rjsxrd #136'
+  - '🇫🇮_芬兰_303 t.me/rjsxrd #137'
+  - '🇩🇪_德国_188 t.me/rjsxrd #138'
+  - '🏳️_未知_137 t.me/rjsxrd #139'
+  - '🇬🇧_英国_62 t.me/rjsxrd #140'
+  - '🏳️_未知_87 t.me/rjsxrd #141'
+  - '🇰🇬_吉尔吉斯斯坦_123 t.me/rjsxrd #142'
+  - '🇩🇪_德国_211 t.me/rjsxrd #143'
+  - '🇭🇺_匈牙利_320 t.me/rjsxrd #144'
+  - '🇦🇿_阿塞拜疆_297 t.me/rjsxrd #145'
+  - '🇵🇱_波兰_56 t.me/rjsxrd #146'
+  - '🇵🇹_葡萄牙_289 t.me/rjsxrd #147'
+  - '🏳️_未知_96 t.me/rjsxrd #148'
+  - '🇬🇪_格鲁吉亚_301 t.me/rjsxrd #149'
+  - '🏳️_未知_60 t.me/rjsxrd #150'
+  - '🏳️_未知_58 t.me/rjsxrd #151'
+  - '🇳🇱_荷兰_272 t.me/rjsxrd #152'
+  - '🇪🇸 西班牙 | ESP t.me/rjsxrd #153'
+  - '🇷🇴_罗马尼亚_325 t.me/rjsxrd #154'
+  - '🇸🇪 瑞典 | SWE t.me/rjsxrd #155'
+  - '🇺🇸_美国_92 t.me/rjsxrd #156'
+  - '🏳️_未知_95 t.me/rjsxrd #157'
+  - '🇬🇪_格鲁吉亚_343 t.me/rjsxrd #158'
+  - '🏳️_未知_153 t.me/rjsxrd #159'
+  - '🇺🇸 United States | TG: @HardVpn_robot t.me/rjsxrd #160'
+  - '🇳🇱_荷兰_285 t.me/rjsxrd #161'
+  - '🇨🇾 塞浦路斯 | CYP t.me/rjsxrd #162'
+  - '🇮🇸_冰岛_284 t.me/rjsxrd #163'
+  - '🇮🇱_以色列_346 t.me/rjsxrd #164'
+  - '🇳🇱_荷兰_189 t.me/rjsxrd #165'
+  - '🏳️_未知_99 t.me/rjsxrd #166'
+  - '🇮🇱_以色列_347 t.me/rjsxrd #167'
+  - '🇵🇹_葡萄牙_76 t.me/rjsxrd #168'
+  - '🏳️_未知_173 t.me/rjsxrd #169'
+  - '🇩🇪_德国_73 t.me/rjsxrd #170'
+  - '🇪🇸 西班牙 | ESP t.me/rjsxrd #171'
+  - '🇩🇪_德国_241 t.me/rjsxrd #172'
+  - '🇧🇬 Bulgaria — #66 [Verified RU] t.me/rjsxrd #173'
+  - '🇺🇸_美国_312 t.me/rjsxrd #174'
+  - '🇧🇾_白俄罗斯_98 t.me/rjsxrd #175'
+  - '🇨🇿_捷克_53 t.me/rjsxrd #176'
+  - '🇳🇱_荷兰_210 t.me/rjsxrd #177'
+  - '🇺🇸 United States — #687 t.me/rjsxrd #178'
+  - '🏳️_未知_150 t.me/rjsxrd #179'
+  - '🇺🇸_美国_144 t.me/rjsxrd #180'
+  - '🇺🇸_美国_237 t.me/rjsxrd #181'
+  - '🏳️_未知_149 t.me/rjsxrd #182'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #183'
+  - '🇺🇸_美国_318 t.me/rjsxrd #184'
+  - '🇺🇸_美国_268 t.me/rjsxrd #185'
+  - '🇺🇸_美国_238 t.me/rjsxrd #186'
+  - '🇺🇸_美国_274 t.me/rjsxrd #187'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #188'
+  - '🇺🇸_美国_184 t.me/rjsxrd #189'
+  - '🇺🇸_美国_271 t.me/rjsxrd #190'
+  - '🇺🇸 美国 | USA t.me/rjsxrd #191'
+  - '🇺🇸_美国_102 t.me/rjsxrd #192'
+  - '🇦🇺 澳大利亚 | AUS t.me/rjsxrd #193'
+  - '🏳️_未知_225 t.me/rjsxrd #194'
   - '🇺🇸 美国 | USA t.me/rjsxrd #195'
-  - '🇧🇬 Bulgaria — #74 [Verified RU] t.me/rjsxrd #196'
-  - '🇩🇪_德国_517 t.me/rjsxrd #197'
-  - '🇺🇸 美国 | USA t.me/rjsxrd #198'
-  - '🇩🇪_德国_224 t.me/rjsxrd #199'
-  - '🇩🇪_德国_154 t.me/rjsxrd #200'
-  - '🏳️_未知_228 t.me/rjsxrd #201'
-  - '🇩🇪_德国_225 t.me/rjsxrd #202'
-  - 'CF中转_1022062547 t.me/rjsxrd #203'
-  - '🇩🇪_德国_229 t.me/rjsxrd #204'
-  - '🇩🇪_德国_160 t.me/rjsxrd #205'
-  - '🇦🇹_奥地利_261 t.me/rjsxrd #206'
-  - '🇺🇸_美国_164 t.me/rjsxrd #207'
-  - '🇱🇻 拉脱维亚 | LVA t.me/rjsxrd #208'
-  - '🇩🇪_德国_165 t.me/rjsxrd #209'
-  - '🇦🇹_奥地利_181 t.me/rjsxrd #210'
-  - '🇦🇪_阿拉伯联合酋长国_531 t.me/rjsxrd #211'
-  - '🇵🇱_波兰_192 t.me/rjsxrd #212'
-  - '🇩🇪 德国 | DEU t.me/rjsxrd #213'
-  - '🇩🇪_德国_453 t.me/rjsxrd #214'
-  - '🇯🇵_日本_221 t.me/rjsxrd #215'
-  - '🇵🇱_波兰_293 t.me/rjsxrd #216'
-  - '🇧🇬 保加利亚 | BGR t.me/rjsxrd #217'
-  - 'CF中转_1022063078 t.me/rjsxrd #218'
-  - '🇦🇿_阿塞拜疆_287 t.me/rjsxrd #219'
-  - '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #220'
+  - '🇺🇸_美国_94 t.me/rjsxrd #196'
+  - '🇫🇮_芬兰_308 t.me/rjsxrd #197'
+  - '🇺🇸_美国_107 t.me/rjsxrd #198'
+  - '🇺🇸_美国_179 t.me/rjsxrd #199'
+  - '🇺🇸_美国_82 t.me/rjsxrd #200'
+  - '🇺🇸_美国_72 t.me/rjsxrd #201'
+  - '🇯🇵 日本 | JPN t.me/rjsxrd #202'
+  - '🇲🇾_马来西亚_242 t.me/rjsxrd #203'
+  - '🇷🇴 罗马尼亚 | ROU t.me/rjsxrd #204'
+  - '🇸🇬_新加坡_334 t.me/rjsxrd #205'
+  - '🇸🇬 新加坡 | SGP t.me/rjsxrd #206'
+  - '🇸🇪_瑞典_300 t.me/rjsxrd #207'
+  - '🇲🇾_马来西亚_236 t.me/rjsxrd #208'
+  - '🇸🇬_新加坡_130 t.me/rjsxrd #209'
+  - '🇸🇬_新加坡_262 t.me/rjsxrd #210'
+  - '🇭🇰 香港 | HKG t.me/rjsxrd #211'
+  - '🇭🇰 香港 | HKG t.me/rjsxrd #212'
+  - '🇭🇰_香港_169 t.me/rjsxrd #213'
+  - '🇰🇬 KG_70 t.me/rjsxrd #214'
+  - '🇻🇳_越南_335 t.me/rjsxrd #215'
+  - '🇻🇳_越南_306 t.me/rjsxrd #216'
+  - '🇺🇸_美国_84 t.me/rjsxrd #217'
+  - '🇻🇳_越南_348 t.me/rjsxrd #218'
+  - '🇻🇳_越南_307 t.me/rjsxrd #219'
+  - '🇻🇳_越南_349 t.me/rjsxrd #220'
   - 'Igareck Node 004 | 🇷🇺 Russia | 🌐 [*CIDR] CDN #221'
   - 'Igareck Node 005 | 🇷🇺 Russia | 🌐 [*CIDR] CDN #222'
   - 'Igareck Node 006 | 🇷🇺 Russia | 🌐 [*CIDR] CDN #223'
@@ -4367,46 +4370,45 @@ proxy-groups:
   - 'Igareck Node 023 | 🇵🇱 Poland | [*CIDR] #239'
   - 'Igareck Node 024 | 🇵🇱 Poland | [*CIDR] #240'
   - 'Igareck Node 025 | 🇵🇱 Poland | [*CIDR] #241'
-  - 'Igareck Node 085 | 🇵🇱 Poland [*CIDR] #242'
-  - 'Igareck Node 092 | 🇷🇺 Russia [*CIDR] #243'
-  - '🇷🇺 VK — #53 t.me/rjsxrd #244'
-  - '🇷🇺 Russia | 🌐 [*CIDR] t.me/rjsxrd #245'
-  - '🇳🇱 The Netherlands [*CIDR] t.me/rjsxrd #246'
-  - '🇷🇺 VK — #47 t.me/rjsxrd #247'
-  - '🇷🇺 VK — #21 t.me/rjsxrd #248'
-  - '🇷🇺 Timeweb — #70 t.me/rjsxrd #249'
-  - '🇷🇺 Timeweb — #72 t.me/rjsxrd #250'
-  - '🇷🇺 VK — #30 t.me/rjsxrd #251'
-  - '🇷🇺 VK — #55 t.me/rjsxrd #252'
-  - '🇷🇺 VK — #12 t.me/rjsxrd #253'
-  - '🇷🇺 VK — #10 t.me/rjsxrd #254'
-  - '🇷🇺 VK — #38 t.me/rjsxrd #255'
-  - '🇷🇺 Russia [*CIDR] t.me/rjsxrd #256'
-  - '🇷🇺 VK — #41 t.me/rjsxrd #257'
-  - '🇷🇺_俄罗斯_244 t.me/rjsxrd #258'
-  - '🇷🇺_俄罗斯_166 t.me/rjsxrd #259'
-  - '🇷🇺 Russia [*CIDR] t.me/rjsxrd #260'
-  - '[453ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #261'
-  - '[452ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #262'
-  - '哈萨克斯坦_102206042 t.me/rjsxrd #263'
-  - '白俄罗斯_102206005 t.me/rjsxrd #264'
-  - '[544ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #265'
-  - 'Бесплатный VPN Tg:VlessForU 🇫🇷 t.me/rjsxrd #266'
-  - '[481ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #267'
-  - '🇩🇪 Germany (сервер) | 🇷🇺 Russia (выход 212.111.86.154) | @RaViraNet t.me/rjsxrd
-    #268'
-  - '[615ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #269'
-  - '[467ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #270'
-  - '[556ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #271'
-  - '[545ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #272'
-  - '[4137ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #273'
-  - '[512ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #274'
-  - '[479ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #275'
-  - '🇩🇪 Germany | [*CIDR] t.me/rjsxrd #276'
-  - '[607ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #277'
-  - '[552ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #278'
-  - '🇷🇺Обходы - TG: AirLinkVPNBot |0049| t.me/rjsxrd #279'
-  - '[4239ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
+  - 'Igareck Node 051 | 🇷🇺 Russia | 🌐 [*CIDR] VK #242'
+  - 'Igareck Node 052 | 🇷🇺 Russia | 🌐 [*CIDR] VK #243'
+  - 'Igareck Node 054 | 🇷🇺 Russia | 🌐 [*CIDR] VK #244'
+  - '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #245'
+  - '🇷🇺 VK — #8 t.me/rjsxrd #246'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #247'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #248'
+  - '🇷🇺_俄罗斯_226 t.me/rjsxrd #249'
+  - '🇷🇺_俄罗斯_257 t.me/rjsxrd #250'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #251'
+  - '🇷🇺 VK — #29 t.me/rjsxrd #252'
+  - '🇷🇺_俄罗斯_287 t.me/rjsxrd #253'
+  - '🇷🇺 VK — #28 t.me/rjsxrd #254'
+  - '🇷🇺 VK — #17 t.me/rjsxrd #255'
+  - '🇷🇺 VK — #10 t.me/rjsxrd #256'
+  - '🇷🇺 VK — #11 t.me/rjsxrd #257'
+  - '🌐 Anycast-IP | 🇨🇦 🇫🇮 | [SNI-RU] vk.ru t.me/rjsxrd #258'
+  - '🇷🇺 VK — #32 t.me/rjsxrd #259'
+  - '🇷🇺 [VL] Россия #6322 | РосТуннель t.me/rjsxrd #260'
+  - '🇷🇺 [VL] Россия #13949 | РосТуннель t.me/rjsxrd #261'
+  - '🇷🇺 [VL] Россия #213 | РосТуннель t.me/rjsxrd #262'
+  - '🇷🇺 [VL] Россия #253 | РосТуннель t.me/rjsxrd #263'
+  - '🇱🇹 [VL] Литва #11722 | РосТуннель t.me/rjsxrd #264'
+  - '🇷🇺 Russian Federation | TG: @HardVpn_robot t.me/rjsxrd #265'
+  - '🇷🇺 [VL] Россия #2083 | РосТуннель t.me/rjsxrd #266'
+  - '🇺🇸 [VL] США #1017 | РосТуннель t.me/rjsxrd #267'
+  - '🇹🇯 [VL] Таджикистан #898 | РосТуннель t.me/rjsxrd #268'
+  - '🇷🇺 [VL] Россия #1706 | РосТуннель t.me/rjsxrd #269'
+  - '🇫🇮 [VL] Финляндия #3260 | РосТуннель t.me/rjsxrd #270'
+  - '🇷🇺 [VL] Россия #1223 | РосТуннель t.me/rjsxrd #271'
+  - '🇷🇺 [VL] Россия #10232 | РосТуннель t.me/rjsxrd #272'
+  - '🇷🇺 [VL] Россия #5788 | РосТуннель t.me/rjsxrd #273'
+  - '🇮🇱 [VL] Израиль #674 | РосТуннель t.me/rjsxrd #274'
+  - '🇷🇺 [VL] Россия #2578 | РосТуннель t.me/rjsxrd #275'
+  - '🇷🇺 [VL] Россия #260 | РосТуннель t.me/rjsxrd #276'
+  - '🇷🇺 [VL] Россия #8971 | РосТуннель t.me/rjsxrd #277'
+  - '🇷🇺 [VL] Россия #948 | РосТуннель t.me/rjsxrd #278'
+  - '[406ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #279'
+  - '[411ms Россия RU 🇷🇺 @vlesstrojan] t.me/rjsxrd #280'
 - name: GLOBAL
   type: select
   proxies:
